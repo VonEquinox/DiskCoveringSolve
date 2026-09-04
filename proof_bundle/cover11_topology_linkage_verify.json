@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "candidate": {
+    "B": 9,
+    "I": 2,
+    "orbit": 2547,
+    "boundary_shift": 3,
+    "boundary_reflection": false,
+    "interior_swap": true
+  },
+  "wheel": {
+    "B": 10,
+    "I": 1,
+    "orbit": 1003,
+    "exact_wheel": true
+  },
+  "residual_total": 55,
+  "ordinary_residuals": 53
+}

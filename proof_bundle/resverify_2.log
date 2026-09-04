@@ -1,0 +1,12 @@
+VERIFIED {"entry": 22, "B": 9, "I": 2, "idx": 2492, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.001447910850728791} elapsed 0.0552067756652832
+VERIFIED {"entry": 23, "B": 9, "I": 2, "idx": 2493, "stresses": 4, "old_leaves": 5, "nodes": 7, "leaves": 6, "empty": 0, "minmargin": 0.000803778240928346} elapsed 0.11521267890930176
+VERIFIED {"entry": 24, "B": 9, "I": 2, "idx": 2495, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.003172348989326718} elapsed 0.17752790451049805
+VERIFIED {"entry": 25, "B": 9, "I": 2, "idx": 2498, "stresses": 2, "old_leaves": 1, "nodes": 5, "leaves": 3, "empty": 0, "minmargin": 0.0008912239244085512} elapsed 0.2501492500305176
+VERIFIED {"entry": 26, "B": 9, "I": 2, "idx": 2501, "stresses": 3, "old_leaves": 1, "nodes": 5, "leaves": 3, "empty": 0, "minmargin": 8.594713787345858e-05} elapsed 0.2956533432006836
+VERIFIED {"entry": 27, "B": 9, "I": 2, "idx": 2503, "stresses": 4, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0005129342728078601} elapsed 0.3566720485687256
+VERIFIED {"entry": 28, "B": 9, "I": 2, "idx": 2505, "stresses": 4, "old_leaves": 1, "nodes": 11, "leaves": 6, "empty": 0, "minmargin": 0.0004101258599511366} elapsed 0.4102284908294678
+VERIFIED {"entry": 29, "B": 9, "I": 2, "idx": 2506, "stresses": 4, "old_leaves": 5, "nodes": 5, "leaves": 5, "empty": 0, "minmargin": 0.00020154525267409285} elapsed 0.48056912422180176
+VERIFIED {"entry": 30, "B": 9, "I": 2, "idx": 2507, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0012299122930364019} elapsed 0.5103199481964111
+VERIFIED {"entry": 31, "B": 9, "I": 2, "idx": 2508, "stresses": 3, "old_leaves": 9, "nodes": 9, "leaves": 9, "empty": 0, "minmargin": 0.004157834600601077} elapsed 0.5761837959289551
+VERIFIED {"entry": 32, "B": 9, "I": 2, "idx": 2541, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0008441740141511879} elapsed 0.6092748641967773
+RESIDUAL CHUNK VERIFIED {"start": 22, "end": 33, "entries": 11, "stresses": 36, "nodes": 47, "leaves": 37, "empty": 0, "minmargin_float": 8.594713787345858e-05, "sec": 0.6093204021453857}

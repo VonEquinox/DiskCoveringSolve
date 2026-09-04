@@ -1,0 +1,12 @@
+VERIFIED {"entry": 11, "B": 9, "I": 2, "idx": 2426, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775607701394811} elapsed 0.04824352264404297
+VERIFIED {"entry": 12, "B": 9, "I": 2, "idx": 2433, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0002818874962024115} elapsed 0.07594466209411621
+VERIFIED {"entry": 13, "B": 9, "I": 2, "idx": 2434, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006774701153992647} elapsed 0.10478949546813965
+VERIFIED {"entry": 14, "B": 9, "I": 2, "idx": 2435, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006584709141735284} elapsed 0.14968657493591309
+VERIFIED {"entry": 15, "B": 9, "I": 2, "idx": 2439, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.00046458445192118893} elapsed 0.2402355670928955
+VERIFIED {"entry": 16, "B": 9, "I": 2, "idx": 2479, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0005013737085296664} elapsed 0.29550743103027344
+VERIFIED {"entry": 17, "B": 9, "I": 2, "idx": 2481, "stresses": 3, "old_leaves": 1, "nodes": 5, "leaves": 3, "empty": 0, "minmargin": 0.0007008912488830985} elapsed 0.3515639305114746
+VERIFIED {"entry": 18, "B": 9, "I": 2, "idx": 2482, "stresses": 4, "old_leaves": 1, "nodes": 7, "leaves": 4, "empty": 0, "minmargin": 0.0001507278024588529} elapsed 0.40358924865722656
+VERIFIED {"entry": 19, "B": 9, "I": 2, "idx": 2485, "stresses": 3, "old_leaves": 1, "nodes": 7, "leaves": 4, "empty": 0, "minmargin": 0.0005887211819576823} elapsed 0.4810059070587158
+VERIFIED {"entry": 20, "B": 9, "I": 2, "idx": 2486, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0018077663561016954} elapsed 0.5350625514984131
+VERIFIED {"entry": 21, "B": 9, "I": 2, "idx": 2487, "stresses": 4, "old_leaves": 1, "nodes": 9, "leaves": 5, "empty": 0, "minmargin": 0.0008962390624885531} elapsed 0.5860767364501953
+RESIDUAL CHUNK VERIFIED {"start": 11, "end": 22, "entries": 11, "stresses": 25, "nodes": 80, "leaves": 68, "empty": 0, "minmargin_float": 0.0001507278024588529, "sec": 0.5861222743988037}

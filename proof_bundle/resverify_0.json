@@ -1,0 +1,149 @@
+{
+  "start": 0,
+  "end": 11,
+  "entries": 11,
+  "stresses": 13,
+  "nodes": 92,
+  "leaves": 92,
+  "empty": 0,
+  "minmargin": [
+    "221819060950252319874902386689043998114819454630974545069607985511277238393294490528745141856723321082498583717250094673931477592228152742172512214333752793730390656812577913",
+    "562364224317899547851317313460747732358712139787739579137594446576479697583935983789880085762986357143740113829190111890401033256936787461126064397608145481891840000000000000000"
+  ],
+  "minmargin_float": 0.0003944402068237896,
+  "reports": [
+    {
+      "entry": 0,
+      "B": 9,
+      "I": 1,
+      "idx": 285,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0006775853214297746
+    },
+    {
+      "entry": 1,
+      "B": 9,
+      "I": 1,
+      "idx": 289,
+      "stresses": 3,
+      "old_leaves": 1,
+      "nodes": 1,
+      "leaves": 1,
+      "empty": 0,
+      "minmargin": 0.0004401999856691221
+    },
+    {
+      "entry": 2,
+      "B": 9,
+      "I": 1,
+      "idx": 290,
+      "stresses": 1,
+      "old_leaves": 1,
+      "nodes": 1,
+      "leaves": 1,
+      "empty": 0,
+      "minmargin": 0.0008338983559869445
+    },
+    {
+      "entry": 3,
+      "B": 9,
+      "I": 2,
+      "idx": 2413,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.000634516325542997
+    },
+    {
+      "entry": 4,
+      "B": 9,
+      "I": 2,
+      "idx": 2415,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0006457117870120065
+    },
+    {
+      "entry": 5,
+      "B": 9,
+      "I": 2,
+      "idx": 2416,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0006710594493901532
+    },
+    {
+      "entry": 6,
+      "B": 9,
+      "I": 2,
+      "idx": 2418,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0006775910543921658
+    },
+    {
+      "entry": 7,
+      "B": 9,
+      "I": 2,
+      "idx": 2419,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0006770361349034852
+    },
+    {
+      "entry": 8,
+      "B": 9,
+      "I": 2,
+      "idx": 2420,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0006566020255344728
+    },
+    {
+      "entry": 9,
+      "B": 9,
+      "I": 2,
+      "idx": 2423,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0006775777259895832
+    },
+    {
+      "entry": 10,
+      "B": 9,
+      "I": 2,
+      "idx": 2424,
+      "stresses": 1,
+      "old_leaves": 10,
+      "nodes": 10,
+      "leaves": 10,
+      "empty": 0,
+      "minmargin": 0.0003944402068237896
+    }
+  ],
+  "sec": 0.4067506790161133
+}

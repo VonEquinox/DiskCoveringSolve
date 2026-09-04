@@ -1,0 +1,397 @@
+Python dependencies available
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_fixed_trig.py
+0 1.5820204847504655e-33 1.401218143636126e-32
+0.1 1.5820204847504867e-33 1.4012181436361282e-32
+1 1.582020484750486e-33 1.401218143636128e-32
+2 1.582020484750486e-33 1.401218143636128e-32
+3.14 1.5820204847504962e-33 1.401218143636129e-32
+4 1.5820204847504874e-33 1.4012181436361282e-32
+6.2 1.582020484750681e-33 1.4012181436361476e-32
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_reduction_constants_verify.py
+GLOBAL REDUCTION CONSTANTS VERIFIED
+sin2_minus_T 8.153030449619484e-07
+two_pi_lower_minus_8delta 0.04670530717958648
+one_minus_4T 0.4224490854728028
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_enumeration_verify.py
+DONE B I 9 1 states 5005 attempts 36036 sec 0.0775461196899414
+{"B": 9, "I": 1, "labeled_states": 5005, "brown_labeled_count": 5005, "brown_equal": true, "orbits": 291, "stored_equal": true, "sha256_protocol4": "abdb3f8ed9162bda4b359e98ea9f047708095e1a55422df35982fb51036510fe", "sec": 0.4052579402923584}
+states 10000 queue 5456 sec 0.10173630714416504
+states 20000 queue 9887 sec 0.2292189598083496
+states 30000 queue 13179 sec 0.38173890113830566
+states 40000 queue 15667 sec 0.5560901165008545
+states 50000 queue 17204 sec 0.7465240955352783
+states 60000 queue 17200 sec 0.9672050476074219
+states 70000 queue 16318 sec 1.206346035003662
+states 80000 queue 12542 sec 1.5011401176452637
+states 90000 queue 1137 sec 1.939620018005371
+DONE B I 9 2 states 90090 attempts 792792 sec 1.9626691341400146
+{"B": 9, "I": 2, "labeled_states": 90090, "brown_labeled_count": 90090, "brown_equal": true, "orbits": 2548, "stored_equal": true, "sha256_protocol4": "bd9ce6a05c74763aa9e27662aee2c6ac19dbf7366be834691a7387134eebe8ad", "sec": 16.279320001602173}
+states 10000 queue 3924 sec 0.11638569831848145
+DONE B I 10 1 states 19448 attempts 160160 sec 0.3635728359222412
+{"B": 10, "I": 1, "labeled_states": 19448, "brown_labeled_count": 19448, "brown_equal": true, "orbits": 1004, "stored_equal": true, "sha256_protocol4": "91963ac7bc569164d612e8f7616b4d81510250db71acfe4d90e428b6f1ad78c8", "sec": 1.9188039302825928}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_metric_Tplus.py verify cover11_metric_Tplus.json
+VERIFIED (9, 1) excluded 288 residual 3 minmargin 0.4911853042333665
+VERIFIED (9, 2) excluded 2514 residual 34 minmargin 0.4911853042333665
+VERIFIED (10, 1) excluded 986 residual 18 minmargin 0.017685303810086477
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_topology_linkage_verify.py
+SPECIAL TOPOLOGY LINKAGE VERIFIED
+candidate orbit (9,2,2547): shift=3, interior swap=True
+wheel orbit (10,1,1003): exact 10-wheel
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_full_kkt_certificate.py verify
+FULL KKT RATIONAL CERTIFICATE VERIFIED
+ratio 7.679398971318621e-42 edge multiplier lower 0.0029344413783886094 t interval 0.14438772863179913 0.14438772863179913
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_local_exact_audit2.py
+SIX PROPOSAL KRON ROWS RECOMPUTED EXACTLY
+D rounding error 3.8277608889106903e-34
+projection residual norm 3.0183470871401855e-15
+lambda min 0.0763854
+polar vertices 8 maxnorm 729.8222085240884 inradius lower 0.00135
+H block 0 passed
+H block 2 passed
+H block 4 passed
+H block 5 passed
+H block 9 passed
+H block 11 passed
+raw M3max 3.0599030628316757 raw Habsmax 1.2524753147754608
+M3max 3.0599030628316757 Hnorm crude 1.2524753147754608
+FINAL local inequalities 0.00017433333333333333 0.0005429235333333333
+LOCAL CENTRAL CERTIFICATE VERIFIED
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_local_theorem_verify_v2.py
+LOCAL TRANSFER CERTIFICATE VERIFIED
+Tplus minus t upper endpoint 1.5686736575849854e-16
+B inverse eta 8.982537113211718e-13 proposal residual 1.2450916974790038e-41 weight correction inf 5.478403468907616e-38
+gap error 5.604872574545316e-32 ninth gap error 4.483898059636298e-31 central trig halfwidth 7.00609071818069e-33 D total error 4.0249834137913644e-34 grad error 2.0927513559370734e-30 H error 5.5806702824988626e-30
+subspace tau 1e-08 sharpness lower 0.00134990789 H transfer loss 9.000000135e-08
+local endpoint margins 0.00017433333333333333 0.0005429235333333333
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_structure_verify.py
+CANDIDATE CERTIFICATE STRUCTURE VERIFIED
+direct 100834 deferred 5302 refined_extra [20052]
+{'external': 153052, 'local': 1953, 'empty': 0, 'split': 149703}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_exact_upper_candidate_v2.py
+EXACT ALGEBRAIC CANDIDATE COVER VERIFIED
+disk complex V/E/F 20 48 29
+faces 29 min orientation 0.025030815566703238 center-unit margin 0.20340496163246233
+slack circum polynomial margin 0.0004356881782666018 q-cycle margin 0.5325782338955547 arc sign margin 0.19424295857193732
+t interval 0.14438772863179913 0.14438772863179913 old rational R2 margin 8.825583080067585e-13
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_row_validity_verify.py
+PURE-FRACTION WHEEL ROW VALIDITY VERIFIED
+minimum exact LDL pivot 1.3580497600428842e-13
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_base_full_verify.py --start 0 --end 21228 --out candbaseverify_0.json
+ranks 1000 pass 1000 deferred 0 minmargin 7.927707498427872e-06 sec 1.0522851943969727
+ranks 2000 pass 1999 deferred 1 minmargin 7.614399453409028e-06 sec 1.9920692443847656
+ranks 3000 pass 2959 deferred 41 minmargin 1.8714534744779963e-08 sec 2.965289354324341
+ranks 4000 pass 3878 deferred 122 minmargin 1.8714534744779963e-08 sec 3.810204267501831
+ranks 5000 pass 4795 deferred 205 minmargin 1.8714534744779963e-08 sec 4.69185733795166
+ranks 6000 pass 5720 deferred 280 minmargin 1.8714534744779963e-08 sec 5.705287218093872
+ranks 7000 pass 6576 deferred 424 minmargin 1.8714534744779963e-08 sec 6.462156057357788
+ranks 8000 pass 7443 deferred 557 minmargin 1.411027044023104e-08 sec 7.227648019790649
+ranks 10000 pass 8966 deferred 1034 minmargin 2.202436781103141e-09 sec 8.731926202774048
+ranks 11000 pass 9795 deferred 1205 minmargin 2.202436781103141e-09 sec 9.664640188217163
+ranks 12000 pass 10531 deferred 1469 minmargin 2.202436781103141e-09 sec 10.453285217285156
+ranks 14000 pass 12346 deferred 1654 minmargin 2.202436781103141e-09 sec 12.310807228088379
+ranks 15000 pass 13244 deferred 1756 minmargin 2.202436781103141e-09 sec 13.260521411895752
+ranks 16000 pass 14191 deferred 1809 minmargin 2.202436781103141e-09 sec 14.585304260253906
+ranks 17000 pass 15141 deferred 1859 minmargin 2.202436781103141e-09 sec 15.864389181137085
+ranks 18000 pass 16054 deferred 1946 minmargin 2.202436781103141e-09 sec 16.810039043426514
+ranks 19000 pass 17041 deferred 1959 minmargin 2.202436781103141e-09 sec 18.062570095062256
+ranks 20000 pass 17976 deferred 2024 minmargin 2.202436781103141e-09 sec 19.960979223251343
+ranks 21000 pass 18918 deferred 2082 minmargin 2.202436781103141e-09 sec 21.676817178726196
+CANDIDATE BASE CHUNK VERIFIED {"start": 0, "end": 21228, "ranks": 21228, "pass": 19146, "deferred": 2082, "minmargin_float": 2.202436781103141e-09, "sec": 22.015507221221924}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_base_full_verify.py --start 21228 --end 42456 --out candbaseverify_1.json
+ranks 22228 pass 989 deferred 11 minmargin 1.217625908217332e-07 sec 1.2629139423370361
+ranks 23228 pass 1982 deferred 18 minmargin 1.217625908217332e-07 sec 2.3822951316833496
+ranks 24228 pass 2953 deferred 47 minmargin 7.371643753517635e-08 sec 3.463603973388672
+ranks 25228 pass 3937 deferred 63 minmargin 7.371643753517635e-08 sec 4.591296911239624
+ranks 26228 pass 4831 deferred 169 minmargin 7.371643753517635e-08 sec 5.578222990036011
+ranks 27228 pass 5684 deferred 316 minmargin 1.3028733979828711e-08 sec 6.603943109512329
+ranks 29228 pass 7617 deferred 383 minmargin 1.3028733979828711e-08 sec 8.770189046859741
+ranks 30228 pass 8587 deferred 413 minmargin 1.3028733979828711e-08 sec 9.616885900497437
+ranks 32228 pass 10521 deferred 479 minmargin 1.3028733979828711e-08 sec 11.407018899917603
+ranks 33228 pass 11488 deferred 512 minmargin 1.3028733979828711e-08 sec 12.28459906578064
+ranks 34228 pass 12480 deferred 520 minmargin 1.3028733979828711e-08 sec 13.292563915252686
+ranks 35228 pass 13480 deferred 520 minmargin 1.3028733979828711e-08 sec 14.261759996414185
+ranks 36228 pass 14480 deferred 520 minmargin 1.3028733979828711e-08 sec 15.12166714668274
+ranks 37228 pass 15468 deferred 532 minmargin 1.3028733979828711e-08 sec 16.283349990844727
+ranks 39228 pass 17341 deferred 659 minmargin 1.3028733979828711e-08 sec 18.21466898918152
+ranks 40228 pass 18274 deferred 726 minmargin 1.3028733979828711e-08 sec 19.125941038131714
+ranks 41228 pass 19232 deferred 768 minmargin 1.3028733979828711e-08 sec 20.077922105789185
+ranks 42228 pass 20206 deferred 794 minmargin 1.3028733979828711e-08 sec 21.18873906135559
+CANDIDATE BASE CHUNK VERIFIED {"start": 21228, "end": 42456, "ranks": 21228, "pass": 20431, "deferred": 797, "minmargin_float": 1.3028733979828711e-08, "sec": 21.419745922088623}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_base_full_verify.py --start 42456 --end 63684 --out candbaseverify_2.json
+ranks 43456 pass 994 deferred 6 minmargin 3.4689535414284893e-07 sec 1.108412265777588
+ranks 44456 pass 1919 deferred 81 minmargin 1.709553862752787e-08 sec 2.043375253677368
+ranks 45456 pass 2811 deferred 189 minmargin 1.709553862752787e-08 sec 2.9011292457580566
+ranks 46456 pass 3763 deferred 237 minmargin 1.709553862752787e-08 sec 3.814537286758423
+ranks 47456 pass 4718 deferred 282 minmargin 1.709553862752787e-08 sec 4.721843242645264
+ranks 48456 pass 5691 deferred 309 minmargin 1.709553862752787e-08 sec 5.699177980422974
+ranks 49456 pass 6648 deferred 352 minmargin 1.709553862752787e-08 sec 6.66295599937439
+ranks 50456 pass 7618 deferred 382 minmargin 1.709553862752787e-08 sec 7.571563005447388
+ranks 51456 pass 8590 deferred 410 minmargin 1.709553862752787e-08 sec 8.431461095809937
+ranks 52456 pass 9583 deferred 417 minmargin 4.9572129446178635e-09 sec 9.391417026519775
+ranks 53456 pass 10583 deferred 417 minmargin 4.9572129446178635e-09 sec 10.44849419593811
+ranks 54456 pass 11583 deferred 417 minmargin 4.9572129446178635e-09 sec 11.379910230636597
+ranks 55456 pass 12559 deferred 441 minmargin 4.9572129446178635e-09 sec 12.313086986541748
+ranks 56456 pass 13380 deferred 620 minmargin 4.9572129446178635e-09 sec 13.051197290420532
+ranks 58456 pass 15085 deferred 915 minmargin 4.9572129446178635e-09 sec 14.470596075057983
+ranks 59456 pass 16035 deferred 965 minmargin 4.9572129446178635e-09 sec 15.272138118743896
+ranks 60456 pass 17014 deferred 986 minmargin 4.9572129446178635e-09 sec 16.05907416343689
+ranks 61456 pass 17966 deferred 1034 minmargin 4.9572129446178635e-09 sec 16.846912145614624
+ranks 62456 pass 18841 deferred 1159 minmargin 4.9572129446178635e-09 sec 17.562122106552124
+ranks 63456 pass 19568 deferred 1432 minmargin 4.9572129446178635e-09 sec 18.262283086776733
+CANDIDATE BASE CHUNK VERIFIED {"start": 42456, "end": 63684, "ranks": 21228, "pass": 19740, "deferred": 1488, "minmargin_float": 4.9572129446178635e-09, "sec": 18.41440510749817}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_base_full_verify.py --start 63684 --end 84912 --out candbaseverify_3.json
+ranks 65684 pass 1882 deferred 118 minmargin 1.988907872144101e-08 sec 1.6372079849243164
+ranks 66684 pass 2852 deferred 148 minmargin 1.988907872144101e-08 sec 2.4081547260284424
+ranks 67684 pass 3848 deferred 152 minmargin 1.910664449265209e-09 sec 3.3899688720703125
+ranks 69684 pass 5789 deferred 211 minmargin 1.910664449265209e-09 sec 5.315704822540283
+ranks 70684 pass 6754 deferred 246 minmargin 1.910664449265209e-09 sec 6.259393930435181
+ranks 71684 pass 7738 deferred 262 minmargin 1.910664449265209e-09 sec 7.240846872329712
+ranks 72684 pass 8690 deferred 310 minmargin 1.910664449265209e-09 sec 8.160154819488525
+ranks 73684 pass 9632 deferred 368 minmargin 1.910664449265209e-09 sec 9.063517808914185
+ranks 74684 pass 10623 deferred 377 minmargin 1.910664449265209e-09 sec 10.14580488204956
+ranks 75684 pass 11617 deferred 383 minmargin 1.910664449265209e-09 sec 11.13279676437378
+ranks 76684 pass 12611 deferred 389 minmargin 1.910664449265209e-09 sec 12.053973913192749
+ranks 77684 pass 13609 deferred 391 minmargin 1.910664449265209e-09 sec 12.9896719455719
+ranks 78684 pass 14607 deferred 393 minmargin 1.910664449265209e-09 sec 13.900583982467651
+ranks 79684 pass 15600 deferred 400 minmargin 1.910664449265209e-09 sec 14.901681900024414
+ranks 80684 pass 16581 deferred 419 minmargin 1.910664449265209e-09 sec 15.878864765167236
+ranks 81684 pass 17559 deferred 441 minmargin 1.910664449265209e-09 sec 16.791939735412598
+ranks 82684 pass 18534 deferred 466 minmargin 1.910664449265209e-09 sec 17.702563762664795
+ranks 83684 pass 19525 deferred 475 minmargin 1.910664449265209e-09 sec 18.58567976951599
+ranks 84684 pass 20474 deferred 526 minmargin 1.910664449265209e-09 sec 19.525173902511597
+CANDIDATE BASE CHUNK VERIFIED {"start": 63684, "end": 84912, "ranks": 21228, "pass": 20699, "deferred": 529, "minmargin_float": 1.910664449265209e-09, "sec": 19.693220853805542}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_base_full_verify.py --start 84912 --end 106136 --out candbaseverify_4.json
+ranks 85912 pass 996 deferred 4 minmargin 8.474970820261003e-07 sec 1.0682802200317383
+ranks 86912 pass 1958 deferred 42 minmargin 7.000748754977528e-08 sec 2.069066286087036
+ranks 87912 pass 2913 deferred 87 minmargin 4.484203491288915e-08 sec 3.0200462341308594
+ranks 88912 pass 3899 deferred 101 minmargin 4.484203491288915e-08 sec 4.001221179962158
+ranks 89912 pass 4811 deferred 189 minmargin 2.2818466844392606e-08 sec 4.909301042556763
+ranks 90912 pass 5780 deferred 220 minmargin 2.2818466844392606e-08 sec 5.986893177032471
+ranks 91912 pass 6760 deferred 240 minmargin 1.5683366094539438e-08 sec 6.930237293243408
+ranks 92912 pass 7738 deferred 262 minmargin 1.5683366094539438e-08 sec 7.8275840282440186
+ranks 93912 pass 8731 deferred 269 minmargin 1.5683366094539438e-08 sec 8.734105110168457
+ranks 94912 pass 9721 deferred 279 minmargin 1.5683366094539438e-08 sec 9.567753314971924
+ranks 95912 pass 10712 deferred 288 minmargin 1.5683366094539438e-08 sec 10.662939071655273
+ranks 96912 pass 11708 deferred 292 minmargin 1.5683366094539438e-08 sec 11.610769271850586
+ranks 97912 pass 12697 deferred 303 minmargin 1.5683366094539438e-08 sec 12.563867092132568
+ranks 98912 pass 13694 deferred 306 minmargin 1.5683366094539438e-08 sec 13.426006078720093
+ranks 99912 pass 14664 deferred 336 minmargin 1.5683366094539438e-08 sec 14.208491086959839
+ranks 100912 pass 15662 deferred 338 minmargin 1.5683366094539438e-08 sec 15.19609522819519
+ranks 101912 pass 16639 deferred 361 minmargin 1.5683366094539438e-08 sec 16.184000968933105
+ranks 102912 pass 17614 deferred 386 minmargin 1.5683366094539438e-08 sec 17.137948274612427
+ranks 103912 pass 18594 deferred 406 minmargin 1.5683366094539438e-08 sec 18.04952597618103
+ranks 104912 pass 19594 deferred 406 minmargin 1.5683366094539438e-08 sec 18.931676149368286
+ranks 105912 pass 20594 deferred 406 minmargin 1.5683366094539438e-08 sec 19.952363967895508
+CANDIDATE BASE CHUNK VERIFIED {"start": 84912, "end": 106136, "ranks": 21224, "pass": 20818, "deferred": 406, "minmargin_float": 1.5683366094539438e-08, "sec": 20.12440013885498}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_refined_full_verify.py --start 0 --end 1060 --out candrefverify_0.json
+roots 100 external 702 local 0 minmargin 2.2905727281557833e-10 sec 1.919187068939209
+roots 200 external 1419 local 0 minmargin 2.2905727094569315e-10 sec 3.512537956237793
+roots 300 external 7302 local 0 minmargin 6.453414310285097e-11 sec 14.731803894042969
+roots 400 external 22182 local 2 minmargin 1.3234454237667047e-11 sec 39.26008105278015
+roots 500 external 32382 local 130 minmargin 1.832202073778402e-12 sec 56.767274141311646
+roots 600 external 58783 local 1589 minmargin 1.832201722048353e-12 sec 94.22402596473694
+roots 700 external 60526 local 1589 minmargin 1.832201722048353e-12 sec 97.78040194511414
+roots 800 external 61844 local 1589 minmargin 1.832201722048353e-12 sec 100.62162113189697
+roots 900 external 62737 local 1589 minmargin 1.832201722048353e-12 sec 102.67220211029053
+roots 1000 external 63486 local 1589 minmargin 1.832201722048353e-12 sec 104.0847270488739
+CANDIDATE REFINED CHUNK VERIFIED {"start": 0, "end": 1060, "roots": 1060, "nodes": 131958, "external": 64920, "local": 1589, "empty": 0, "minmargin_float": 1.832201722048353e-12, "sec": 107.10967087745667}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_refined_full_verify.py --start 1060 --end 2120 --out candrefverify_1.json
+roots 1160 external 1431 local 0 minmargin 6.394136500218958e-10 sec 3.289975166320801
+roots 1260 external 2579 local 0 minmargin 6.394136500218958e-10 sec 5.78338098526001
+roots 1360 external 3181 local 0 minmargin 6.394136500218958e-10 sec 6.954797983169556
+roots 1460 external 4242 local 0 minmargin 4.150429386080995e-11 sec 8.91742491722107
+roots 1560 external 4900 local 0 minmargin 4.150429386080995e-11 sec 10.074294090270996
+roots 1660 external 5401 local 0 minmargin 4.150429386080995e-11 sec 10.979336023330688
+roots 1760 external 5865 local 0 minmargin 4.150429386080995e-11 sec 11.830561876296997
+roots 1860 external 6338 local 0 minmargin 4.150429386080995e-11 sec 12.913573980331421
+roots 1960 external 6960 local 0 minmargin 4.150429386080995e-11 sec 14.320011138916016
+roots 2060 external 7635 local 0 minmargin 4.150429386080995e-11 sec 15.91472601890564
+CANDIDATE REFINED CHUNK VERIFIED {"start": 1060, "end": 2120, "roots": 1060, "nodes": 14706, "external": 7883, "local": 0, "empty": 0, "minmargin_float": 4.150429386080995e-11, "sec": 16.457087993621826}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_refined_full_verify.py --start 2120 --end 3180 --out candrefverify_2.json
+roots 2220 external 3648 local 0 minmargin 1.0410849908555094e-10 sec 7.54634690284729
+roots 2320 external 8790 local 1 minmargin 1.1059034440959465e-11 sec 17.346837997436523
+roots 2420 external 14945 local 138 minmargin 2.029221967198671e-12 sec 28.357891082763672
+roots 2520 external 16406 local 138 minmargin 2.029221967198671e-12 sec 31.314060926437378
+roots 2620 external 17499 local 138 minmargin 2.029221967198671e-12 sec 33.741162061691284
+roots 2720 external 18183 local 138 minmargin 2.029221967198671e-12 sec 35.34279489517212
+roots 2820 external 18904 local 138 minmargin 2.029221967198671e-12 sec 37.08406186103821
+roots 2920 external 21568 local 138 minmargin 2.029221967198671e-12 sec 43.02327299118042
+roots 3020 external 27361 local 139 minmargin 2.029221967198671e-12 sec 53.948686838150024
+roots 3120 external 34133 local 277 minmargin 2.0292213203463038e-12 sec 66.07389497756958
+CANDIDATE REFINED CHUNK VERIFIED {"start": 2120, "end": 3180, "roots": 1060, "nodes": 69410, "external": 34958, "local": 277, "empty": 0, "minmargin_float": 2.0292213203463038e-12, "sec": 67.83774995803833}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_refined_full_verify.py --start 3180 --end 4240 --out candrefverify_3.json
+roots 3280 external 1363 local 0 minmargin 7.541963345254698e-11 sec 3.0869321823120117
+roots 3380 external 2048 local 0 minmargin 7.541963345254698e-11 sec 4.606391191482544
+roots 3480 external 3498 local 0 minmargin 7.541963345254698e-11 sec 7.645849227905273
+roots 3580 external 4122 local 0 minmargin 5.744426358230072e-11 sec 8.887754201889038
+roots 3680 external 5692 local 0 minmargin 5.744426358230072e-11 sec 12.182563066482544
+roots 3780 external 6515 local 0 minmargin 5.744426358230072e-11 sec 13.789196252822876
+roots 3880 external 6844 local 0 minmargin 5.744426358230072e-11 sec 14.386255264282227
+roots 3980 external 10478 local 0 minmargin 5.744426358230072e-11 sec 21.59264326095581
+roots 4080 external 17325 local 0 minmargin 5.744426358230072e-11 sec 34.240140199661255
+roots 4180 external 23402 local 0 minmargin 4.542282671822341e-11 sec 45.090808153152466
+CANDIDATE REFINED CHUNK VERIFIED {"start": 3180, "end": 4240, "roots": 1060, "nodes": 53528, "external": 27294, "local": 0, "empty": 0, "minmargin_float": 4.542282671822341e-11, "sec": 52.96646308898926}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_candidate_refined_full_verify.py --start 4240 --end 5302 --out candrefverify_4.json
+roots 4340 external 12079 local 31 minmargin 1.280468762735907e-11 sec 19.811332941055298
+roots 4440 external 14101 local 87 minmargin 1.280468762735907e-11 sec 23.604824781417847
+roots 4540 external 15329 local 87 minmargin 1.280468762735907e-11 sec 26.014534950256348
+roots 4640 external 15704 local 87 minmargin 1.280468762735907e-11 sec 26.697489976882935
+roots 4740 external 16065 local 87 minmargin 1.280468762735907e-11 sec 27.322922945022583
+roots 4840 external 16401 local 87 minmargin 1.280468762735907e-11 sec 27.96166682243347
+roots 4940 external 16705 local 87 minmargin 1.280468762735907e-11 sec 28.586902141571045
+roots 5040 external 17122 local 87 minmargin 1.280468762735907e-11 sec 29.37417507171631
+roots 5140 external 17459 local 87 minmargin 1.280468762735907e-11 sec 30.0485577583313
+roots 5240 external 17820 local 87 minmargin 1.280468762735907e-11 sec 30.737048864364624
+CANDIDATE REFINED CHUNK VERIFIED {"start": 4240, "end": 5302, "roots": 1062, "nodes": 35106, "external": 17997, "local": 87, "empty": 0, "minmargin_float": 1.280468762735907e-11, "sec": 31.016018867492676}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 0 --end 607 --out wheelchunk_0.json
+{"start": 0, "end": 607, "total_leaves": 4853, "direct": 597, "refined_leaves": 20, "minmargin": [496091566983972414616097611525832349769977548529948357401350820002229065258454819648880956601984320584514279438758660652863607508064798629926582118198468273471809373826912629353293883652048065369425503668699665929480431557194683517410121003354435637522367944567009783164794374091185915248180661768471098723815219825216622797344295059669988255645777592363209649048014957, 757111772018323526730228203219667936925998461174459424395017180924829948923867860288700886880869465106486067746489317798626498169536789579943481870916363766788930121238630451893961895661190284781430628417585416339963347315264774295128606052354032218484449333536188688910032143373363398749183822158846191327699271680000000000000000000000000000000000000000000000000000000000000], "minmargin_float": 6.552421786567678e-07, "sec": 0.43575501441955566}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 607 --end 1214 --out wheelchunk_1.json
+{"start": 607, "end": 1214, "total_leaves": 4853, "direct": 598, "refined_leaves": 18, "minmargin": [1005302481646204414249880039132314440185630320831325020486479862119519373642419167444943338621698831257541660324661527841575682880454894653653306900151727901036929884608667991709213670085514472642074385724398045801012326785446384762116733687862886288048204187542567292630250610985271283874746241860770015732169609384175081427412850221081815130435914875681151390489371, 11287848237364096216705220484365958332351249784782849600071165242879282874864939007940631404405690207042155919129477101724976881800366681010066456984571241613944049080285035828237250080766836973104965732771273479977635359973038453127371944780551025802859062790903176816476842864839236126806013348550070488885698232320000000000000000000000000000000000000000000000000000000000], "minmargin_float": 8.906059512020509e-08, "sec": 0.44748592376708984}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 1214 --end 1821 --out wheelchunk_2.json
+{"start": 1214, "end": 1821, "total_leaves": 4853, "direct": 600, "refined_leaves": 14, "minmargin": [517131879219906151944102274515098402453039260297332292201553439958034710609806834556752114498214287241014216364650750630466920359952789181740869297405521951468615440673, 2196735251241795108794208255706045829526219296045857731006228306939373818687249936679219085011665457592734819645273874571879036159909326020023689053156818288640000000000000000], "minmargin_float": 2.3540928699877513e-07, "sec": 0.43170785903930664}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 1821 --end 2428 --out wheelchunk_3.json
+{"start": 1821, "end": 2428, "total_leaves": 4853, "direct": 602, "refined_leaves": 10, "minmargin": [7818341329155752816963293401510223352768922651001098094778760209391235181640353050003940944952661408001126947464879610145425083229591108773434006660103801736501112912087298482071985377806307096221259170999025348793166919246475829179574491835774841565288247929729971196671628939253357620245918586308800527863411290737430759131968946809114046229347763855684550839790683629, 23281186989563448446954517249004789060474452681114627300146778313438520929408936703877552271586736052024446583204546522307764818713256279583262067530678185828759601228087886395739328291581601257028991823840751552453872929944391809575204636109886490718396817006237802183983488408730924511537402531384520383326752604160000000000000000000000000000000000000000000000000000000000000], "minmargin_float": 3.358222814266549e-07, "sec": 0.4369680881500244}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 2428 --end 3035 --out wheelchunk_4.json
+{"start": 2428, "end": 3035, "total_leaves": 4853, "direct": 599, "refined_leaves": 16, "minmargin": [558147682467447635116147988384638683638603499485804708122381343202418145250786449367985281059625023601624199557724356542189792731445429440748454753055241581474487320386021512848312549220478515495362632902532687877787331617831747466053940848466219058754381889476259419082734839503779433759666333918865689877535247677102414063198152537845650181785490583891913685372628003, 4232943089011536081264457681637234374631718669293568600026686966079731078074352127977736776652133827640808469673553913146866330675137505378774921369214215605229018405106888435588968780287563864914362149789227554991613259989889419922764479292706634676072148546588691306178816074314713547552255005706276433332136837120000000000000000000000000000000000000000000000000000000000000], "minmargin_float": 1.3185806440827547e-07, "sec": 0.43855786323547363}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 3035 --end 3642 --out wheelchunk_5.json
+{"start": 3035, "end": 3642, "total_leaves": 4853, "direct": 601, "refined_leaves": 12, "minmargin": [31878601153219191931208121939683701741504907512167047934617402994616948394629556715989448488929878803806522671275012285605171659678806056359274917201679775789526144551841335219457375624523193361871109300520396143099766852369804130394458598329226705958875477839296494333264620683583900228242656752366681779462386878742810226361819463800955525018078459593542013610177009, 651222013694082474040685797174959134558725949122087476927182610166112473549900327381190273331097511944739764565162140484133281642328846981349987902956033170035233600785675143936764427736548286909901869198342700767940501536906064603502227583493328411703407468705952508642894780663802084238808462416350220512636436480000000000000000000000000000000000000000000000000000000000000], "minmargin_float": 4.8951971037321934e-08, "sec": 0.44154906272888184}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 3642 --end 4249 --out wheelchunk_6.json
+{"start": 3642, "end": 4249, "total_leaves": 4853, "direct": 597, "refined_leaves": 20, "minmargin": [40213172453586398557581725470087635199788875067462028963063992403423739681019353113872133731764660832821536031785871112196859560805927851954999920392272418228572932304051160396280173508166587675639516190184477004291968450487303989211846305966124194158233051157516259918651396177024131496912726483345818585608434577051895802972092703105028219705603414713008396610469951, 7760395663187816148984839083001596353491484227038209100048926104479506976469645567959184090528912017341482194401515507435921606237752093194420689176892728609586533742695962131913109430527200419009663941280250517484624309981463936525068212036628830239465605668745934061327829469576974837179134177128173461108917534720000000000000000000000000000000000000000000000000000000000000], "minmargin_float": 5.1818456427861605e-09, "sec": 0.49756503105163574}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_wheel_verify_chunk.py --start 4249 --end 4853 --out wheelchunk_7.json
+{"start": 4249, "end": 4853, "total_leaves": 4853, "direct": 587, "refined_leaves": 35, "minmargin": [131976619194350162158570973053043842082643595506265982388768269190636483293151461302488359497071910008626755714820448524332009338859089468144151008885143719720795305296222379803748570668535375753348193794879138916411050717211240888964227956858207516172191538110623426838760303568911676474715897563883385420018008152778710497613114113096629408915939466057805781050355753, 55530559307247342747655378053678685892604538297232265474410920246722769062394601559636379896450175437148352017184368568414465876477653618564727650639661743181298989214282376614762858179085512837278453962649377584863143541906718687120344987739741182393313815160972694535440640211642038190906147957983352136736440320000000000000000000000000000000000000000000000000000000000000], "minmargin_float": 2.3766484768167243e-06, "sec": 0.5720860958099365}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_residual_all_verify.py --start 0 --end 11 --out resverify_0.json
+VERIFIED {"entry": 0, "B": 9, "I": 1, "idx": 285, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775853214297746} elapsed 0.017611980438232422
+VERIFIED {"entry": 1, "B": 9, "I": 1, "idx": 289, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0004401999856691221} elapsed 0.03586101531982422
+VERIFIED {"entry": 2, "B": 9, "I": 1, "idx": 290, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0008338983559869445} elapsed 0.042018890380859375
+VERIFIED {"entry": 3, "B": 9, "I": 2, "idx": 2413, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.000634516325542997} elapsed 0.05824398994445801
+VERIFIED {"entry": 4, "B": 9, "I": 2, "idx": 2415, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006457117870120065} elapsed 0.07454681396484375
+VERIFIED {"entry": 5, "B": 9, "I": 2, "idx": 2416, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006710594493901532} elapsed 0.09089994430541992
+VERIFIED {"entry": 6, "B": 9, "I": 2, "idx": 2418, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775910543921658} elapsed 0.10724186897277832
+VERIFIED {"entry": 7, "B": 9, "I": 2, "idx": 2419, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006770361349034852} elapsed 0.12361288070678711
+VERIFIED {"entry": 8, "B": 9, "I": 2, "idx": 2420, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006566020255344728} elapsed 0.1394658088684082
+VERIFIED {"entry": 9, "B": 9, "I": 2, "idx": 2423, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775777259895832} elapsed 0.15574288368225098
+VERIFIED {"entry": 10, "B": 9, "I": 2, "idx": 2424, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0003944402068237896} elapsed 0.17220807075500488
+RESIDUAL CHUNK VERIFIED {"start": 0, "end": 11, "entries": 11, "stresses": 13, "nodes": 92, "leaves": 92, "empty": 0, "minmargin_float": 0.0003944402068237896, "sec": 0.17221403121948242}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_residual_all_verify.py --start 11 --end 22 --out resverify_1.json
+VERIFIED {"entry": 11, "B": 9, "I": 2, "idx": 2426, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775607701394811} elapsed 0.01823282241821289
+VERIFIED {"entry": 12, "B": 9, "I": 2, "idx": 2433, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0002818874962024115} elapsed 0.03436589241027832
+VERIFIED {"entry": 13, "B": 9, "I": 2, "idx": 2434, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006774701153992647} elapsed 0.050566911697387695
+VERIFIED {"entry": 14, "B": 9, "I": 2, "idx": 2435, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006584709141735284} elapsed 0.06680083274841309
+VERIFIED {"entry": 15, "B": 9, "I": 2, "idx": 2439, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.00046458445192118893} elapsed 0.08285808563232422
+VERIFIED {"entry": 16, "B": 9, "I": 2, "idx": 2479, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0005013737085296664} elapsed 0.10588598251342773
+VERIFIED {"entry": 17, "B": 9, "I": 2, "idx": 2481, "stresses": 3, "old_leaves": 1, "nodes": 5, "leaves": 3, "empty": 0, "minmargin": 0.0007008912488830985} elapsed 0.12996411323547363
+VERIFIED {"entry": 18, "B": 9, "I": 2, "idx": 2482, "stresses": 4, "old_leaves": 1, "nodes": 7, "leaves": 4, "empty": 0, "minmargin": 0.0001507278024588529} elapsed 0.16410493850708008
+VERIFIED {"entry": 19, "B": 9, "I": 2, "idx": 2485, "stresses": 3, "old_leaves": 1, "nodes": 7, "leaves": 4, "empty": 0, "minmargin": 0.0005887211819576823} elapsed 0.19030499458312988
+VERIFIED {"entry": 20, "B": 9, "I": 2, "idx": 2486, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0018077663561016954} elapsed 0.21218419075012207
+VERIFIED {"entry": 21, "B": 9, "I": 2, "idx": 2487, "stresses": 4, "old_leaves": 1, "nodes": 9, "leaves": 5, "empty": 0, "minmargin": 0.0008962390624885531} elapsed 0.24605393409729004
+RESIDUAL CHUNK VERIFIED {"start": 11, "end": 22, "entries": 11, "stresses": 25, "nodes": 80, "leaves": 68, "empty": 0, "minmargin_float": 0.0001507278024588529, "sec": 0.2460639476776123}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_residual_all_verify.py --start 22 --end 33 --out resverify_2.json
+VERIFIED {"entry": 22, "B": 9, "I": 2, "idx": 2492, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.001447910850728791} elapsed 0.024972915649414062
+VERIFIED {"entry": 23, "B": 9, "I": 2, "idx": 2493, "stresses": 4, "old_leaves": 5, "nodes": 7, "leaves": 6, "empty": 0, "minmargin": 0.000803778240928346} elapsed 0.06307005882263184
+VERIFIED {"entry": 24, "B": 9, "I": 2, "idx": 2495, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.003172348989326718} elapsed 0.08550405502319336
+VERIFIED {"entry": 25, "B": 9, "I": 2, "idx": 2498, "stresses": 2, "old_leaves": 1, "nodes": 5, "leaves": 3, "empty": 0, "minmargin": 0.0008912239244085512} elapsed 0.10259485244750977
+VERIFIED {"entry": 26, "B": 9, "I": 2, "idx": 2501, "stresses": 3, "old_leaves": 1, "nodes": 5, "leaves": 3, "empty": 0, "minmargin": 8.594713787345858e-05} elapsed 0.12798500061035156
+VERIFIED {"entry": 27, "B": 9, "I": 2, "idx": 2503, "stresses": 4, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0005129342728078601} elapsed 0.1573929786682129
+VERIFIED {"entry": 28, "B": 9, "I": 2, "idx": 2505, "stresses": 4, "old_leaves": 1, "nodes": 11, "leaves": 6, "empty": 0, "minmargin": 0.0004101258599511366} elapsed 0.1936500072479248
+VERIFIED {"entry": 29, "B": 9, "I": 2, "idx": 2506, "stresses": 4, "old_leaves": 5, "nodes": 5, "leaves": 5, "empty": 0, "minmargin": 0.00020154525267409285} elapsed 0.2296619415283203
+VERIFIED {"entry": 30, "B": 9, "I": 2, "idx": 2507, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0012299122930364019} elapsed 0.25077009201049805
+VERIFIED {"entry": 31, "B": 9, "I": 2, "idx": 2508, "stresses": 3, "old_leaves": 9, "nodes": 9, "leaves": 9, "empty": 0, "minmargin": 0.004157834600601077} elapsed 0.2816741466522217
+VERIFIED {"entry": 32, "B": 9, "I": 2, "idx": 2541, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0008441740141511879} elapsed 0.303696870803833
+RESIDUAL CHUNK VERIFIED {"start": 22, "end": 33, "entries": 11, "stresses": 36, "nodes": 47, "leaves": 37, "empty": 0, "minmargin_float": 8.594713787345858e-05, "sec": 0.3037068843841553}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_residual_all_verify.py --start 33 --end 43 --out resverify_3.json
+VERIFIED {"entry": 33, "B": 9, "I": 2, "idx": 2544, "stresses": 1, "old_leaves": 3, "nodes": 3, "leaves": 3, "empty": 0, "minmargin": 0.00045166664003120293} elapsed 0.01250004768371582
+VERIFIED {"entry": 34, "B": 9, "I": 2, "idx": 2545, "stresses": 1, "old_leaves": 9, "nodes": 9, "leaves": 9, "empty": 0, "minmargin": 0.0007848943955264301} elapsed 0.027519941329956055
+VERIFIED {"entry": 35, "B": 9, "I": 2, "idx": 2546, "stresses": 3, "old_leaves": 80, "nodes": 80, "leaves": 80, "empty": 0, "minmargin": 3.5050849318892584e-05} elapsed 0.15841007232666016
+VERIFIED {"entry": 36, "B": 10, "I": 1, "idx": 318, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.04127942348621249} elapsed 0.1699378490447998
+VERIFIED {"entry": 37, "B": 10, "I": 1, "idx": 818, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.04127927915819725} elapsed 0.17614316940307617
+VERIFIED {"entry": 38, "B": 10, "I": 1, "idx": 854, "stresses": 5, "old_leaves": 1, "nodes": 13, "leaves": 7, "empty": 0, "minmargin": 4.948374685150867e-05} elapsed 0.2185070514678955
+VERIFIED {"entry": 39, "B": 10, "I": 1, "idx": 867, "stresses": 6, "old_leaves": 6, "nodes": 12, "leaves": 9, "empty": 0, "minmargin": 6.597893936217318e-05} elapsed 0.2845292091369629
+VERIFIED {"entry": 40, "B": 10, "I": 1, "idx": 882, "stresses": 4, "old_leaves": 12, "nodes": 14, "leaves": 13, "empty": 0, "minmargin": 0.00038468838707210104} elapsed 0.33940815925598145
+VERIFIED {"entry": 41, "B": 10, "I": 1, "idx": 905, "stresses": 6, "old_leaves": 13, "nodes": 19, "leaves": 16, "empty": 0, "minmargin": 0.0005922360026468872} elapsed 0.4243640899658203
+VERIFIED {"entry": 42, "B": 10, "I": 1, "idx": 989, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.04127923625315756} elapsed 0.43453216552734375
+RESIDUAL CHUNK VERIFIED {"start": 33, "end": 43, "entries": 10, "stresses": 29, "nodes": 153, "leaves": 140, "empty": 0, "minmargin_float": 3.5050849318892584e-05, "sec": 0.43454408645629883}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_residual_all_verify.py --start 43 --end 52 --out resverify_4.json
+VERIFIED {"entry": 43, "B": 10, "I": 1, "idx": 991, "stresses": 1, "old_leaves": 29, "nodes": 29, "leaves": 29, "empty": 0, "minmargin": 0.0001644226837267505} elapsed 0.04043698310852051
+VERIFIED {"entry": 44, "B": 10, "I": 1, "idx": 993, "stresses": 7, "old_leaves": 82, "nodes": 82, "leaves": 82, "empty": 0, "minmargin": 0.00015699087511582678} elapsed 0.3134419918060303
+VERIFIED {"entry": 45, "B": 10, "I": 1, "idx": 994, "stresses": 1, "old_leaves": 11, "nodes": 11, "leaves": 11, "empty": 0, "minmargin": 0.0005815474859613336} elapsed 0.3303399085998535
+VERIFIED {"entry": 46, "B": 10, "I": 1, "idx": 995, "stresses": 5, "old_leaves": 63, "nodes": 63, "leaves": 63, "empty": 0, "minmargin": 0.0002417610526580733} elapsed 0.49510908126831055
+VERIFIED {"entry": 47, "B": 10, "I": 1, "idx": 996, "stresses": 1, "old_leaves": 68, "nodes": 68, "leaves": 68, "empty": 0, "minmargin": 7.359429333126184e-05} elapsed 0.553987979888916
+VERIFIED {"entry": 48, "B": 10, "I": 1, "idx": 997, "stresses": 10, "old_leaves": 1132, "nodes": 1132, "leaves": 1132, "empty": 0, "minmargin": 9.78774182591536e-06} elapsed 4.733705043792725
+VERIFIED {"entry": 49, "B": 10, "I": 1, "idx": 999, "stresses": 10, "old_leaves": 65, "nodes": 65, "leaves": 65, "empty": 0, "minmargin": 0.0008962214710995961} elapsed 5.0531089305877686
+VERIFIED {"entry": 50, "B": 10, "I": 1, "idx": 1000, "stresses": 8, "old_leaves": 95, "nodes": 95, "leaves": 95, "empty": 0, "minmargin": 0.0003043418449093371} elapsed 5.4053590297698975
+VERIFIED {"entry": 51, "B": 10, "I": 1, "idx": 1001, "stresses": 4, "old_leaves": 164, "nodes": 164, "leaves": 164, "empty": 0, "minmargin": 7.80733245889656e-06} elapsed 5.7077250480651855
+RESIDUAL CHUNK VERIFIED {"start": 43, "end": 52, "entries": 9, "stresses": 47, "nodes": 1709, "leaves": 1709, "empty": 0, "minmargin_float": 7.80733245889656e-06, "sec": 5.707743167877197}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_residual_all_verify.py --start 52 --end 53 --out resverify_5.json
+VERIFIED {"entry": 52, "B": 10, "I": 1, "idx": 1002, "stresses": 17, "old_leaves": 11742, "nodes": 11744, "leaves": 11743, "empty": 0, "minmargin": 6.604069438908815e-07} elapsed 68.00567197799683
+RESIDUAL CHUNK VERIFIED {"start": 52, "end": 53, "entries": 1, "stresses": 17, "nodes": 11744, "leaves": 11743, "empty": 0, "minmargin_float": 6.604069438908815e-07, "sec": 68.00569105148315}
+=== /Users/vonequinox/Program/test/cover11_final_package/../.venv/bin/python cover11_aggregate_results.py
+COVER11 COMPLETE CERTIFICATE AGGREGATE VERIFIED
+{
+  "status": "complete",
+  "exact_definition": "t* is the t-coordinate of the unique root in cover11_full_kkt_certificate.json; r*=sqrt(t*)",
+  "t_interval": [
+    [
+      "522467398703333782390228249644413393860860823150729614802366028195074400022156043330421834863244167060009371975615089377",
+      "3618502788666131106986593281521497120414687020801267626233049500247285301248000000000000000000000000000000000000000000000"
+    ],
+    [
+      "522467398703333782390228249644413393860860830387735192134628242168260963065150284159795876465779419526108372470185691873",
+      "3618502788666131106986593281521497120414687020801267626233049500247285301248000000000000000000000000000000000000000000000"
+    ]
+  ],
+  "t_midpoint_decimal": "0.14438772863179913",
+  "Tplus": [
+    "1443877286317993",
+    "10000000000000000"
+  ],
+  "Tplus_minus_t_upper_float": 1.5686736575849854e-16,
+  "enumeration": [
+    {
+      "case": "9,1",
+      "orbits": 291,
+      "excluded": 288,
+      "residual": 3
+    },
+    {
+      "case": "9,2",
+      "orbits": 2548,
+      "excluded": 2514,
+      "residual": 34
+    },
+    {
+      "case": "10,1",
+      "orbits": 1004,
+      "excluded": 986,
+      "residual": 18
+    }
+  ],
+  "candidate": {
+    "old_leaves": 106136,
+    "direct_exact": 100834,
+    "deferred": 5302,
+    "base_minmargin_float": 1.910664449265209e-09,
+    "refined_roots": 5302,
+    "refined_nodes": 304708,
+    "external_exact_leaves": 153052,
+    "local_leaves": 1953,
+    "refined_empty": 0,
+    "external_minmargin_float": 1.832201722048353e-12
+  },
+  "wheel": {
+    "old_leaves": 4853,
+    "direct": 4781,
+    "refined_exact_leaves": 145,
+    "minmargin_float": 5.1818456427861605e-09
+  },
+  "other_residuals": {
+    "topologies": 53,
+    "stresses": 167,
+    "nodes": 13825,
+    "leaves": 13789,
+    "empty": 0,
+    "minmargin_float": 6.604069438908815e-07
+  },
+  "proof_conclusion": "r_11 = sqrt(t*)"
+}
+
+COVER11 FULL LEAF-BY-LEAF REPLAY PASSED

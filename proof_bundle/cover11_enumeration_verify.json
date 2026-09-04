@@ -1,0 +1,35 @@
+[
+  {
+    "B": 9,
+    "I": 1,
+    "labeled_states": 5005,
+    "brown_labeled_count": 5005,
+    "brown_equal": true,
+    "orbits": 291,
+    "stored_equal": true,
+    "sha256_protocol4": "abdb3f8ed9162bda4b359e98ea9f047708095e1a55422df35982fb51036510fe",
+    "sec": 0.4809861183166504
+  },
+  {
+    "B": 9,
+    "I": 2,
+    "labeled_states": 90090,
+    "brown_labeled_count": 90090,
+    "brown_equal": true,
+    "orbits": 2548,
+    "stored_equal": true,
+    "sha256_protocol4": "bd9ce6a05c74763aa9e27662aee2c6ac19dbf7366be834691a7387134eebe8ad",
+    "sec": 18.760026931762695
+  },
+  {
+    "B": 10,
+    "I": 1,
+    "labeled_states": 19448,
+    "brown_labeled_count": 19448,
+    "brown_equal": true,
+    "orbits": 1004,
+    "stored_equal": true,
+    "sha256_protocol4": "91963ac7bc569164d612e8f7616b4d81510250db71acfe4d90e428b6f1ad78c8",
+    "sec": 2.237380027770996
+  }
+]

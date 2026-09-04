@@ -1,0 +1,15 @@
+SIX PROPOSAL KRON ROWS RECOMPUTED EXACTLY
+D rounding error 3.8277608889106903e-34
+projection residual norm 3.0183470871401855e-15
+lambda min 0.0763854
+polar vertices 8 maxnorm 729.8222085240884 inradius lower 0.00135
+H block 0 passed
+H block 2 passed
+H block 4 passed
+H block 5 passed
+H block 9 passed
+H block 11 passed
+raw M3max 3.0599030628316757 raw Habsmax 1.2524753147754608
+M3max 3.0599030628316757 Hnorm crude 1.2524753147754608
+FINAL local inequalities 0.00017433333333333333 0.0005429235333333333
+LOCAL CENTRAL CERTIFICATE VERIFIED

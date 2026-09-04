@@ -1,0 +1,16 @@
+DONE B I 9 1 states 5005 attempts 36036 sec 0.10028982162475586
+{"B": 9, "I": 1, "labeled_states": 5005, "brown_labeled_count": 5005, "brown_equal": true, "orbits": 291, "stored_equal": true, "sha256_protocol4": "abdb3f8ed9162bda4b359e98ea9f047708095e1a55422df35982fb51036510fe", "sec": 0.4809861183166504}
+states 10000 queue 5456 sec 0.12315082550048828
+states 20000 queue 9887 sec 0.279376745223999
+states 30000 queue 13179 sec 0.46779704093933105
+states 40000 queue 15667 sec 0.6725378036499023
+states 50000 queue 17204 sec 0.9057106971740723
+states 60000 queue 17200 sec 1.1678097248077393
+states 70000 queue 16318 sec 1.447572946548462
+states 80000 queue 12542 sec 1.8035247325897217
+states 90000 queue 1137 sec 2.320897102355957
+DONE B I 9 2 states 90090 attempts 792792 sec 2.3473458290100098
+{"B": 9, "I": 2, "labeled_states": 90090, "brown_labeled_count": 90090, "brown_equal": true, "orbits": 2548, "stored_equal": true, "sha256_protocol4": "bd9ce6a05c74763aa9e27662aee2c6ac19dbf7366be834691a7387134eebe8ad", "sec": 18.760026931762695}
+states 10000 queue 3924 sec 0.13895678520202637
+DONE B I 10 1 states 19448 attempts 160160 sec 0.43805384635925293
+{"B": 10, "I": 1, "labeled_states": 19448, "brown_labeled_count": 19448, "brown_equal": true, "orbits": 1004, "stored_equal": true, "sha256_protocol4": "91963ac7bc569164d612e8f7616b4d81510250db71acfe4d90e428b6f1ad78c8", "sec": 2.237380027770996}

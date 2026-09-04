@@ -1,0 +1,12 @@
+VERIFIED {"entry": 0, "B": 9, "I": 1, "idx": 285, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775853214297746} elapsed 0.02806997299194336
+VERIFIED {"entry": 1, "B": 9, "I": 1, "idx": 289, "stresses": 3, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0004401999856691221} elapsed 0.05460667610168457
+VERIFIED {"entry": 2, "B": 9, "I": 1, "idx": 290, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.0008338983559869445} elapsed 0.08159399032592773
+VERIFIED {"entry": 3, "B": 9, "I": 2, "idx": 2413, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.000634516325542997} elapsed 0.10650300979614258
+VERIFIED {"entry": 4, "B": 9, "I": 2, "idx": 2415, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006457117870120065} elapsed 0.13184189796447754
+VERIFIED {"entry": 5, "B": 9, "I": 2, "idx": 2416, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006710594493901532} elapsed 0.15805625915527344
+VERIFIED {"entry": 6, "B": 9, "I": 2, "idx": 2418, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775910543921658} elapsed 0.20572829246520996
+VERIFIED {"entry": 7, "B": 9, "I": 2, "idx": 2419, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006770361349034852} elapsed 0.3002030849456787
+VERIFIED {"entry": 8, "B": 9, "I": 2, "idx": 2420, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006566020255344728} elapsed 0.3366868495941162
+VERIFIED {"entry": 9, "B": 9, "I": 2, "idx": 2423, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0006775777259895832} elapsed 0.38090991973876953
+VERIFIED {"entry": 10, "B": 9, "I": 2, "idx": 2424, "stresses": 1, "old_leaves": 10, "nodes": 10, "leaves": 10, "empty": 0, "minmargin": 0.0003944402068237896} elapsed 0.40671586990356445
+RESIDUAL CHUNK VERIFIED {"start": 0, "end": 11, "entries": 11, "stresses": 13, "nodes": 92, "leaves": 92, "empty": 0, "minmargin_float": 0.0003944402068237896, "sec": 0.4067506790161133}

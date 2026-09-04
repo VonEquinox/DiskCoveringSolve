@@ -1,0 +1,10 @@
+{
+  "chunks": 6,
+  "entries": 53,
+  "stresses": 167,
+  "nodes": 13825,
+  "leaves": 13789,
+  "empty": 0,
+  "minmargin_float": 6.604069438908815e-07,
+  "sec_sum": 126.21288537979126
+}

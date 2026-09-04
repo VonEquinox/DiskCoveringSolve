@@ -1,0 +1,11 @@
+VERIFIED {"entry": 33, "B": 9, "I": 2, "idx": 2544, "stresses": 1, "old_leaves": 3, "nodes": 3, "leaves": 3, "empty": 0, "minmargin": 0.00045166664003120293} elapsed 0.018893003463745117
+VERIFIED {"entry": 34, "B": 9, "I": 2, "idx": 2545, "stresses": 1, "old_leaves": 9, "nodes": 9, "leaves": 9, "empty": 0, "minmargin": 0.0007848943955264301} elapsed 0.06099700927734375
+VERIFIED {"entry": 35, "B": 9, "I": 2, "idx": 2546, "stresses": 3, "old_leaves": 80, "nodes": 80, "leaves": 80, "empty": 0, "minmargin": 3.5050849318892584e-05} elapsed 0.3993861675262451
+VERIFIED {"entry": 36, "B": 10, "I": 1, "idx": 318, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.04127942348621249} elapsed 0.4131026268005371
+VERIFIED {"entry": 37, "B": 10, "I": 1, "idx": 818, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.04127927915819725} elapsed 0.4220905303955078
+VERIFIED {"entry": 38, "B": 10, "I": 1, "idx": 854, "stresses": 5, "old_leaves": 1, "nodes": 13, "leaves": 7, "empty": 0, "minmargin": 4.948374685150867e-05} elapsed 0.5053591728210449
+VERIFIED {"entry": 39, "B": 10, "I": 1, "idx": 867, "stresses": 6, "old_leaves": 6, "nodes": 12, "leaves": 9, "empty": 0, "minmargin": 6.597893936217318e-05} elapsed 0.6220259666442871
+VERIFIED {"entry": 40, "B": 10, "I": 1, "idx": 882, "stresses": 4, "old_leaves": 12, "nodes": 14, "leaves": 13, "empty": 0, "minmargin": 0.00038468838707210104} elapsed 0.7245383262634277
+VERIFIED {"entry": 41, "B": 10, "I": 1, "idx": 905, "stresses": 6, "old_leaves": 13, "nodes": 19, "leaves": 16, "empty": 0, "minmargin": 0.0005922360026468872} elapsed 0.8876452445983887
+VERIFIED {"entry": 42, "B": 10, "I": 1, "idx": 989, "stresses": 1, "old_leaves": 1, "nodes": 1, "leaves": 1, "empty": 0, "minmargin": 0.04127923625315756} elapsed 0.9035995006561279
+RESIDUAL CHUNK VERIFIED {"start": 33, "end": 43, "entries": 10, "stresses": 29, "nodes": 153, "leaves": 140, "empty": 0, "minmargin_float": 3.5050849318892584e-05, "sec": 0.9036338329315186}

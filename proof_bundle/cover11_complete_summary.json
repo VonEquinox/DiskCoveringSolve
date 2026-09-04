@@ -1,0 +1,93 @@
+{
+  "status": "complete",
+  "exact_definition": "t* is the t-coordinate of the unique root in cover11_full_kkt_certificate.json; r*=sqrt(t*)",
+  "t_interval": [
+    [
+      "522467398703333782390228249644413393860860823150729614802366028195074400022156043330421834863244167060009371975615089377",
+      "3618502788666131106986593281521497120414687020801267626233049500247285301248000000000000000000000000000000000000000000000"
+    ],
+    [
+      "522467398703333782390228249644413393860860830387735192134628242168260963065150284159795876465779419526108372470185691873",
+      "3618502788666131106986593281521497120414687020801267626233049500247285301248000000000000000000000000000000000000000000000"
+    ]
+  ],
+  "t_midpoint_decimal": "0.14438772863179913",
+  "Tplus": [
+    "1443877286317993",
+    "10000000000000000"
+  ],
+  "Tplus_minus_t_upper_float": 1.5686736575849854e-16,
+  "enumeration": [
+    {
+      "case": "9,1",
+      "orbits": 291,
+      "excluded": 288,
+      "residual": 3
+    },
+    {
+      "case": "9,2",
+      "orbits": 2548,
+      "excluded": 2514,
+      "residual": 34
+    },
+    {
+      "case": "10,1",
+      "orbits": 1004,
+      "excluded": 986,
+      "residual": 18
+    }
+  ],
+  "linkage": {
+    "brown_labeled_counts_verified": true,
+    "candidate_orbit": {
+      "B": 9,
+      "I": 2,
+      "orbit": 2547,
+      "boundary_shift": 3,
+      "boundary_reflection": false,
+      "interior_swap": true
+    },
+    "wheel_orbit": {
+      "B": 10,
+      "I": 1,
+      "orbit": 1003,
+      "exact_wheel": true
+    },
+    "six_proposal_kron_rows_recomputed": true,
+    "nine_gap_to_eight_coordinate_link_verified": true,
+    "upper_complex": {
+      "vertices": 20,
+      "edges": 48,
+      "faces": 29,
+      "euler_characteristic": 1,
+      "vertex_links_verified": true
+    }
+  },
+  "candidate": {
+    "old_leaves": 106136,
+    "direct_exact": 100834,
+    "deferred": 5302,
+    "base_minmargin_float": 1.910664449265209e-09,
+    "refined_roots": 5302,
+    "refined_nodes": 304708,
+    "external_exact_leaves": 153052,
+    "local_leaves": 1953,
+    "refined_empty": 0,
+    "external_minmargin_float": 1.832201722048353e-12
+  },
+  "wheel": {
+    "old_leaves": 4853,
+    "direct": 4781,
+    "refined_exact_leaves": 145,
+    "minmargin_float": 5.1818456427861605e-09
+  },
+  "other_residuals": {
+    "topologies": 53,
+    "stresses": 167,
+    "nodes": 13825,
+    "leaves": 13789,
+    "empty": 0,
+    "minmargin_float": 6.604069438908815e-07
+  },
+  "proof_conclusion": "r_11 = sqrt(t*)"
+}

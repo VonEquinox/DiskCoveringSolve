@@ -1,0 +1,2 @@
+VERIFIED {"entry": 52, "B": 10, "I": 1, "idx": 1002, "stresses": 17, "old_leaves": 11742, "nodes": 11744, "leaves": 11743, "empty": 0, "minmargin": 6.604069438908815e-07} elapsed 114.24150276184082
+RESIDUAL CHUNK VERIFIED {"start": 52, "end": 53, "entries": 1, "stresses": 17, "nodes": 11744, "leaves": 11743, "empty": 0, "minmargin_float": 6.604069438908815e-07, "sec": 114.24158668518066}

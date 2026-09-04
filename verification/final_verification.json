@@ -1,0 +1,57 @@
+{
+  "verification_date": "2026-09-04",
+  "source_bundle": "proof_bundle",
+  "source_bundle_sha256_check": {
+    "command": "sha256sum -c SHA256SUMS",
+    "checked_files": 168,
+    "failed": 0,
+    "result": "passed"
+  },
+  "full_replay": {
+    "mode": "full",
+    "result": "passed",
+    "return_code": 0,
+    "terminal_marker": "COVER11 FULL LEAF-BY-LEAF REPLAY PASSED",
+    "log_sha256": "723b7c9cf4cb5fdff5c43558d570202f12addca1d84af301a43bfffba32eb446",
+    "environment_note": "The revised proof bundle was copied to a temporary directory. The portable wrapper changed only hard-coded /mnt/data path literals and the Python executable path in that temporary copy; certificate data and source verification logic were otherwise executed as packaged."
+  },
+  "strengthened_checks": {
+    "brown_labeled_counts_verified": true,
+    "candidate_orbit": {
+      "B": 9,
+      "I": 2,
+      "orbit": 2547,
+      "boundary_shift": 3,
+      "boundary_reflection": false,
+      "interior_swap": true
+    },
+    "wheel_orbit": {
+      "B": 10,
+      "I": 1,
+      "orbit": 1003,
+      "exact_wheel": true
+    },
+    "six_proposal_kron_rows_recomputed": true,
+    "nine_gap_to_eight_coordinate_link_verified": true,
+    "upper_complex": {
+      "vertices": 20,
+      "edges": 48,
+      "faces": 29,
+      "euler_characteristic": 1,
+      "vertex_links_verified": true
+    }
+  },
+  "aggregate": {
+    "triangulation_orbits": 3843,
+    "farkas_excluded": 3788,
+    "candidate_direct_external_leaves": 100834,
+    "candidate_refined_external_leaves": 153052,
+    "candidate_local_leaves": 1953,
+    "candidate_external_min_margin": 1.832201722048353e-12,
+    "wheel_min_margin": 5.1818456427861605e-09,
+    "ordinary_residual_topologies": 53,
+    "ordinary_residual_leaves": 13789,
+    "ordinary_residual_min_margin": 6.604069438908815e-07,
+    "krawczyk_ratio": 7.679398971318621e-42
+  }
+}

@@ -1,0 +1,10 @@
+VERIFIED {"entry": 43, "B": 10, "I": 1, "idx": 991, "stresses": 1, "old_leaves": 29, "nodes": 29, "leaves": 29, "empty": 0, "minmargin": 0.0001644226837267505} elapsed 0.09136033058166504
+VERIFIED {"entry": 44, "B": 10, "I": 1, "idx": 993, "stresses": 7, "old_leaves": 82, "nodes": 82, "leaves": 82, "empty": 0, "minmargin": 0.00015699087511582678} elapsed 0.5978701114654541
+VERIFIED {"entry": 45, "B": 10, "I": 1, "idx": 994, "stresses": 1, "old_leaves": 11, "nodes": 11, "leaves": 11, "empty": 0, "minmargin": 0.0005815474859613336} elapsed 0.6213793754577637
+VERIFIED {"entry": 46, "B": 10, "I": 1, "idx": 995, "stresses": 5, "old_leaves": 63, "nodes": 63, "leaves": 63, "empty": 0, "minmargin": 0.0002417610526580733} elapsed 0.8884551525115967
+VERIFIED {"entry": 47, "B": 10, "I": 1, "idx": 996, "stresses": 1, "old_leaves": 68, "nodes": 68, "leaves": 68, "empty": 0, "minmargin": 7.359429333126184e-05} elapsed 0.9841113090515137
+VERIFIED {"entry": 48, "B": 10, "I": 1, "idx": 997, "stresses": 10, "old_leaves": 1132, "nodes": 1132, "leaves": 1132, "empty": 0, "minmargin": 9.78774182591536e-06} elapsed 7.903268814086914
+VERIFIED {"entry": 49, "B": 10, "I": 1, "idx": 999, "stresses": 10, "old_leaves": 65, "nodes": 65, "leaves": 65, "empty": 0, "minmargin": 0.0008962214710995961} elapsed 8.410228967666626
+VERIFIED {"entry": 50, "B": 10, "I": 1, "idx": 1000, "stresses": 8, "old_leaves": 95, "nodes": 95, "leaves": 95, "empty": 0, "minmargin": 0.0003043418449093371} elapsed 8.975822925567627
+VERIFIED {"entry": 51, "B": 10, "I": 1, "idx": 1001, "stresses": 4, "old_leaves": 164, "nodes": 164, "leaves": 164, "empty": 0, "minmargin": 7.80733245889656e-06} elapsed 9.465420961380005
+RESIDUAL CHUNK VERIFIED {"start": 43, "end": 52, "entries": 9, "stresses": 47, "nodes": 1709, "leaves": 1709, "empty": 0, "minmargin_float": 7.80733245889656e-06, "sec": 9.465471506118774}
