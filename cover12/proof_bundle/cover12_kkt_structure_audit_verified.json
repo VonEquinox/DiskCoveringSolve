@@ -1,0 +1,122 @@
+{
+  "verified": true,
+  "kkt_polynomials_match": true,
+  "secondary_trig_identity": true,
+  "unit_anchor_identities": 9,
+  "active_boundary_contacts": 18,
+  "active_face_contacts": 18,
+  "active_edges": 36,
+  "free_nodes": 18,
+  "force_components": 36,
+  "anchor_tangential_components": 9,
+  "normalization_identity": true,
+  "energy_identity": "sum_e w_e |x_e-y_e|^2 = r^2",
+  "faces": [
+    [
+      0,
+      1,
+      11
+    ],
+    [
+      0,
+      8,
+      10
+    ],
+    [
+      0,
+      10,
+      11
+    ],
+    [
+      1,
+      2,
+      11
+    ],
+    [
+      2,
+      3,
+      11
+    ],
+    [
+      3,
+      4,
+      9
+    ],
+    [
+      3,
+      9,
+      11
+    ],
+    [
+      4,
+      5,
+      9
+    ],
+    [
+      5,
+      6,
+      9
+    ],
+    [
+      6,
+      7,
+      10
+    ],
+    [
+      6,
+      9,
+      10
+    ],
+    [
+      7,
+      8,
+      10
+    ],
+    [
+      9,
+      10,
+      11
+    ]
+  ],
+  "active_faces": [
+    [
+      1,
+      2,
+      11
+    ],
+    [
+      4,
+      5,
+      9
+    ],
+    [
+      7,
+      8,
+      10
+    ],
+    [
+      0,
+      10,
+      11
+    ],
+    [
+      3,
+      9,
+      11
+    ],
+    [
+      6,
+      9,
+      10
+    ]
+  ],
+  "seconds": 0.6984679698944092,
+  "component_counts": {
+    "generic_center_components": 12,
+    "axial_center_components": 6,
+    "inner_center_components": 6,
+    "generic_witness_components": 6,
+    "axial_witness_components": 6,
+    "anchor_tangential_components": 9
+  }
+}

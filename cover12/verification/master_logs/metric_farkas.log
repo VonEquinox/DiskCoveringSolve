@@ -1,0 +1,70 @@
+VER (9, 1) {'B': 9, 'I': 1, 'orbits': 291, 'labeled': 5005, 'excluded': 290, 'residual': 1, 'min_margin': 0.23573530716122984}
+VER (9, 2) {'B': 9, 'I': 2, 'orbits': 2548, 'labeled': 90090, 'excluded': 2544, 'residual': 4, 'min_margin': 0.23573530716122984}
+VER (9, 3) {'B': 9, 'I': 3, 'orbits': 21018, 'labeled': 2252250, 'excluded': 20967, 'residual': 51, 'min_margin': 0.23573530716122984}
+VER (10, 1) {'B': 10, 'I': 1, 'orbits': 1004, 'labeled': 19448, 'excluded': 1001, 'residual': 3, 'min_margin': 0.09956530715578514}
+VER (10, 2) {'B': 10, 'I': 2, 'orbits': 9876, 'labeled': 388960, 'excluded': 9833, 'residual': 43, 'min_margin': 0.09956530715578514}
+VER (11, 1) {'B': 11, 'I': 1, 'orbits': 3471, 'labeled': 75582, 'excluded': 3441, 'residual': 30, 'min_margin': 0.09956530714697627}
+{
+  "verified": true,
+  "T": "814971/6250000",
+  "certificate": "metric_exact_cert_safe.json",
+  "total_orbits": 38208,
+  "total_residual": 132,
+  "cases": [
+    {
+      "B": 9,
+      "I": 1,
+      "orbits": 291,
+      "labeled": 5005,
+      "excluded": 290,
+      "residual": 1,
+      "min_margin": 0.23573530716122984
+    },
+    {
+      "B": 9,
+      "I": 2,
+      "orbits": 2548,
+      "labeled": 90090,
+      "excluded": 2544,
+      "residual": 4,
+      "min_margin": 0.23573530716122984
+    },
+    {
+      "B": 9,
+      "I": 3,
+      "orbits": 21018,
+      "labeled": 2252250,
+      "excluded": 20967,
+      "residual": 51,
+      "min_margin": 0.23573530716122984
+    },
+    {
+      "B": 10,
+      "I": 1,
+      "orbits": 1004,
+      "labeled": 19448,
+      "excluded": 1001,
+      "residual": 3,
+      "min_margin": 0.09956530715578514
+    },
+    {
+      "B": 10,
+      "I": 2,
+      "orbits": 9876,
+      "labeled": 388960,
+      "excluded": 9833,
+      "residual": 43,
+      "min_margin": 0.09956530715578514
+    },
+    {
+      "B": 11,
+      "I": 1,
+      "orbits": 3471,
+      "labeled": 75582,
+      "excluded": 3441,
+      "residual": 30,
+      "min_margin": 0.09956530714697627
+    }
+  ],
+  "seconds": 22.53550386428833
+}

@@ -1,0 +1,38 @@
+COVER12 exact verification bundle
+=================================
+
+Main replay:
+
+  PYTHON_BIN="$(command -v python3)" ./cover12/run_verification.sh
+
+Required software:
+
+  Python 3.11+
+  SymPy
+  NumPy
+  SciPy
+
+The master verifier checks:
+  - 14-variable rational Krawczyk certificate
+  - symbolic contact/equilibrium/stationarity identities
+  - exact threshold and trigonometric inequalities
+  - exact upper covering triangulation
+  - six exhaustive triangulation orbit lists and Brown counts
+  - exact Farkas certificates
+  - exact partition of 132 residual topologies
+  - exact graph-energy certificates for 131 noncandidate residuals
+  - global strict convexity certificate for the candidate topology
+
+All final acceptance decisions use exact rational/integer arithmetic,
+explicit Taylor remainder bounds, interval arithmetic, symbolic polynomial
+identities, or rational LDL decomposition. Floating-point data is used only
+to discover finite certificates that are then independently rechecked.
+
+The proof is computer-assisted and has not yet undergone independent peer review.
+
+The proof bundle is self-contained; proof_bundle/exact_core.py is the shared
+rational/Taylor kernel. Master logs are written below cover12/verification/.
+
+Successful completion ends with:
+
+  COVER12 EXACT MASTER REPLAY PASSED

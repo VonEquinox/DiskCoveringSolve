@@ -1,4 +1,4 @@
-name: Quick certificate audit
+name: Certificate audit
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  quick-audit:
+  certificate-audit:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

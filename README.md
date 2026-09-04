@@ -25,13 +25,11 @@ Krawczyk certificate, not by the displayed decimal expansion.
 
 ## Repository layout
 
-- `proof_bundle/` — eleven-disk exact certificates and verifier programs;
-- `cover12/` — twelve-disk proof, certificates, verifier programs, and replay logs;
-- `docs/METHOD.md` — detailed eleven-disk mathematical method;
-- `cover12/cover12_proof_zh.md` — detailed twelve-disk mathematical proof and method;
-- `docs/VERIFIER_ARCHITECTURE.md` — eleven-disk verifier dependency graph;
-- `docs/DEVELOPMENT.md` — development and verification workflow;
-- `verification/` — eleven-disk full replay record.
+- `cover11/` — eleven-disk proof bundle, documentation, verification records, and runner;
+- `cover12/` — twelve-disk proof bundle, documentation, verification records, and runner;
+- `docs/DEVELOPMENT.md` — shared development and verification workflow;
+- `requirements.txt` — shared Python dependencies;
+- `Makefile` — unified cover11 and cover12 commands.
 
 Manuscript PDF/LaTeX files are intentionally excluded. This repository is for
 proof development, exact certificates, and reproducible verification.
@@ -82,7 +80,7 @@ COVER12 EXACT MASTER REPLAY PASSED
 ```
 
 A fresh local replay on September 4, 2026 completed all eight cover12 modules
-with return code 0. See `cover12/AUDIT_STATUS.md` for the checked scope.
+with return code 0. See `cover12/docs/AUDIT_STATUS.md` for the checked scope.
 
 ## Integrity
 

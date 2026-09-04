@@ -1,0 +1,103 @@
+PYTHON_BIN="/Users/vonequinox/Program/test/.venv/bin/python" ./cover12/run_verification.sh
+./cover12_candidate_convex_exact.py: OK
+./cover12_candidate_plot.py: OK
+./cover12_kkt_structure_audit.py: OK
+./cover12_master_verify.py: OK
+./cover12_symmetric_kkt_cert.json: OK
+./cover12_symmetric_kkt_exact.py: OK
+./cover12_threshold_verify.py: OK
+./cover12_topology_partition_verify.py: OK
+./cover12_upper_exact.py: OK
+./enumerate_orbits.py: OK
+./exact_core.py: OK
+./fixed_trig.py: OK
+./metric_exact.py: OK
+./metric_exact_cert_safe.json: OK
+./residual_energy_cert_safe.json: OK
+./residual_energy_exact_safe.py: OK
+./triangulations_B10_I1_orbits.pkl: OK
+./triangulations_B10_I2_orbits.pkl: OK
+./triangulations_B11_I1_orbits.pkl: OK
+./triangulations_B9_I1_orbits.pkl: OK
+./triangulations_B9_I2_orbits.pkl: OK
+./triangulations_B9_I3_orbits.pkl: OK
+VERIFIED symmetric_kkt seconds 0.08729290962219238
+VERIFIED kkt_structure seconds 0.9118521213531494
+VERIFIED thresholds seconds 0.024190902709960938
+VERIFIED upper_cover seconds 0.02341914176940918
+VERIFIED metric_farkas seconds 22.907594919204712
+VERIFIED topology_partition seconds 0.07568788528442383
+VERIFIED residual_energies seconds 5.865584135055542
+VERIFIED candidate_convexity seconds 0.09901309013366699
+{
+  "verified": true,
+  "theorem": "r_12 equals the r-coordinate of the unique D3 candidate root isolated by cover12_symmetric_kkt_cert.json",
+  "decimal_r_center": "0.36110296374450862",
+  "r_decimal_high_precision": "0.361102963744508644113087702017065180848530565591618515449660087986314559381989395...",
+  "T": "814971/6250000",
+  "orbits": 38208,
+  "labeled_triangulations": 2831335,
+  "farkas_excluded": 38076,
+  "residual_topologies": 132,
+  "noncandidate_exact": 131,
+  "candidate_orbit": [
+    9,
+    3,
+    21015
+  ],
+  "minimum_noncandidate_margin": 1.5804800350532598e-06,
+  "candidate_min_ldl_pivot": 0.01176782653397863,
+  "upper_inactive_margin": 4.29112570161041e-05,
+  "modules": [
+    {
+      "name": "symmetric_kkt",
+      "seconds": 0.08729290962219238,
+      "report": "cover12_symmetric_kkt_verified.json",
+      "log": "verification/master_logs/symmetric_kkt.log"
+    },
+    {
+      "name": "kkt_structure",
+      "seconds": 0.9118521213531494,
+      "report": "cover12_kkt_structure_audit_verified.json",
+      "log": "verification/master_logs/kkt_structure.log"
+    },
+    {
+      "name": "thresholds",
+      "seconds": 0.024190902709960938,
+      "report": "cover12_threshold_verified.json",
+      "log": "verification/master_logs/thresholds.log"
+    },
+    {
+      "name": "upper_cover",
+      "seconds": 0.02341914176940918,
+      "report": "cover12_upper_exact_verified.json",
+      "log": "verification/master_logs/upper_cover.log"
+    },
+    {
+      "name": "metric_farkas",
+      "seconds": 22.907594919204712,
+      "report": "metric_exact_safe_verified.json",
+      "log": "verification/master_logs/metric_farkas.log"
+    },
+    {
+      "name": "topology_partition",
+      "seconds": 0.07568788528442383,
+      "report": "cover12_topology_partition_verified.json",
+      "log": "verification/master_logs/topology_partition.log"
+    },
+    {
+      "name": "residual_energies",
+      "seconds": 5.865584135055542,
+      "report": "residual_energy_safe_verified.json",
+      "log": "verification/master_logs/residual_energies.log"
+    },
+    {
+      "name": "candidate_convexity",
+      "seconds": 0.09901309013366699,
+      "report": "cover12_candidate_convex_verified.json",
+      "log": "verification/master_logs/candidate_convexity.log"
+    }
+  ],
+  "seconds": 29.99956727027893
+}
+COVER12 EXACT MASTER REPLAY PASSED
