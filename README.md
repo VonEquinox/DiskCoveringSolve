@@ -1,116 +1,101 @@
 # Disk Covering Problem Research
 
 Computer-assisted research and exact verification for covering the unit disk
-with eleven congruent disks.
+with congruent disks. The repository currently contains reproducible proof
+claims for eleven and twelve disks.
 
-The repository contains the complete verification code, rational
-certificates, triangulation data, branch trees, replay logs, and detailed
-method documentation. Manuscript PDF/LaTeX files are intentionally excluded;
-this is the development and verification repository.
+## Claimed results
 
-## Claimed result
-
-Let
+For
 
 \[
-r_{11}=\inf_{c_1,\ldots,c_{11}\in\mathbb R^2}
-\max_{\|x\|\le1}\min_i\|x-c_i\|.
+r_n=\inf_{c_1,\ldots,c_n\in\mathbb R^2}
+\max_{\lVert x\rVert\le1}\min_i\lVert x-c_i\rVert,
 \]
 
-The certificate package claims
+the included certificate packages claim:
 
-\[
-r_{11}=0.37998385311983868972226160613609321430871895\ldots.
-\]
+| Disks | Certified value |
+|---|---|
+| 11 | \(r_{11}=0.37998385311983868972226160613609321430871895\ldots\) |
+| 12 | \(r_{12}=0.36110296374450864411308770201706518084853056\ldots\) |
 
-The exact value is not defined by the decimal. It is
-`r_* = sqrt(t_*)`, where `t_*` is the `t`-coordinate of the unique KKT
-root inside the rational box certified by
-`proof_bundle/cover11_full_kkt_certificate.json`.
-
-## Proof strategy
-
-The complete method is described in [`docs/METHOD.md`](docs/METHOD.md). In
-outline:
-
-1. isolate an exact algebraic KKT candidate using a rational Krawczyk test;
-2. certify that the candidate covers the unit disk;
-3. reduce any hypothetical smaller cover to an ordinary restricted Voronoi
-   diagram in general position;
-4. prove that its dual is one of 3843 simple disk-triangulation orbits;
-5. eliminate 3788 orbits by exact Farkas certificates;
-6. eliminate the wheel and 53 ordinary residuals by rational graph energies;
-7. handle the candidate topology by global branch-and-bound plus an
-   eight-dimensional strict local-minimum certificate.
+Each exact value is defined by the isolated algebraic root in its rational
+Krawczyk certificate, not by the displayed decimal expansion.
 
 ## Repository layout
 
-- `proof_bundle/` - exact proof data and verification programs;
-- `verification/` - full replay log and machine-readable result summary;
-- `docs/METHOD.md` - detailed mathematical and computational method;
-- `docs/VERIFIER_ARCHITECTURE.md` - certificate dependency graph and trusted
-  computational base;
-- `docs/DEVELOPMENT.md` - development workflow and extension guide;
-- `run_verification_portable.sh` - unified portable replay entry point;
-- `requirements.txt` - Python dependencies.
+- `proof_bundle/` — eleven-disk exact certificates and verifier programs;
+- `cover12/` — twelve-disk proof, certificates, verifier programs, and replay logs;
+- `docs/METHOD.md` — detailed eleven-disk mathematical method;
+- `cover12/cover12_proof_zh.md` — detailed twelve-disk mathematical proof and method;
+- `docs/VERIFIER_ARCHITECTURE.md` — eleven-disk verifier dependency graph;
+- `docs/DEVELOPMENT.md` — development and verification workflow;
+- `verification/` — eleven-disk full replay record.
 
-## Integrity
+Manuscript PDF/LaTeX files are intentionally excluded. This repository is for
+proof development, exact certificates, and reproducible verification.
 
-```bash
-cd proof_bundle
-sha256sum -c SHA256SUMS
-```
-
-The proof-bundle manifest contains 168 fixed files.
-
-## Quick audit
+## Environment
 
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
-./run_verification_portable.sh quick
 ```
 
-The final marker must be:
+## Eleven-disk verification
 
-```text
-COVER11 QUICK AUDIT PASSED (STORED LEAF SUMMARIES ONLY)
-```
-
-Quick mode checks the central exact certificates, enumeration, Brown counts,
-Farkas structure, topology linkage, local Kron recomputation, the 9-gap/8D
-link, the upper complex, and stored leaf summaries. It does not recompute every
-branch leaf.
-
-## Full leaf-by-leaf replay
+Quick structural audit:
 
 ```bash
-./run_verification_portable.sh full
+make cover11-quick PYTHON_BIN="$(command -v python)"
 ```
 
-The final marker must be:
+Full leaf-by-leaf replay:
+
+```bash
+make cover11-full PYTHON_BIN="$(command -v python)"
+```
+
+Expected full marker:
 
 ```text
 COVER11 FULL LEAF-BY-LEAF REPLAY PASSED
 ```
 
-See `verification/full_replay.log` for the latest complete replay transcript.
+## Twelve-disk verification
 
-## Current verification totals
+The twelve-disk verifier checks the rational Krawczyk box, symbolic KKT
+identities, upper cover, six exhaustive triangulation families, exact Farkas
+certificates, the complete residual partition, 131 graph-energy certificates,
+and the candidate global-convexity certificate.
 
-| Stage | Result |
-|---|---:|
-| Triangulation orbits | 3843 |
-| Farkas-eliminated orbits | 3788 |
-| Candidate direct leaves | 100834 |
-| Candidate refined external leaves | 153052 |
-| Candidate local leaves | 1953 |
-| Ordinary residual topologies | 53 |
-| Ordinary residual strict leaves | 13789 |
+```bash
+make cover12-full PYTHON_BIN="$(command -v python)"
+```
+
+Expected marker:
+
+```text
+COVER12 EXACT MASTER REPLAY PASSED
+```
+
+A fresh local replay on September 4, 2026 completed all eight cover12 modules
+with return code 0. See `cover12/AUDIT_STATUS.md` for the checked scope.
+
+## Integrity
+
+```bash
+make integrity
+```
+
+The cover12 manifest hashes immutable proof inputs, source files, and fixed
+audit documents. Regenerated reports and timing-dependent logs are deliberately
+excluded so repeated verification does not invalidate the manifest.
 
 ## Status
 
-The included strengthened verifier has completed a fresh full replay with
-return code 0. The result is computer-assisted and should receive independent
-external mathematical and software audit.
+Both included verifier chains pass locally. These are reproducible
+computer-assisted proof claims and should still receive independent external
+mathematical and software review.

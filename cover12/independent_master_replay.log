@@ -1,0 +1,79 @@
+VERIFIED symmetric_kkt seconds 0.09368491172790527
+VERIFIED kkt_structure seconds 0.9151380062103271
+VERIFIED thresholds seconds 0.024282217025756836
+VERIFIED upper_cover seconds 0.023657798767089844
+VERIFIED metric_farkas seconds 24.01356291770935
+VERIFIED topology_partition seconds 0.06680083274841309
+VERIFIED residual_energies seconds 5.060244083404541
+VERIFIED candidate_convexity seconds 0.08976101875305176
+{
+  "verified": true,
+  "theorem": "r_12 equals the r-coordinate of the unique D3 candidate root isolated by cover12_symmetric_kkt_cert.json",
+  "decimal_r_center": "0.36110296374450862",
+  "r_decimal_high_precision": "0.361102963744508644113087702017065180848530565591618515449660087986314559381989395...",
+  "T": "814971/6250000",
+  "orbits": 38208,
+  "labeled_triangulations": 2831335,
+  "farkas_excluded": 38076,
+  "residual_topologies": 132,
+  "noncandidate_exact": 131,
+  "candidate_orbit": [
+    9,
+    3,
+    21015
+  ],
+  "minimum_noncandidate_margin": 1.5804800350532598e-06,
+  "candidate_min_ldl_pivot": 0.01176782653397863,
+  "upper_inactive_margin": 4.29112570161041e-05,
+  "modules": [
+    {
+      "name": "symmetric_kkt",
+      "seconds": 0.09368491172790527,
+      "report": "cover12_symmetric_kkt_verified.json",
+      "log": "master_logs/symmetric_kkt.log"
+    },
+    {
+      "name": "kkt_structure",
+      "seconds": 0.9151380062103271,
+      "report": "cover12_kkt_structure_audit_verified.json",
+      "log": "master_logs/kkt_structure.log"
+    },
+    {
+      "name": "thresholds",
+      "seconds": 0.024282217025756836,
+      "report": "cover12_threshold_verified.json",
+      "log": "master_logs/thresholds.log"
+    },
+    {
+      "name": "upper_cover",
+      "seconds": 0.023657798767089844,
+      "report": "cover12_upper_exact_verified.json",
+      "log": "master_logs/upper_cover.log"
+    },
+    {
+      "name": "metric_farkas",
+      "seconds": 24.01356291770935,
+      "report": "metric_exact_safe_verified.json",
+      "log": "master_logs/metric_farkas.log"
+    },
+    {
+      "name": "topology_partition",
+      "seconds": 0.06680083274841309,
+      "report": "cover12_topology_partition_verified.json",
+      "log": "master_logs/topology_partition.log"
+    },
+    {
+      "name": "residual_energies",
+      "seconds": 5.060244083404541,
+      "report": "residual_energy_safe_verified.json",
+      "log": "master_logs/residual_energies.log"
+    },
+    {
+      "name": "candidate_convexity",
+      "seconds": 0.08976101875305176,
+      "report": "cover12_candidate_convex_verified.json",
+      "log": "master_logs/candidate_convexity.log"
+    }
+  ],
+  "seconds": 30.290586948394775
+}

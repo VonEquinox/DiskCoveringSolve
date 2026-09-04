@@ -1,5 +1,9 @@
 # Development workflow
 
+This repository contains separate verifier chains for the eleven-disk and
+twelve-disk results. Keep their certificates and generated reports isolated:
+`proof_bundle/` is cover11, while `cover12/` is cover12.
+
 ## Environment
 
 ```bash
@@ -18,6 +22,14 @@ python -m pip install -r requirements.txt
 4. Never replace an exact check with a floating-point tolerance check.
 
 ## Required checks for a pull request
+
+Run the cover12 exact master replay whenever any file below `cover12/` changes:
+
+```bash
+make cover12-full PYTHON_BIN="$(command -v python)"
+```
+
+The required final marker is `COVER12 EXACT MASTER REPLAY PASSED`.
 
 ```bash
 make integrity
