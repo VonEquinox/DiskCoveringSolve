@@ -4,6 +4,21 @@ Computer-assisted research and exact verification for covering the unit disk
 with congruent disks. The repository currently contains reproducible proof
 claims for eleven through fifteen disks.
 
+## Model provenance
+
+As reported by the repository maintainer, the proof packages were produced
+through the following model sessions (model names are recorded as supplied):
+
+| Problems | Model / interface | Reported thinking time |
+|---|---|---|
+| Cover11, Cover12 | GPT 5.6 Pro, web interface | Extended thinking sessions; exact durations not recorded here |
+| Cover13, Cover14, Cover15 | GPT 6 astra Pro | No more than 50 minutes per problem |
+
+These are maintainer-reported model thinking times, not verifier runtimes or
+total project durations. Model provenance is not evidence of correctness;
+the mathematical arguments and reproducible certificate checks are the basis
+for assessing the proof claims.
+
 ## Claimed results
 
 For
