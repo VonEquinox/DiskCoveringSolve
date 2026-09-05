@@ -1,0 +1,26 @@
+{
+  "review_date": "2026-09-05",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "python_executable": "/opt/homebrew/bin/python3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "inputs": {
+    "r19_verified_proof.zip": {
+      "bytes": 43371113,
+      "sha256": "9eb3253c435a39a4ef86c7f73a1715e820844d0d2d1649908390f150d8f107ac"
+    },
+    "r19_verified_proof(1).zip": {
+      "bytes": 100807943,
+      "sha256": "8e02ac063e80a731c4abc138f2b667ac706ecf2ec61e3290b52deb432813d747"
+    },
+    "r19_proof_zh.md": {
+      "bytes": 25145,
+      "sha256": "c42f3f388b630cd291ae1255212ffdbe3c66a1b7800a6b7c9f20823a15c5240e"
+    },
+    "PROOF_zh 3.md": {
+      "bytes": 30471,
+      "sha256": "41c2de9a7a910cbef587fd7b7f84bd25fb37c3ccc69d64507ad633bc48088d0e"
+    }
+  },
+  "replay_scope": "Both original masters executed twice; no cached-enumeration options. Discovery optimizers not rerun. Original alternative master_failure_tests.json is supplied evidence only, excluded from fresh replay records."
+}

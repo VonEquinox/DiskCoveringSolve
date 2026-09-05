@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "dimension": 70,
+  "rods": 42,
+  "gamma": 400,
+  "lambda": "1/650",
+  "nu": "1/156",
+  "anchor_radius": "1/5",
+  "isolation_margin": "17/76050",
+  "congruence_margin": "71402499940859201514424127/71402500000000000000000000",
+  "geometry_sha256": "7691bed12dacddc8c8bd25f560106dec3944921a976f8706b7627f3024252519",
+  "certificate_sha256": "adcad3b0497c4184608faaf41a46156d8ead285e2d69a2ce23d217b14bb551d0",
+  "seconds": 0.024472951889038086,
+  "conclusion": "All nodes of the 42-rod subgraph equal the candidate; center c12 and unused face nodes are not constrained by this theorem."
+}

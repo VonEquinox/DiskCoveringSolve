@@ -1,0 +1,49 @@
+{
+  "verified": true,
+  "original_payload_files_compared": 89,
+  "master_startup_rejection_cases": [
+    {
+      "variant": "primary",
+      "mode": "-O",
+      "returncode": 1,
+      "stale_master_removed": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_mw06bbu4/bundle/verify_all.py\", line 38, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_mw06bbu4/bundle/verify_all.py\", line 11, in main\n    if not __debug__:raise RuntimeError('Do not disable assertions')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Do not disable assertions\n"
+    },
+    {
+      "variant": "primary",
+      "mode": "-OO",
+      "returncode": 1,
+      "stale_master_removed": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_2i9dszpu/bundle/verify_all.py\", line 38, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_2i9dszpu/bundle/verify_all.py\", line 11, in main\n    if not __debug__:raise RuntimeError('Do not disable assertions')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Do not disable assertions\n"
+    },
+    {
+      "variant": "primary",
+      "mode": "missing_input",
+      "returncode": 1,
+      "stale_master_removed": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_bxwzywxu/bundle/verify_all.py\", line 38, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_bxwzywxu/bundle/verify_all.py\", line 13, in main\n    start=time.time();before=hashes();steps=[]\n                             ~~~~~~^^\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_bxwzywxu/bundle/verify_all.py\", line 8, in hashes\n    def hashes():return {p:hashlib.sha256((R/p).read_bytes()).hexdigest() for p in INPUTS}\n                                          ~~~~~~~~~~~~~~~~^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_bxwzywxu/bundle/enumeration/candidate19_map.json'\n"
+    },
+    {
+      "variant": "alternative",
+      "mode": "-O",
+      "returncode": 1,
+      "stale_master_removed": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_ahp7h6si/bundle/verify_all.py\", line 18, in <module>\n    raise RuntimeError('Run without -O/-OO/PYTHONOPTIMIZE')\nRuntimeError: Run without -O/-OO/PYTHONOPTIMIZE\n"
+    },
+    {
+      "variant": "alternative",
+      "mode": "-OO",
+      "returncode": 1,
+      "stale_master_removed": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_utw86r3o/bundle/verify_all.py\", line 18, in <module>\n    raise RuntimeError('Run without -O/-OO/PYTHONOPTIMIZE')\nRuntimeError: Run without -O/-OO/PYTHONOPTIMIZE\n"
+    },
+    {
+      "variant": "alternative",
+      "mode": "missing_input",
+      "returncode": 1,
+      "stale_master_removed": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_y8a3g5vp/bundle/verify_all.py\", line 143, in <module>\n    try:replay()\n        ~~~~~~^^\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_y8a3g5vp/bundle/verify_all.py\", line 37, in replay\n    started=time.time();paths=input_paths()\n                              ~~~~~~~~~~~^^\n  File \"/private/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover19_startup_y8a3g5vp/bundle/verify_all.py\", line 33, in input_paths\n    assert all(p.is_file() for p in paths), 'Missing accepting input'\n           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Missing accepting input\n"
+    }
+  ],
+  "note": "Additional fresh startup tests in disposable copies; not the supplied master_failure_tests.json."
+}

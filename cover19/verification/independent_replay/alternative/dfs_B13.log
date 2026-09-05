@@ -1,0 +1,10 @@
+B 13 calls 1000000 prunes 927473 full 36880 distinct 11721 sec 0.690792
+B 13 calls 2000000 prunes 1893079 full 71331 distinct 11721 sec 1.43511
+B 13 calls 3000000 prunes 3379660 full 97930 distinct 12288 sec 2.15411
+B 13 calls 4000000 prunes 4012098 full 135317 distinct 12867 sec 2.64987
+B 13 calls 5000000 prunes 4403228 full 175733 distinct 12867 sec 3.11471
+B 13 calls 6000000 prunes 5303363 full 211426 distinct 12867 sec 3.73687
+B 13 calls 7000000 prunes 6282254 full 244930 distinct 12867 sec 4.42172
+B 13 calls 8000000 prunes 6440634 full 288985 distinct 12867 sec 4.85815
+B 13 calls 9000000 prunes 7424147 full 325000 distinct 12867 sec 5.46619
+COMPLETE N 19 B 13 calls 9319643 prunes 8082544 full 332514 distinct 12867 sec 5.73449

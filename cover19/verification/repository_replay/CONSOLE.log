@@ -1,0 +1,83 @@
+COVER19 ARCHIVE MANIFEST PASSED (89 files)
+PASSED verify_interfaces19.py
+PASSED verify_candidate19.py
+PASSED verify_enumeration19.py
+PASSED verify_forest19.py
+PASSED test_fail_closed19.py
+R19 COMPLETE CERTIFICATE CHAIN VERIFIED
+{
+  "theorem": "r_19 = 1/sqrt(13), R_19 = sqrt(13)",
+  "r_strict_interval": [
+    "0.277350098112614561009170866728499688173176659526557400977727",
+    "0.277350098112614561009170866728499688173176659526557400977728"
+  ],
+  "surviving_topology_orbits": 24127,
+  "primary_partial_states": 6908777,
+  "independent_partial_states": 20912453,
+  "unresolved_leaves": 0,
+  "seconds": 73.65622520446777
+}
+COVER19 ARCHIVE MANIFEST PASSED (89 files)
+COVER19 PRIMARY EXACT MASTER REPLAY PASSED
+=== verify_interfaces19
+PASSED verify_interfaces19
+=== verify_upper19
+PASSED verify_upper19
+=== anchor_isolation19
+PASSED anchor_isolation19
+=== compile_dfs
+PASSED compile_dfs
+=== compile_bfs
+PASSED compile_bfs
+=== dfs_B12
+PASSED dfs_B12
+=== bfs_B12
+PASSED bfs_B12
+=== dfs_B13
+PASSED dfs_B13
+=== bfs_B13
+PASSED bfs_B13
+=== dfs_B14
+PASSED dfs_B14
+=== bfs_B14
+PASSED bfs_B14
+=== dfs_B15
+PASSED dfs_B15
+=== bfs_B15
+PASSED bfs_B15
+=== dfs_B16
+PASSED dfs_B16
+=== bfs_B16
+PASSED bfs_B16
+=== dfs_B17
+PASSED dfs_B17
+=== bfs_B17
+PASSED bfs_B17
+=== dfs_B18
+PASSED dfs_B18
+=== bfs_B18
+PASSED bfs_B18
+=== verify_peeling19
+PASSED verify_peeling19
+=== verify_forest19
+PASSED verify_forest19
+=== verify_recursion_tests19
+PASSED verify_recursion_tests19
+=== test_fail_closed19
+PASSED test_fail_closed19
+R19 COMPLETE CERTIFICATE CHAIN VERIFIED
+r_19 = 1/sqrt(13); R_19 = sqrt(13).
+24126 + 1 = 24127 surviving orbits after exhaustive partial cuts; unresolved leaves = 0
+All accepting input hashes unchanged during fresh replay.
+COVER19 ARCHIVE MANIFEST PASSED (89 files)
+COVER19 ALTERNATIVE EXACT MASTER REPLAY PASSED
+COVER19 EXACT GEOMETRY AND STRESS LINKAGE PASSED
+COVER19 CROSS-BUNDLE ORBITS B=12: 6277 PASSED
+COVER19 CROSS-BUNDLE ORBITS B=13: 12867 PASSED
+COVER19 CROSS-BUNDLE ORBITS B=14: 4391 PASSED
+COVER19 CROSS-BUNDLE ORBITS B=15: 592 PASSED
+COVER19 CROSS-BUNDLE ORBITS B=16: 0 PASSED
+COVER19 CROSS-BUNDLE ORBITS B=17: 0 PASSED
+COVER19 CROSS-BUNDLE ORBITS B=18: 0 PASSED
+COVER19 ARCHIVE MANIFEST PASSED (89 files)
+COVER19 REQUESTED REPLAYS AND EXACT LINKAGE PASSED

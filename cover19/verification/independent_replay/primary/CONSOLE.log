@@ -1,0 +1,18 @@
+PASSED verify_interfaces19.py
+PASSED verify_candidate19.py
+PASSED verify_enumeration19.py
+PASSED verify_forest19.py
+PASSED test_fail_closed19.py
+R19 COMPLETE CERTIFICATE CHAIN VERIFIED
+{
+  "theorem": "r_19 = 1/sqrt(13), R_19 = sqrt(13)",
+  "r_strict_interval": [
+    "0.277350098112614561009170866728499688173176659526557400977727",
+    "0.277350098112614561009170866728499688173176659526557400977728"
+  ],
+  "surviving_topology_orbits": 24127,
+  "primary_partial_states": 6908777,
+  "independent_partial_states": 20912453,
+  "unresolved_leaves": 0,
+  "seconds": 84.60025906562805
+}

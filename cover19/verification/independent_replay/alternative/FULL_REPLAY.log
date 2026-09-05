@@ -1,0 +1,114 @@
+=== verify_interfaces19
+EXACT GEOMETRY AND ALL GRAPH INTERFACES VERIFIED
+PASSED verify_interfaces19
+=== verify_upper19
+EXACT UPPER COVER VERIFIED {'r_lower': '0.277350098112614561009170866728499688173176659526557400977727', 'r_upper': '0.277350098112614561009170866728499688173176659526557400977728', 'R_lower': '3.605551275463989293119221267470495946251296573845246212710453', 'R_upper': '3.605551275463989293119221267470495946251296573845246212710454'}
+PASSED verify_upper19
+=== anchor_isolation19
+{
+  "verified": true,
+  "dimension": 70,
+  "rods": 42,
+  "gamma": 400,
+  "lambda": "1/650",
+  "nu": "1/156",
+  "anchor_radius": "1/5",
+  "isolation_margin": "17/76050",
+  "congruence_margin": "71402499940859201514424127/71402500000000000000000000",
+  "geometry_sha256": "7691bed12dacddc8c8bd25f560106dec3944921a976f8706b7627f3024252519",
+  "certificate_sha256": "adcad3b0497c4184608faaf41a46156d8ead285e2d69a2ce23d217b14bb551d0",
+  "seconds": 0.024472951889038086,
+  "conclusion": "All nodes of the 42-rod subgraph equal the candidate; center c12 and unused face nodes are not constrained by this theorem."
+}
+PASSED anchor_isolation19
+=== compile_dfs
+PASSED compile_dfs
+=== compile_bfs
+PASSED compile_bfs
+=== dfs_B12
+B 12 calls 1000000 prunes 447411 full 41401 distinct 6277 sec 0.471555
+B 12 calls 2000000 prunes 1350109 full 76875 distinct 6277 sec 0.974796
+B 12 calls 3000000 prunes 1616218 full 121100 distinct 6277 sec 1.36948
+COMPLETE N 19 B 12 calls 3887035 prunes 2649865 full 149472 distinct 6277 sec 1.79035
+PASSED dfs_B12
+=== bfs_B12
+INDEPENDENT PEELING VERIFIED N=19 B=12 calls=2279314 rooted=149472 orbits=6277 seconds=3.5402
+PASSED bfs_B12
+=== dfs_B13
+B 13 calls 1000000 prunes 927473 full 36880 distinct 11721 sec 0.690792
+B 13 calls 2000000 prunes 1893079 full 71331 distinct 11721 sec 1.43511
+B 13 calls 3000000 prunes 3379660 full 97930 distinct 12288 sec 2.15411
+B 13 calls 4000000 prunes 4012098 full 135317 distinct 12867 sec 2.64987
+B 13 calls 5000000 prunes 4403228 full 175733 distinct 12867 sec 3.11471
+B 13 calls 6000000 prunes 5303363 full 211426 distinct 12867 sec 3.73687
+B 13 calls 7000000 prunes 6282254 full 244930 distinct 12867 sec 4.42172
+B 13 calls 8000000 prunes 6440634 full 288985 distinct 12867 sec 4.85815
+B 13 calls 9000000 prunes 7424147 full 325000 distinct 12867 sec 5.46619
+COMPLETE N 19 B 13 calls 9319643 prunes 8082544 full 332514 distinct 12867 sec 5.73449
+PASSED dfs_B13
+=== bfs_B13
+INDEPENDENT PEELING VERIFIED N=19 B=13 calls=5219673 rooted=332514 orbits=12867 seconds=8.01678
+PASSED bfs_B13
+=== dfs_B14
+B 14 calls 1000000 prunes 2105627 full 24015 distinct 4282 sec 1.15384
+B 14 calls 2000000 prunes 4056851 full 48802 distinct 4298 sec 2.2068
+B 14 calls 3000000 prunes 4892495 full 85331 distinct 4391 sec 2.88319
+B 14 calls 4000000 prunes 6232189 full 118353 distinct 4391 sec 3.66703
+COMPLETE N 19 B 14 calls 4235601 prunes 6905743 full 122346 distinct 4391 sec 3.93245
+PASSED dfs_B14
+=== bfs_B14
+INDEPENDENT PEELING VERIFIED N=19 B=14 calls=2659199 rooted=122346 orbits=4391 seconds=5.86615
+PASSED bfs_B14
+=== dfs_B15
+B 15 calls 1000000 prunes 3324560 full 14156 distinct 592 sec 3.62443
+COMPLETE N 19 B 15 calls 1179500 prunes 3854665 full 17250 distinct 592 sec 4.17227
+PASSED dfs_B15
+=== bfs_B15
+INDEPENDENT PEELING VERIFIED N=19 B=15 calls=1438621 rooted=17250 orbits=592 seconds=6.00077
+PASSED bfs_B15
+=== dfs_B16
+COMPLETE N 19 B 16 calls 333403 prunes 1684422 full 0 distinct 0 sec 2.01032
+PASSED dfs_B16
+=== bfs_B16
+INDEPENDENT PEELING VERIFIED N=19 B=16 calls=1317841 rooted=0 orbits=0 seconds=6.28056
+PASSED bfs_B16
+=== dfs_B17
+COMPLETE N 19 B 17 calls 123336 prunes 587801 full 0 distinct 0 sec 0.730108
+PASSED dfs_B17
+=== bfs_B17
+INDEPENDENT PEELING VERIFIED N=19 B=17 calls=1230306 rooted=0 orbits=0 seconds=6.17192
+PASSED bfs_B17
+=== dfs_B18
+COMPLETE N 19 B 18 calls 39532 prunes 156707 full 0 distinct 0 sec 0.17715
+PASSED dfs_B18
+=== bfs_B18
+INDEPENDENT PEELING VERIFIED N=19 B=18 calls=740824 rooted=0 orbits=0 seconds=3.61036
+PASSED bfs_B18
+=== verify_peeling19
+PARTIAL TOPOLOGY FAMILY VERIFIED 12 6277 149472
+PARTIAL TOPOLOGY FAMILY VERIFIED 13 12867 332514
+PARTIAL TOPOLOGY FAMILY VERIFIED 14 4391 122346
+PARTIAL TOPOLOGY FAMILY VERIFIED 15 592 17250
+PARTIAL TOPOLOGY FAMILY VERIFIED 16 0 0
+PARTIAL TOPOLOGY FAMILY VERIFIED 17 0 0
+PARTIAL TOPOLOGY FAMILY VERIFIED 18 0 0
+EXHAUSTIVE PARTIAL TOPOLOGY PARTITION VERIFIED 24127 orbits
+PASSED verify_peeling19
+=== verify_forest19
+CANDIDATE EXACTLY VERIFIED {'SPLIT': 263, 'DUAL': 236, 'LOCAL': 28} force margin 5.915070064665973e-07 local margin 0.0004230319843054636
+NONCANDIDATE REPLAY 5000 nodes 5006 seconds 3.688772201538086
+NONCANDIDATE REPLAY 10000 nodes 10006 seconds 7.565899133682251
+NONCANDIDATE REPLAY 15000 nodes 15970 seconds 11.533324003219604
+NONCANDIDATE REPLAY 20000 nodes 23620 seconds 15.977489948272705
+ALL ANGLE TREES EXACTLY VERIFIED {'cases': 24126, 'nodes': 31708, 'counts': {'DUAL': 27917, 'SPLIT': 3791}, 'minimum_force_margin': '1525329239218778136210075841402205960685929/24861897379042482738736348917022362050000000000000', 'minimum_force_margin_float': 6.135208491788586e-08, 'maxdepth': 6, 'certificate_sha256': '51607acedad842ff8a32132ddf3025cdfc957c6ffe64f31efd08e45cfb9e8f13'}
+PASSED verify_forest19
+=== verify_recursion_tests19
+UNPRUNED INDEPENDENT RECURRENCE CHECKS VERIFIED 29 families
+PASSED verify_recursion_tests19
+=== test_fail_closed19
+FAIL-CLOSED TESTS VERIFIED 36 rejections and 3 exact trig identities
+PASSED test_fail_closed19
+R19 COMPLETE CERTIFICATE CHAIN VERIFIED
+r_19 = 1/sqrt(13); R_19 = sqrt(13).
+24126 + 1 = 24127 surviving orbits after exhaustive partial cuts; unresolved leaves = 0
+All accepting input hashes unchanged during fresh replay.

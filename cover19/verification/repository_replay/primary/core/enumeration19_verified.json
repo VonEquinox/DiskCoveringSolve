@@ -1,0 +1,474 @@
+{
+  "verified": true,
+  "N": 19,
+  "method": "exhaustive rooted peeling with safe necessary-condition pruning; independent queue/root/label/BFS/Floyd replay",
+  "families": [
+    {
+      "B": 12,
+      "I": 7,
+      "primary": {
+        "N": 19,
+        "B": 12,
+        "I": 7,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 2082347,
+        "choices": 5802675,
+        "pruned": 3708170,
+        "rooted_survivors": 149472,
+        "orbits": 6277,
+        "seconds": 2.68624,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 12,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 1144769,
+        "pruned": 427980,
+        "rooted_survivors": 149472,
+        "surviving_orbits": 6277,
+        "seconds": 4.49768
+      },
+      "manifest_sha256": "2e49e5a44416ee948bc367d410c67a6bd1e22f5a6b28b12efe241ba05709930d",
+      "log_sha256": "1134ef5c8e31fd8da47d2cd652214d0763ed7e992fe54431aafa1745b5abf0ba"
+    },
+    {
+      "B": 13,
+      "I": 6,
+      "primary": {
+        "N": 19,
+        "B": 13,
+        "I": 6,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 2783619,
+        "choices": 6756670,
+        "pruned": 3956623,
+        "rooted_survivors": 332514,
+        "orbits": 12867,
+        "seconds": 5.67328,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 13,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 3611881,
+        "pruned": 1853659,
+        "rooted_survivors": 332514,
+        "surviving_orbits": 12867,
+        "seconds": 11.141
+      },
+      "manifest_sha256": "cd5db4f058eaa2ff202d619750a59e659a562e1730fb1bdd5e1f7fded1c8be64",
+      "log_sha256": "fa9321b6939b4b94f6c8561c414dbcaa695694069012d904c103712c267d4cfa"
+    },
+    {
+      "B": 14,
+      "I": 5,
+      "primary": {
+        "N": 19,
+        "B": 14,
+        "I": 5,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 1189219,
+        "choices": 4083979,
+        "pruned": 2889962,
+        "rooted_survivors": 122346,
+        "orbits": 4391,
+        "seconds": 2.3559,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 14,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 3528975,
+        "pruned": 2618342,
+        "rooted_survivors": 122346,
+        "surviving_orbits": 4391,
+        "seconds": 6.15269
+      },
+      "manifest_sha256": "5e646c3a44662ef47a53c404c2ad9b3a909d10b535faa07809bda1df9eb780b5",
+      "log_sha256": "f169c0394293637788dcd0920c54ab7f987aace9496a07f6f41ee1462f178816"
+    },
+    {
+      "B": 15,
+      "I": 4,
+      "primary": {
+        "N": 19,
+        "B": 15,
+        "I": 4,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 446612,
+        "choices": 2436843,
+        "pruned": 1987342,
+        "rooted_survivors": 17250,
+        "orbits": 592,
+        "seconds": 0.857702,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 15,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 4011741,
+        "pruned": 3450861,
+        "rooted_survivors": 17250,
+        "surviving_orbits": 592,
+        "seconds": 5.68051
+      },
+      "manifest_sha256": "ce7bd6e0e0fd8a9cae71865a343ad2a452b95660dcabb9ccc63b01e359e31a52",
+      "log_sha256": "ec7f3710865593d552cb5d9a1e226b4bf10e5689e5569922714774651a1dfb7d"
+    },
+    {
+      "B": 16,
+      "I": 3,
+      "primary": {
+        "N": 19,
+        "B": 16,
+        "I": 3,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 232012,
+        "choices": 1502242,
+        "pruned": 1268322,
+        "rooted_survivors": 0,
+        "orbits": 0,
+        "seconds": 0.466591,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 16,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 4355537,
+        "pruned": 3781254,
+        "rooted_survivors": 0,
+        "surviving_orbits": 0,
+        "seconds": 6.95586
+      },
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_sha256": "8bcd6c4555ffac197328bc5387f596b1f003c7a6a67ef853019c5fe1759fb4a0"
+    },
+    {
+      "B": 17,
+      "I": 2,
+      "primary": {
+        "N": 19,
+        "B": 17,
+        "I": 2,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 124940,
+        "choices": 810954,
+        "pruned": 685128,
+        "rooted_survivors": 0,
+        "orbits": 0,
+        "seconds": 0.297549,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 17,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 3181930,
+        "pruned": 2720870,
+        "rooted_survivors": 0,
+        "surviving_orbits": 0,
+        "seconds": 5.62595
+      },
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_sha256": "0cd46f7fc0b86453c01ca3d99c013cf887fa123bd82f3b7a0e0e1a14604ef0c3"
+    },
+    {
+      "B": 18,
+      "I": 1,
+      "primary": {
+        "N": 19,
+        "B": 18,
+        "I": 1,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 50028,
+        "choices": 326399,
+        "pruned": 276141,
+        "rooted_survivors": 0,
+        "orbits": 0,
+        "seconds": 0.129853,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 18,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 1077620,
+        "pruned": 911340,
+        "rooted_survivors": 0,
+        "surviving_orbits": 0,
+        "seconds": 2.33523
+      },
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_sha256": "c8e97b09e1aa392deb927482268efb7ed845ad9cc8c62a3827f7bfc0bf87b6dd"
+    }
+  ],
+  "surviving_orbits": 24127,
+  "primary_states": 6908777,
+  "independent_states": 20912453,
+  "unpruned_count_regressions": [
+    {
+      "N": 3,
+      "B": 3,
+      "I": 0,
+      "labelled_count": 1,
+      "rooted_count": 1,
+      "orbits": 1
+    },
+    {
+      "N": 4,
+      "B": 3,
+      "I": 1,
+      "labelled_count": 1,
+      "rooted_count": 1,
+      "orbits": 1
+    },
+    {
+      "N": 4,
+      "B": 4,
+      "I": 0,
+      "labelled_count": 2,
+      "rooted_count": 2,
+      "orbits": 1
+    },
+    {
+      "N": 5,
+      "B": 3,
+      "I": 2,
+      "labelled_count": 6,
+      "rooted_count": 3,
+      "orbits": 1
+    },
+    {
+      "N": 5,
+      "B": 4,
+      "I": 1,
+      "labelled_count": 5,
+      "rooted_count": 5,
+      "orbits": 2
+    },
+    {
+      "N": 5,
+      "B": 5,
+      "I": 0,
+      "labelled_count": 5,
+      "rooted_count": 5,
+      "orbits": 1
+    },
+    {
+      "N": 6,
+      "B": 3,
+      "I": 3,
+      "labelled_count": 78,
+      "rooted_count": 13,
+      "orbits": 4
+    },
+    {
+      "N": 6,
+      "B": 4,
+      "I": 2,
+      "labelled_count": 40,
+      "rooted_count": 20,
+      "orbits": 5
+    },
+    {
+      "N": 6,
+      "B": 5,
+      "I": 1,
+      "labelled_count": 21,
+      "rooted_count": 21,
+      "orbits": 4
+    },
+    {
+      "N": 6,
+      "B": 6,
+      "I": 0,
+      "labelled_count": 14,
+      "rooted_count": 14,
+      "orbits": 3
+    },
+    {
+      "N": 7,
+      "B": 4,
+      "I": 3,
+      "labelled_count": 600,
+      "rooted_count": 100,
+      "orbits": 18
+    },
+    {
+      "N": 7,
+      "B": 5,
+      "I": 2,
+      "labelled_count": 210,
+      "rooted_count": 105,
+      "orbits": 14
+    },
+    {
+      "N": 7,
+      "B": 6,
+      "I": 1,
+      "labelled_count": 84,
+      "rooted_count": 84,
+      "orbits": 11
+    },
+    {
+      "N": 7,
+      "B": 7,
+      "I": 0,
+      "labelled_count": 42,
+      "rooted_count": 42,
+      "orbits": 4
+    },
+    {
+      "N": 8,
+      "B": 5,
+      "I": 3,
+      "labelled_count": 3570,
+      "rooted_count": 595,
+      "orbits": 69
+    },
+    {
+      "N": 8,
+      "B": 6,
+      "I": 2,
+      "labelled_count": 1008,
+      "rooted_count": 504,
+      "orbits": 53
+    },
+    {
+      "N": 8,
+      "B": 7,
+      "I": 1,
+      "labelled_count": 330,
+      "rooted_count": 330,
+      "orbits": 28
+    },
+    {
+      "N": 8,
+      "B": 8,
+      "I": 0,
+      "labelled_count": 132,
+      "rooted_count": 132,
+      "orbits": 12
+    },
+    {
+      "N": 9,
+      "B": 6,
+      "I": 3,
+      "labelled_count": 19152,
+      "rooted_count": 3192,
+      "orbits": 295
+    },
+    {
+      "N": 9,
+      "B": 7,
+      "I": 2,
+      "labelled_count": 4620,
+      "rooted_count": 2310,
+      "orbits": 178
+    },
+    {
+      "N": 9,
+      "B": 8,
+      "I": 1,
+      "labelled_count": 1287,
+      "rooted_count": 1287,
+      "orbits": 91
+    },
+    {
+      "N": 9,
+      "B": 9,
+      "I": 0,
+      "labelled_count": 429,
+      "rooted_count": 429,
+      "orbits": 27
+    },
+    {
+      "N": 7,
+      "B": 3,
+      "I": 4,
+      "labelled_count": 1632,
+      "rooted_count": 68,
+      "orbits": 16
+    },
+    {
+      "N": 8,
+      "B": 3,
+      "I": 5,
+      "labelled_count": 47880,
+      "rooted_count": 399,
+      "orbits": 78
+    },
+    {
+      "N": 9,
+      "B": 3,
+      "I": 6,
+      "labelled_count": 1821600,
+      "rooted_count": 2530,
+      "orbits": 457
+    },
+    {
+      "N": 10,
+      "B": 3,
+      "I": 7,
+      "labelled_count": 85503600,
+      "rooted_count": 16965,
+      "orbits": 2938
+    }
+  ],
+  "residual_sha256": "49c0a204c71f072322f9f05bb72a5c530425f9f94d2a6cbcb694c719f1d59539",
+  "seconds": 61.24632287025452
+}

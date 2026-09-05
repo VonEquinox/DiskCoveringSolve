@@ -1,0 +1,49 @@
+{
+  "verified": true,
+  "candidate_index": 6253,
+  "candidate_cases": 1,
+  "candidate_method": "global rational Dirichlet-energy strict convexity, no local leaves",
+  "noncandidate_cases": 24126,
+  "nodes": 28012,
+  "counts": {
+    "DUAL": 26069,
+    "SPLIT": 1943
+  },
+  "minimum_force_margin": "7558977650323475971119411280939019304741563/49998697884724454674775864435009189900000000000000",
+  "minimum_force_margin_float": 1.511834901731088e-07,
+  "maxdepth": 5,
+  "families": {
+    "12": {
+      "cases": 6276,
+      "nodes": 6282,
+      "DUAL": 6279,
+      "SPLIT": 3,
+      "EMPTY": 0
+    },
+    "13": {
+      "cases": 12867,
+      "nodes": 14909,
+      "DUAL": 13888,
+      "SPLIT": 1021,
+      "EMPTY": 0
+    },
+    "14": {
+      "cases": 4391,
+      "nodes": 6101,
+      "DUAL": 5246,
+      "SPLIT": 855,
+      "EMPTY": 0
+    },
+    "15": {
+      "cases": 592,
+      "nodes": 720,
+      "DUAL": 656,
+      "SPLIT": 64,
+      "EMPTY": 0
+    }
+  },
+  "unresolved_leaves": 0,
+  "certificate_sha256": "a9430a9f72eb0882a500d0362ab32500853b27d2c85eb818dfca04f76d2f4d8f",
+  "residual_sha256": "49c0a204c71f072322f9f05bb72a5c530425f9f94d2a6cbcb694c719f1d59539",
+  "seconds": 12.383771896362305
+}

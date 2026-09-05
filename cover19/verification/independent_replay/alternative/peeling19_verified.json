@@ -1,0 +1,119 @@
+{
+  "verified": true,
+  "method": "Exhaustive root-face recursion with exact cuts BEFORE completion; independent DFS/Bellman and BFS/Floyd implementations.",
+  "constants": {
+    "radius_upper": "13867504905631/50000000000000",
+    "turn_caps": [
+      "894563/10000000",
+      "233959/1250000",
+      "3128331/10000000"
+    ],
+    "sine_margins": [
+      "21220652558258474900996410977731087161045782114358567/62500000000000000000000000000000000000000000000000000000000",
+      "413500131295643467699560098654768382724941383594962819/1000000000000000000000000000000000000000000000000000000000000",
+      "247125712416892983168788559197504264292641746694147401/1000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "minimum_boundary_cells": 12,
+    "geometry_sha256": "7691bed12dacddc8c8bd25f560106dec3944921a976f8706b7627f3024252519"
+  },
+  "families": {
+    "B12_I7": {
+      "dfs_calls": 3887035,
+      "dfs_metric_cuts": 2649865,
+      "bfs_calls": 2279314,
+      "bfs_metric_cuts": 140414,
+      "rooted_survivors": 149472,
+      "surviving_orbits": 6277,
+      "labelled_unpruned_count_from_recurrence": 1298507587977600,
+      "unlabelled_interior_rooted_count": 257640394440,
+      "dfs_output_sha256": "8b0ac4d769c5f2e55619f2f40fc0e459a16b1e1a94631c2160064fdbb18d21e6",
+      "bfs_output_sha256": "6a9bc48ed75c7294799aa5eddf18cb943b0904bdea49b2187ba44ab4394938a0"
+    },
+    "B13_I6": {
+      "dfs_calls": 9319643,
+      "dfs_metric_cuts": 8082544,
+      "bfs_calls": 5219673,
+      "bfs_metric_cuts": 1475969,
+      "rooted_survivors": 332514,
+      "surviving_orbits": 12867,
+      "labelled_unpruned_count_from_recurrence": 106367110930080,
+      "unlabelled_interior_rooted_count": 147732098514,
+      "dfs_output_sha256": "1923671a2a8e777de12c00099b6d237191fbfb249de36fe555df3fac9b50ddf3",
+      "bfs_output_sha256": "a7dbf7457b381492c57706f5fc17e965729bd2d7fcf561fe5fd1dc78fe702868"
+    },
+    "B14_I5": {
+      "dfs_calls": 4235601,
+      "dfs_metric_cuts": 6905743,
+      "bfs_calls": 2659199,
+      "bfs_metric_cuts": 2978155,
+      "rooted_survivors": 122346,
+      "surviving_orbits": 4391,
+      "labelled_unpruned_count_from_recurrence": 9241473931200,
+      "unlabelled_interior_rooted_count": 77012282760,
+      "dfs_output_sha256": "61d41d3fa38b3fb215717df63315517f1dec8a8a1c11e3e0cddd04f5aad46420",
+      "bfs_output_sha256": "6bd11fcdf3ee76345b44e0c50242fa7849b824783c8186f54ee3fc47908f6712"
+    },
+    "B15_I4": {
+      "dfs_calls": 1179500,
+      "dfs_metric_cuts": 3854665,
+      "bfs_calls": 1438621,
+      "bfs_metric_cuts": 4062238,
+      "rooted_survivors": 17250,
+      "surviving_orbits": 592,
+      "labelled_unpruned_count_from_recurrence": 855285912000,
+      "unlabelled_interior_rooted_count": 35636913000,
+      "dfs_output_sha256": "c1cd8e2a877bb1fcc5e37d8472b85561af5bd642100b80d561be424bc4420e78",
+      "bfs_output_sha256": "4e6f16216e0b0682df2f4315c5f4a7934be94c4e864bbe3e03178447002d2d03"
+    },
+    "B16_I3": {
+      "dfs_calls": 333403,
+      "dfs_metric_cuts": 1684422,
+      "bfs_calls": 1317841,
+      "bfs_metric_cuts": 4534738,
+      "rooted_survivors": 0,
+      "surviving_orbits": 0,
+      "labelled_unpruned_count_from_recurrence": 84694165920,
+      "unlabelled_interior_rooted_count": 14115694320,
+      "dfs_output_sha256": "f993f6d10fcc9ec7fdb3761f06ae86f5dcbc6ca58107a5aa76b439f44e190fe4",
+      "bfs_output_sha256": "7b3a1b8804c7b6fef0c683bd6de5f516dcb5a89155249057b922946f0e30247e"
+    },
+    "B17_I2": {
+      "dfs_calls": 123336,
+      "dfs_metric_cuts": 587801,
+      "bfs_calls": 1230306,
+      "bfs_metric_cuts": 3937301,
+      "rooted_survivors": 0,
+      "surviving_orbits": 0,
+      "labelled_unpruned_count_from_recurrence": 9016205850,
+      "unlabelled_interior_rooted_count": 4508102925,
+      "dfs_output_sha256": "e2365fdf4118e7bbc2279949c1577bcda3652cc0b026990772edc3c2d5ef7005",
+      "bfs_output_sha256": "d15f44da6596770fdd02e5550bd6f0d53d4c591e92085bc5b5433813c1542584"
+    },
+    "B18_I1": {
+      "dfs_calls": 39532,
+      "dfs_metric_cuts": 156707,
+      "bfs_calls": 740824,
+      "bfs_metric_cuts": 2108055,
+      "rooted_survivors": 0,
+      "surviving_orbits": 0,
+      "labelled_unpruned_count_from_recurrence": 1037158320,
+      "unlabelled_interior_rooted_count": 1037158320,
+      "dfs_output_sha256": "b521c2bc75a457eff62642c85b95c307e3ddcf632d0dc6d777408fb549a89728",
+      "bfs_output_sha256": "064d25b0575b6d836cd4074e25a6d7e35c464e2c21d2e5c21af546a356baf938"
+    }
+  },
+  "surviving_orbits": 24127,
+  "rooted_survivors": 621582,
+  "all_families": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "unresolved_combinatorial_branches": 0,
+  "survivors_sha256": "da531953e47ecb7ab23afcb18a7e23d5db557c44c639fac694252ea0e5c27177",
+  "seconds": 16.274772882461548
+}

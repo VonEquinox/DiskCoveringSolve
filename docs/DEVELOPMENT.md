@@ -1,8 +1,8 @@
 # Development workflow
 
-This repository contains separate verifier chains for eleven through eighteen
+This repository contains separate verifier chains for eleven through nineteen
 disks. Keep their certificates and generated reports isolated: `cover11/`,
-`cover12/`, `cover13/`, `cover14/`, `cover15/`, `cover16/`, `cover17/`, and `cover18/` are separate proof directories. Cover15 and Cover18 contain
+`cover12/`, `cover13/`, `cover14/`, `cover15/`, `cover16/`, `cover17/`, `cover18/`, and `cover19/` are separate proof directories. Cover15, Cover18, and Cover19 contain
 primary and alternative packages with their own labels, local constants and
 enumeration formats.
 
@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 
 ## Before changing certificates
 
-1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, `cover16/INPUT_MANIFEST.json`, `cover17/INPUT_MANIFEST.json`, or `cover18/INPUT_MANIFEST.json`).
+1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, `cover16/INPUT_MANIFEST.json`, `cover17/INPUT_MANIFEST.json`, `cover18/INPUT_MANIFEST.json`, or `cover19/INPUT_MANIFEST.json`).
 2. Run quick mode and record the baseline output.
 3. Identify whether the change is a verifier-only change, a certificate-format
    change, or a mathematical-certificate change.
@@ -92,6 +92,18 @@ both commands still check cross-bundle linkage. Run `make cover18-runner-tests`
 for the wrapper regressions. To retain new reports, pass a nonexistent output
 directory to `cover18/run_verification.py --report-dir /tmp/cover18-new-reports`.
 Do not mix the two packages' labels, angle constants, matrices or trees.
+
+For Cover19 changes, run `make cover19-full` with Python 3.10+ and a C++17
+compiler. Both packages use exact radical geometry, not an isolated numerical
+root. Their candidate lower-bound arguments differ: global energy convexity
+in the primary and local isolation plus exhaustive branching in the alternative.
+The runner checks both chains and exact correspondence of geometry, stresses,
+and all 24,127 surviving orbit classes. Use `cover19-primary-full` or
+`cover19-alternative-full` for one chain (still including cross-bundle linkage),
+and `cover19-runner-tests` for wrapper regressions. A new `--report-dir` passed
+to `cover19/run_verification.py` retains freshly regenerated reports. Keep all
+89 original files unchanged; never confuse original supplied reports with
+new replay evidence. Discovery scripts are optional, not acceptance inputs.
 
 ```bash
 make integrity

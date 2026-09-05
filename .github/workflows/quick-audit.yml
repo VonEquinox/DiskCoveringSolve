@@ -80,3 +80,19 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y g++
       - run: make cover18-integrity cover18-runner-tests
       - run: make cover18-${{ matrix.variant }}-full PYTHON_BIN="$(command -v python)"
+
+  cover19-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        variant: [primary, alternative]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y g++
+      - run: make cover19-integrity cover19-runner-tests
+      - run: make cover19-${{ matrix.variant }}-full PYTHON_BIN="$(command -v python)"

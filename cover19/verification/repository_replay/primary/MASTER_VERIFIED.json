@@ -1,0 +1,448 @@
+{
+  "verified": true,
+  "theorem": "r_19 = 1/sqrt(13), R_19 = sqrt(13)",
+  "global_optimality_certificate_chain_closed": true,
+  "exact_squared_radius": "1/13",
+  "r_strict_interval": [
+    "0.277350098112614561009170866728499688173176659526557400977727",
+    "0.277350098112614561009170866728499688173176659526557400977728"
+  ],
+  "R_strict_interval": [
+    "3.605551275463989293119221267470495946251296573845246212710453",
+    "3.605551275463989293119221267470495946251296573845246212710454"
+  ],
+  "covering_upper_verified": true,
+  "upper_cover": {
+    "full_centers": 19,
+    "boundary_anchors": 12,
+    "center_faces": 24,
+    "covering_chain_faces": 48,
+    "positive_triangles": 42,
+    "degenerate_triangles": 6,
+    "boundary_caps": 12
+  },
+  "candidate_global_lower": {
+    "positive_graph_vertices": 36,
+    "positive_rods": 42,
+    "radial_multiplier": "-1/156",
+    "minimum_ldl_pivot": "26130863234552740805362549872550336161282/1697096527565985440204734509947783219529205",
+    "circulant_lower_weights": [
+      "6457/369096",
+      "2993/4798248",
+      "-10373/62377224",
+      "-89515/270301304",
+      "-1755545/3513916952",
+      "-3/9464"
+    ],
+    "nonconstant_spectral_gap_lower": "7/5000"
+  },
+  "surviving_topology_orbits": 24127,
+  "primary_partial_states": 6908777,
+  "independent_partial_states": 20912453,
+  "enumeration_families": [
+    {
+      "B": 12,
+      "I": 7,
+      "primary": {
+        "N": 19,
+        "B": 12,
+        "I": 7,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 2082347,
+        "choices": 5802675,
+        "pruned": 3708170,
+        "rooted_survivors": 149472,
+        "orbits": 6277,
+        "seconds": 2.68624,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 12,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 1144769,
+        "pruned": 427980,
+        "rooted_survivors": 149472,
+        "surviving_orbits": 6277,
+        "seconds": 4.49768
+      },
+      "manifest_sha256": "2e49e5a44416ee948bc367d410c67a6bd1e22f5a6b28b12efe241ba05709930d",
+      "log_sha256": "1134ef5c8e31fd8da47d2cd652214d0763ed7e992fe54431aafa1745b5abf0ba"
+    },
+    {
+      "B": 13,
+      "I": 6,
+      "primary": {
+        "N": 19,
+        "B": 13,
+        "I": 6,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 2783619,
+        "choices": 6756670,
+        "pruned": 3956623,
+        "rooted_survivors": 332514,
+        "orbits": 12867,
+        "seconds": 5.67328,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 13,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 3611881,
+        "pruned": 1853659,
+        "rooted_survivors": 332514,
+        "surviving_orbits": 12867,
+        "seconds": 11.141
+      },
+      "manifest_sha256": "cd5db4f058eaa2ff202d619750a59e659a562e1730fb1bdd5e1f7fded1c8be64",
+      "log_sha256": "fa9321b6939b4b94f6c8561c414dbcaa695694069012d904c103712c267d4cfa"
+    },
+    {
+      "B": 14,
+      "I": 5,
+      "primary": {
+        "N": 19,
+        "B": 14,
+        "I": 5,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 1189219,
+        "choices": 4083979,
+        "pruned": 2889962,
+        "rooted_survivors": 122346,
+        "orbits": 4391,
+        "seconds": 2.3559,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 14,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 3528975,
+        "pruned": 2618342,
+        "rooted_survivors": 122346,
+        "surviving_orbits": 4391,
+        "seconds": 6.15269
+      },
+      "manifest_sha256": "5e646c3a44662ef47a53c404c2ad9b3a909d10b535faa07809bda1df9eb780b5",
+      "log_sha256": "f169c0394293637788dcd0920c54ab7f987aace9496a07f6f41ee1462f178816"
+    },
+    {
+      "B": 15,
+      "I": 4,
+      "primary": {
+        "N": 19,
+        "B": 15,
+        "I": 4,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 446612,
+        "choices": 2436843,
+        "pruned": 1987342,
+        "rooted_survivors": 17250,
+        "orbits": 592,
+        "seconds": 0.857702,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 15,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 4011741,
+        "pruned": 3450861,
+        "rooted_survivors": 17250,
+        "surviving_orbits": 592,
+        "seconds": 5.68051
+      },
+      "manifest_sha256": "ce7bd6e0e0fd8a9cae71865a343ad2a452b95660dcabb9ccc63b01e359e31a52",
+      "log_sha256": "ec7f3710865593d552cb5d9a1e226b4bf10e5689e5569922714774651a1dfb7d"
+    },
+    {
+      "B": 16,
+      "I": 3,
+      "primary": {
+        "N": 19,
+        "B": 16,
+        "I": 3,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 232012,
+        "choices": 1502242,
+        "pruned": 1268322,
+        "rooted_survivors": 0,
+        "orbits": 0,
+        "seconds": 0.466591,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 16,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 4355537,
+        "pruned": 3781254,
+        "rooted_survivors": 0,
+        "surviving_orbits": 0,
+        "seconds": 6.95586
+      },
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_sha256": "8bcd6c4555ffac197328bc5387f596b1f003c7a6a67ef853019c5fe1759fb4a0"
+    },
+    {
+      "B": 17,
+      "I": 2,
+      "primary": {
+        "N": 19,
+        "B": 17,
+        "I": 2,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 124940,
+        "choices": 810954,
+        "pruned": 685128,
+        "rooted_survivors": 0,
+        "orbits": 0,
+        "seconds": 0.297549,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 17,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 3181930,
+        "pruned": 2720870,
+        "rooted_survivors": 0,
+        "surviving_orbits": 0,
+        "seconds": 5.62595
+      },
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_sha256": "0cd46f7fc0b86453c01ca3d99c013cf887fa123bd82f3b7a0e0e1a14604ef0c3"
+    },
+    {
+      "B": 18,
+      "I": 1,
+      "primary": {
+        "N": 19,
+        "B": 18,
+        "I": 1,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "denominator": 100000,
+        "pruning": true,
+        "calls": 50028,
+        "choices": 326399,
+        "pruned": 276141,
+        "rooted_survivors": 0,
+        "orbits": 0,
+        "seconds": 0.129853,
+        "complete": true
+      },
+      "independent": {
+        "verified": true,
+        "N": 19,
+        "B": 18,
+        "A": 8946,
+        "C4": 18717,
+        "C6": 31284,
+        "visits": 1077620,
+        "pruned": 911340,
+        "rooted_survivors": 0,
+        "surviving_orbits": 0,
+        "seconds": 2.33523
+      },
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_sha256": "c8e97b09e1aa392deb927482268efb7ed845ad9cc8c62a3827f7bfc0bf87b6dd"
+    }
+  ],
+  "unpruned_recurrence_tests": 26,
+  "noncandidate_forest": {
+    "verified": true,
+    "candidate_index": 6253,
+    "candidate_cases": 1,
+    "candidate_method": "global rational Dirichlet-energy strict convexity, no local leaves",
+    "noncandidate_cases": 24126,
+    "nodes": 28012,
+    "counts": {
+      "DUAL": 26069,
+      "SPLIT": 1943
+    },
+    "minimum_force_margin": "7558977650323475971119411280939019304741563/49998697884724454674775864435009189900000000000000",
+    "minimum_force_margin_float": 1.511834901731088e-07,
+    "maxdepth": 5,
+    "families": {
+      "12": {
+        "cases": 6276,
+        "nodes": 6282,
+        "DUAL": 6279,
+        "SPLIT": 3,
+        "EMPTY": 0
+      },
+      "13": {
+        "cases": 12867,
+        "nodes": 14909,
+        "DUAL": 13888,
+        "SPLIT": 1021,
+        "EMPTY": 0
+      },
+      "14": {
+        "cases": 4391,
+        "nodes": 6101,
+        "DUAL": 5246,
+        "SPLIT": 855,
+        "EMPTY": 0
+      },
+      "15": {
+        "cases": 592,
+        "nodes": 720,
+        "DUAL": 656,
+        "SPLIT": 64,
+        "EMPTY": 0
+      }
+    },
+    "unresolved_leaves": 0,
+    "certificate_sha256": "a9430a9f72eb0882a500d0362ab32500853b27d2c85eb818dfca04f76d2f4d8f",
+    "residual_sha256": "49c0a204c71f072322f9f05bb72a5c530425f9f94d2a6cbcb694c719f1d59539",
+    "seconds": 10.19196891784668
+  },
+  "candidate_cases": 1,
+  "unresolved_combinatorial_branches": 0,
+  "unresolved_leaves": 0,
+  "rejection_tests": {
+    "verified": true,
+    "rejection_tests": 35,
+    "tests": [
+      "one integer force unit changed",
+      "one integer support unit changed",
+      "negative halfplane multiplier",
+      "boolean multiplier",
+      "missing edge force",
+      "unresolved leaf",
+      "false empty leaf",
+      "local leaf forbidden everywhere",
+      "unreachable appended node",
+      "duplicate branch children",
+      "cyclic branch",
+      "out of range child",
+      "boolean child index",
+      "invalid split axis",
+      "boundary split point",
+      "outside split point",
+      "missing residual topology",
+      "candidate in noncandidate set",
+      "wrong candidate graph map",
+      "nonpositive Hessian pivot",
+      "wrong algebraic radius",
+      "missing positive rod",
+      "missing positive weight",
+      "incorrect anchor",
+      "unsafe angular cap",
+      "threshold below candidate",
+      "duplicate topology representative",
+      "out of range triangle mask",
+      "truncated triangle record",
+      "noninteger triangle token",
+      "test-limit truncation",
+      "unsupported size",
+      "invalid boundary size",
+      "assertions disabled in checker",
+      "assertions disabled in master"
+    ],
+    "seconds": 1.9092092514038086
+  },
+  "accepting_inputs_sha256": {
+    "PROOF_zh.md": "c42f3f388b630cd291ae1255212ffdbe3c66a1b7800a6b7c9f20823a15c5240e",
+    "README.md": "064b2a6518e92bff0b914c400ee96fcc197e93c2211c5486ddc76a8afc4cbd6d",
+    "verify_all.py": "784e4603d1fe059aefb05dbf86e3bb0365f3236de4d5c46c7b76fd2c2e9f2921",
+    "core/geometry19.py": "804f9521bd51eadf6efe6057b9497dac98d605c0247ddc3043a0cf9c6223eca8",
+    "core/exact_arcs.py": "879179a2cb7e23800b5c875b55c8e97b3e963e368915197bab938c7e5fda1f79",
+    "core/exact_force19.py": "cf3616d55ee0404ebb3394f9a5419ab93ac795e3ab04cabdac86a237e3ac9247",
+    "core/verify_interfaces19.py": "9f6fc6f6216a07b0ec7eb7576966d63317271779897456369538a35e751de737",
+    "core/verify_candidate19.py": "351e18e756e2c48886fea78043e3446e63cc8e133eb418a022e6eadb70bdc57b",
+    "core/verify_enumeration19.py": "ede6e1124ee523530225dc9e09a3e65d9b36febeea21ea377a6a06be4e1a5681",
+    "core/verify_forest19.py": "689ea13fb00c765280e7a707e975a156ff93302a178edbf1dfaa850a1045fb90",
+    "core/test_fail_closed19.py": "a300f38fe44078e935d905026d4e13ca1fef50c224707a4c5a5fee745179f9a8",
+    "enumeration/peel_enum.cpp": "5b68ed3c288328e1421204c9757e3a71af32c364ee947c0f94a47fa236b74a92",
+    "enumeration/peel_audit.cpp": "644deef49d14670f46bdf2dfc07222cf56a11c1ae779344cf18b26365a6ccd9c",
+    "enumeration/metric19_residuals.json": "49c0a204c71f072322f9f05bb72a5c530425f9f94d2a6cbcb694c719f1d59539",
+    "enumeration/candidate19_map.json": "4b16a678453a7e1c12713d4ece06560c52b77f53bfb6bd774701b9ce8ba90ff4",
+    "enumeration/noncandidate19_trees.jsonl.gz": "a9430a9f72eb0882a500d0362ab32500853b27d2c85eb818dfca04f76d2f4d8f",
+    "enumeration/B12_I7.txt": "2e49e5a44416ee948bc367d410c67a6bd1e22f5a6b28b12efe241ba05709930d",
+    "enumeration/B13_I6.txt": "cd5db4f058eaa2ff202d619750a59e659a562e1730fb1bdd5e1f7fded1c8be64",
+    "enumeration/B14_I5.txt": "5e646c3a44662ef47a53c404c2ad9b3a909d10b535faa07809bda1df9eb780b5",
+    "enumeration/B15_I4.txt": "ce7bd6e0e0fd8a9cae71865a343ad2a452b95660dcabb9ccc63b01e359e31a52",
+    "enumeration/B16_I3.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "enumeration/B17_I2.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "enumeration/B18_I1.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "steps": [
+    {
+      "step": "verify_interfaces19.py",
+      "seconds": 0.03550100326538086,
+      "log_sha256": "289e4fbc7e0c74458ff04f42bb6b2c828d66c642c8ac178f751e15420a951cf2"
+    },
+    {
+      "step": "verify_candidate19.py",
+      "seconds": 0.0354619026184082,
+      "log_sha256": "0bed2f55c2dcaf5e17c3e0629da91869fd5b892a7f98b79053e7740c58081354"
+    },
+    {
+      "step": "verify_enumeration19.py",
+      "seconds": 61.30463194847107,
+      "log_sha256": "ab962cdd783908a9e4a67000001eb137730f7edb0fac334df04331663655701f"
+    },
+    {
+      "step": "verify_forest19.py",
+      "seconds": 10.24636697769165,
+      "log_sha256": "a6ddd737f8f325bb934a5a39fa1fd54ba54ac199df293fe50c2a64620a5228e1"
+    },
+    {
+      "step": "test_fail_closed19.py",
+      "seconds": 1.9787819385528564,
+      "log_sha256": "f9f813863f02e35d07a11f25544fbf3bf8477184b51ca06be853b33aca76c87e"
+    }
+  ],
+  "seconds": 73.65622520446777,
+  "completed_at_utc": "2026-09-05T07:23:49.489613+00:00",
+  "trust_boundary": "Written convex-geometric, topological and finite-dimensional analytic reductions in PROOF_zh.md; Python standard-library integer/Fraction arithmetic; a C++17 compiler. No floating-point optimizer, precomputed success flag, or previous r_n optimality theorem is trusted.",
+  "external_peer_review_completed": false,
+  "proof_assistant_formalization_completed": false
+}

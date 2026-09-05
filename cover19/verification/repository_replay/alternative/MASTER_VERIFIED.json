@@ -1,0 +1,592 @@
+{
+  "verified": true,
+  "theorem": "r_19 = 1/sqrt(13), R_19 = sqrt(13)",
+  "global_optimality_certificate_chain_closed": true,
+  "exact_radius_squared": "1/13",
+  "exact_candidate_field": "Q(sqrt(3))",
+  "root_isolation_required": false,
+  "decimal_intervals": {
+    "r_lower": "0.277350098112614561009170866728499688173176659526557400977727",
+    "r_upper": "0.277350098112614561009170866728499688173176659526557400977728",
+    "R_lower": "3.605551275463989293119221267470495946251296573845246212710453",
+    "R_upper": "3.605551275463989293119221267470495946251296573845246212710454"
+  },
+  "geometry_sha256": "7691bed12dacddc8c8bd25f560106dec3944921a976f8706b7627f3024252519",
+  "covering_upper_verified": true,
+  "upper_complex": {
+    "vertices": 31,
+    "edges": 78,
+    "triangles": 48,
+    "circular_caps": 12,
+    "exactly_degenerate_triangles": 6
+  },
+  "positive_stress_graph": {
+    "nodes": 36,
+    "rods": 42,
+    "geometric_dimension": 70,
+    "omitted_original_center": 12
+  },
+  "exhaustive_partial_topology_search_closed": true,
+  "topology_method": "Complete root-face peeling with exact partial-graph negative-cycle cuts; fresh DFS/Bellman and BFS/Floyd re-execution, independent normalization and exact survivor-set equality.",
+  "surviving_orbits": 24127,
+  "rooted_survivors": 621582,
+  "families": {
+    "B12_I7": {
+      "dfs_calls": 3887035,
+      "dfs_metric_cuts": 2649865,
+      "bfs_calls": 2279314,
+      "bfs_metric_cuts": 140414,
+      "rooted_survivors": 149472,
+      "surviving_orbits": 6277,
+      "labelled_unpruned_count_from_recurrence": 1298507587977600,
+      "unlabelled_interior_rooted_count": 257640394440,
+      "dfs_output_sha256": "6402d69c71919c560e2bb9b852c2b9ef7eab174c28a2d5fe4d56ef48aecb0ad2",
+      "bfs_output_sha256": "8360bbaa6a2891dbe5dd41291b36c6a9368524ba12372ebd1ae4ef4420c081c5"
+    },
+    "B13_I6": {
+      "dfs_calls": 9319643,
+      "dfs_metric_cuts": 8082544,
+      "bfs_calls": 5219673,
+      "bfs_metric_cuts": 1475969,
+      "rooted_survivors": 332514,
+      "surviving_orbits": 12867,
+      "labelled_unpruned_count_from_recurrence": 106367110930080,
+      "unlabelled_interior_rooted_count": 147732098514,
+      "dfs_output_sha256": "5998d0982d47a4c94a7b4d07b4fe9629580a19d5885af724222965a5a17f3c1d",
+      "bfs_output_sha256": "846de7c358be2d914dbc13ce15ed43eeda17d09b06c51deffb422c5dffbd9a41"
+    },
+    "B14_I5": {
+      "dfs_calls": 4235601,
+      "dfs_metric_cuts": 6905743,
+      "bfs_calls": 2659199,
+      "bfs_metric_cuts": 2978155,
+      "rooted_survivors": 122346,
+      "surviving_orbits": 4391,
+      "labelled_unpruned_count_from_recurrence": 9241473931200,
+      "unlabelled_interior_rooted_count": 77012282760,
+      "dfs_output_sha256": "4a4654710833b61a8c8bf30ddf053b84a1e84c9157d863206066187cb913fbfd",
+      "bfs_output_sha256": "a5ec4257013a4c4e696dae850390043564df440ef9c1752ac4619416a25ae560"
+    },
+    "B15_I4": {
+      "dfs_calls": 1179500,
+      "dfs_metric_cuts": 3854665,
+      "bfs_calls": 1438621,
+      "bfs_metric_cuts": 4062238,
+      "rooted_survivors": 17250,
+      "surviving_orbits": 592,
+      "labelled_unpruned_count_from_recurrence": 855285912000,
+      "unlabelled_interior_rooted_count": 35636913000,
+      "dfs_output_sha256": "f3f523e6268a45247ea0be1743830e729f2de61f6fea65fe615e7aa5b578c44a",
+      "bfs_output_sha256": "48be962efc67016ac4bc28f58113ddd553e30412aad8e02ba83fd1ae5fc1113b"
+    },
+    "B16_I3": {
+      "dfs_calls": 333403,
+      "dfs_metric_cuts": 1684422,
+      "bfs_calls": 1317841,
+      "bfs_metric_cuts": 4534738,
+      "rooted_survivors": 0,
+      "surviving_orbits": 0,
+      "labelled_unpruned_count_from_recurrence": 84694165920,
+      "unlabelled_interior_rooted_count": 14115694320,
+      "dfs_output_sha256": "b8f48366dc9c55db075823e0d5ad993c09c9ce913f9dff182b308fb5775a81c6",
+      "bfs_output_sha256": "73633c3aa5df341be28ef727bde237d6f1c53f29c77f6fca6d9b364f7458be53"
+    },
+    "B17_I2": {
+      "dfs_calls": 123336,
+      "dfs_metric_cuts": 587801,
+      "bfs_calls": 1230306,
+      "bfs_metric_cuts": 3937301,
+      "rooted_survivors": 0,
+      "surviving_orbits": 0,
+      "labelled_unpruned_count_from_recurrence": 9016205850,
+      "unlabelled_interior_rooted_count": 4508102925,
+      "dfs_output_sha256": "a220f019d1d7420209b25050640c90c7c2652c7ce5a3da18835b7b447d1b7def",
+      "bfs_output_sha256": "b922730e104710966805dcea5eb5690ed0ed2e066a8fae8bd77aa7cf4498a766"
+    },
+    "B18_I1": {
+      "dfs_calls": 39532,
+      "dfs_metric_cuts": 156707,
+      "bfs_calls": 740824,
+      "bfs_metric_cuts": 2108055,
+      "rooted_survivors": 0,
+      "surviving_orbits": 0,
+      "labelled_unpruned_count_from_recurrence": 1037158320,
+      "unlabelled_interior_rooted_count": 1037158320,
+      "dfs_output_sha256": "e40454f5eb78edf6375e3d19d796ad370c2e5f19b51782753d08c93ebf1cac3c",
+      "bfs_output_sha256": "efc3291647afd7ff4a900d32dbb7d024241675a5fa418ada8e1d092c13de94bd"
+    }
+  },
+  "noncandidate_cases": 24126,
+  "candidate_cases": 1,
+  "candidate_tree": {
+    "verified": true,
+    "nodes": 527,
+    "counts": {
+      "SPLIT": 263,
+      "DUAL": 236,
+      "LOCAL": 28
+    },
+    "minimum_force_margin": "29575093100705668577691692596789106525021497/49999565140190425941584264548641815650000000000000",
+    "minimum_local_margin": "2749707897985513552323996209819776068715351118884410665663788796283967507788401360878225769326538868393294859676335435872188333/6500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "maxdepth": 25,
+    "certificate_sha256": "8c11c8300fda7bfdcdfa1296a9106ce9bcf3a0aed5318d48563021268e353aef"
+  },
+  "noncandidate_forest": {
+    "cases": 24126,
+    "nodes": 31708,
+    "counts": {
+      "DUAL": 27917,
+      "SPLIT": 3791
+    },
+    "minimum_force_margin": "1525329239218778136210075841402205960685929/24861897379042482738736348917022362050000000000000",
+    "minimum_force_margin_float": 6.135208491788586e-08,
+    "maxdepth": 6,
+    "certificate_sha256": "51607acedad842ff8a32132ddf3025cdfc957c6ffe64f31efd08e45cfb9e8f13"
+  },
+  "unresolved_combinatorial_branches": 0,
+  "unresolved_leaves": 0,
+  "anchor_isolation_radius": "1/5",
+  "anchor_isolation": {
+    "verified": true,
+    "dimension": 70,
+    "rods": 42,
+    "gamma": 400,
+    "lambda": "1/650",
+    "nu": "1/156",
+    "anchor_radius": "1/5",
+    "isolation_margin": "17/76050",
+    "congruence_margin": "71402499940859201514424127/71402500000000000000000000",
+    "geometry_sha256": "7691bed12dacddc8c8bd25f560106dec3944921a976f8706b7627f3024252519",
+    "certificate_sha256": "adcad3b0497c4184608faaf41a46156d8ead285e2d69a2ce23d217b14bb551d0",
+    "seconds": 0.019282817840576172,
+    "conclusion": "All nodes of the 42-rod subgraph equal the candidate; center c12 and unused face nodes are not constrained by this theorem."
+  },
+  "negative_tests": {
+    "verified": true,
+    "tests": {
+      "changed_integer_force_num": "rejected",
+      "changed_integer_support_num": "rejected",
+      "negative_multiplier": "rejected",
+      "boolean_multiplier": "rejected",
+      "missing_rod_force": "rejected",
+      "floating_force_field": "rejected",
+      "zero_force_no_separation": "rejected",
+      "unresolved_leaf": "rejected",
+      "false_empty_leaf": "rejected",
+      "noncandidate_local_leaf": "rejected",
+      "unreachable_node": "rejected",
+      "duplicate_child": "rejected",
+      "cycle": "rejected",
+      "child_out_of_range": "rejected",
+      "invalid_axis": "rejected",
+      "boolean_child": "rejected",
+      "split_outside_parent": "rejected",
+      "root_box_falsely_local": "rejected",
+      "missing_noncandidate": "rejected",
+      "candidate_in_noncandidate": "rejected",
+      "duplicate_triangle": "rejected",
+      "triangle_vertex_out_of_range": "rejected",
+      "corrupted_exact_anchor": "rejected",
+      "wrong_exact_radius": "rejected",
+      "corrupted_exact_stress": "rejected",
+      "missing_stressed_edge": "rejected",
+      "unproved_local_radius": "rejected",
+      "threshold_below_target": "rejected",
+      "invalid_six_rod_cap": "rejected",
+      "singular_congruence": "rejected",
+      "certificate_wrong_geometry": "rejected",
+      "wrong_candidate_graph_mapping": "rejected",
+      "assertions_disabled": "rejected",
+      "unsupported_dimension": "rejected",
+      "bad_boundary_size": "rejected",
+      "limited_search_rejected": "rejected"
+    },
+    "rejection_tests": 36,
+    "analytic_trig_checks": 3,
+    "seconds": 0.2774980068206787
+  },
+  "unpruned_recurrence_tests": {
+    "verified": true,
+    "tests": [
+      {
+        "N": 5,
+        "B": 3,
+        "I": 2,
+        "labelled": 6,
+        "rooted": 3,
+        "orbits": 1
+      },
+      {
+        "N": 5,
+        "B": 4,
+        "I": 1,
+        "labelled": 5,
+        "rooted": 5,
+        "orbits": 2
+      },
+      {
+        "N": 5,
+        "B": 5,
+        "I": 0,
+        "labelled": 5,
+        "rooted": 5,
+        "orbits": 1
+      },
+      {
+        "N": 6,
+        "B": 3,
+        "I": 3,
+        "labelled": 78,
+        "rooted": 13,
+        "orbits": 4
+      },
+      {
+        "N": 6,
+        "B": 4,
+        "I": 2,
+        "labelled": 40,
+        "rooted": 20,
+        "orbits": 5
+      },
+      {
+        "N": 6,
+        "B": 5,
+        "I": 1,
+        "labelled": 21,
+        "rooted": 21,
+        "orbits": 4
+      },
+      {
+        "N": 6,
+        "B": 6,
+        "I": 0,
+        "labelled": 14,
+        "rooted": 14,
+        "orbits": 3
+      },
+      {
+        "N": 7,
+        "B": 3,
+        "I": 4,
+        "labelled": 1632,
+        "rooted": 68,
+        "orbits": 16
+      },
+      {
+        "N": 7,
+        "B": 4,
+        "I": 3,
+        "labelled": 600,
+        "rooted": 100,
+        "orbits": 18
+      },
+      {
+        "N": 7,
+        "B": 5,
+        "I": 2,
+        "labelled": 210,
+        "rooted": 105,
+        "orbits": 14
+      },
+      {
+        "N": 7,
+        "B": 6,
+        "I": 1,
+        "labelled": 84,
+        "rooted": 84,
+        "orbits": 11
+      },
+      {
+        "N": 7,
+        "B": 7,
+        "I": 0,
+        "labelled": 42,
+        "rooted": 42,
+        "orbits": 4
+      },
+      {
+        "N": 8,
+        "B": 4,
+        "I": 4,
+        "labelled": 13680,
+        "rooted": 570,
+        "orbits": 88
+      },
+      {
+        "N": 8,
+        "B": 5,
+        "I": 3,
+        "labelled": 3570,
+        "rooted": 595,
+        "orbits": 69
+      },
+      {
+        "N": 8,
+        "B": 6,
+        "I": 2,
+        "labelled": 1008,
+        "rooted": 504,
+        "orbits": 53
+      },
+      {
+        "N": 8,
+        "B": 7,
+        "I": 1,
+        "labelled": 330,
+        "rooted": 330,
+        "orbits": 28
+      },
+      {
+        "N": 8,
+        "B": 8,
+        "I": 0,
+        "labelled": 132,
+        "rooted": 132,
+        "orbits": 12
+      },
+      {
+        "N": 9,
+        "B": 5,
+        "I": 4,
+        "labelled": 88200,
+        "rooted": 3675,
+        "orbits": 396
+      },
+      {
+        "N": 9,
+        "B": 6,
+        "I": 3,
+        "labelled": 19152,
+        "rooted": 3192,
+        "orbits": 295
+      },
+      {
+        "N": 9,
+        "B": 7,
+        "I": 2,
+        "labelled": 4620,
+        "rooted": 2310,
+        "orbits": 178
+      },
+      {
+        "N": 9,
+        "B": 8,
+        "I": 1,
+        "labelled": 1287,
+        "rooted": 1287,
+        "orbits": 91
+      },
+      {
+        "N": 9,
+        "B": 9,
+        "I": 0,
+        "labelled": 429,
+        "rooted": 429,
+        "orbits": 27
+      },
+      {
+        "N": 10,
+        "B": 6,
+        "I": 4,
+        "labelled": 510048,
+        "rooted": 21252,
+        "orbits": 1867
+      },
+      {
+        "N": 10,
+        "B": 7,
+        "I": 3,
+        "labelled": 97020,
+        "rooted": 16170,
+        "orbits": 1196
+      },
+      {
+        "N": 10,
+        "B": 8,
+        "I": 2,
+        "labelled": 20592,
+        "rooted": 10296,
+        "orbits": 685
+      },
+      {
+        "N": 10,
+        "B": 9,
+        "I": 1,
+        "labelled": 5005,
+        "rooted": 5005,
+        "orbits": 291
+      },
+      {
+        "N": 10,
+        "B": 10,
+        "I": 0,
+        "labelled": 1430,
+        "rooted": 1430,
+        "orbits": 82
+      },
+      {
+        "N": 11,
+        "B": 8,
+        "I": 3,
+        "labelled": 473616,
+        "rooted": 78936,
+        "orbits": 5051
+      },
+      {
+        "N": 12,
+        "B": 9,
+        "I": 3,
+        "labelled": 2252250,
+        "rooted": 375375,
+        "orbits": 21018
+      }
+    ],
+    "cases": 29,
+    "pruning_disabled": true,
+    "role": "Additional finite checks; n=19 completeness is the root-face induction plus freshly executed exhaustive searches.",
+    "seconds": 5.978765964508057
+  },
+  "input_sha256": {
+    "PROOF_zh.md": "41c2de9a7a910cbef587fd7b7f84bd25fb37c3ccc69d64507ad633bc48088d0e",
+    "README.md": "533b1295c79f40119a609d3dd0e79e3433cf5efefb58c83045e7eeaf51296df0",
+    "core/anchor_isolation19.py": "e5df384ac87af3a83f04a2f7682d026b4f3cdfbe0d5465e5c8b903dcda326c3e",
+    "core/anchor_isolation_certificate.json": "adcad3b0497c4184608faaf41a46156d8ead285e2d69a2ce23d217b14bb551d0",
+    "core/candidate19_tree.json.gz": "8c11c8300fda7bfdcdfa1296a9106ce9bcf3a0aed5318d48563021268e353aef",
+    "core/candidate_global19.py": "bea762c358a325a1dad84eeb4449ba4d4b06aca0549ee3eadfb702f52378f477",
+    "core/exact_arcs.py": "879179a2cb7e23800b5c875b55c8e97b3e963e368915197bab938c7e5fda1f79",
+    "core/exact_force19.py": "fe01fd71939bc6a2987910f25c1cbd409dbe51cc8f881a3dd24c5873abf2df25",
+    "core/geometry19.py": "7691bed12dacddc8c8bd25f560106dec3944921a976f8706b7627f3024252519",
+    "core/interval19.py": "9f3ab748c9940a500453293f52308f57cca3cf9ff13e2a59f563f58869450000",
+    "core/test_fail_closed19.py": "5ccff4c19093eb2d982316420dd2fd66eda6616bd640e2be6b70f20f04c5b161",
+    "core/verify_forest19.py": "1adfdcd088c7003e3960a96a7785a4b75064f7f64ddf80764f7bec6f717198fa",
+    "core/verify_interfaces19.py": "c195b5cbd00e95c41768e1df57bc8e36d87e694b2b1f05d26cd5a19d35eb2fc9",
+    "core/verify_peeling19.py": "61a773672861a7e0e406dc734e9e130e82e006d2904bd0e23936284875298cec",
+    "core/verify_recursion_tests19.py": "77b27bf3e24e043dfe831c27901e927d86b5da57589ad9389b1377b28a0f396c",
+    "core/verify_upper19.py": "746a7b3bae3fe7f8a5922980223a37b25fa8f1c7b274be14e777ccc79cd8ee95",
+    "enumeration/candidate19_map.json": "3aee95a15f64e87d1d4ae708699658d6caba97aa0c9c5522c0aedc954113105f",
+    "enumeration/noncandidate19_trees.jsonl.gz": "51607acedad842ff8a32132ddf3025cdfc957c6ffe64f31efd08e45cfb9e8f13",
+    "enumeration/peel_bfs19.cpp": "fe961a19f828d60bdbfb3b3f9c940a83e01e395276e38607854acb36de3d4d1a",
+    "enumeration/peel_dfs19.cpp": "d77c55f46c3a7bfb9b9e05fa5fb0d97dcdf99409c46f31b11533da222baee35c",
+    "enumeration/survivors19.json": "da531953e47ecb7ab23afcb18a7e23d5db557c44c639fac694252ea0e5c27177",
+    "verify_all.py": "e1cb3a96b2bdf14107f0bdf3ac95aa130a55866236c15a23f1c5af53c3b81ec5"
+  },
+  "steps": [
+    {
+      "stage": "verify_interfaces19",
+      "seconds": 0.03490090370178223,
+      "log_sha256": "eb3ee469ccba9fe583bb62437ff781f083987dff8bf5549d02c510559c586f55"
+    },
+    {
+      "stage": "verify_upper19",
+      "seconds": 0.031238794326782227,
+      "log_sha256": "001d334c707b19b45e52f2801e12b62ab6286cb5672297ca26dc06199245cc53"
+    },
+    {
+      "stage": "anchor_isolation19",
+      "seconds": 0.04684710502624512,
+      "log_sha256": "a3dff914b11cea4eb55550be9cb17fb7ed91daa6877336a3c49787598604bfff"
+    },
+    {
+      "stage": "compile_dfs",
+      "seconds": 0.5039260387420654,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "compile_bfs",
+      "seconds": 0.5870728492736816,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "dfs_B12",
+      "seconds": 1.8126962184906006,
+      "log_sha256": "6dcb8267148dc6418df7ae4a4dac3f1b224a50023ff643d6a45c053350848591"
+    },
+    {
+      "stage": "bfs_B12",
+      "seconds": 3.3579981327056885,
+      "log_sha256": "8005929122742672197f42de1c8df0ae7898a5b661e3022884b7c32e291cd326"
+    },
+    {
+      "stage": "dfs_B13",
+      "seconds": 5.26924991607666,
+      "log_sha256": "ae724d0d8f17dabf661bf6d5f2fd8933a5c34797c4b0de88047491ac522a15e7"
+    },
+    {
+      "stage": "bfs_B13",
+      "seconds": 7.894065856933594,
+      "log_sha256": "2b8b43d9c5872604c0d821ffc26627cfac7ccb76297c200ee5b569efe26a6d88"
+    },
+    {
+      "stage": "dfs_B14",
+      "seconds": 3.7557849884033203,
+      "log_sha256": "c8cd98b75f2de5cf90250fb0ab72facc6953afba900007c470e65ca2e1bdcdf6"
+    },
+    {
+      "stage": "bfs_B14",
+      "seconds": 4.769284963607788,
+      "log_sha256": "020497c05ef4a2da7a78b19bd99c99c8036a73976f8dd65f31a0a2fdcbee7f85"
+    },
+    {
+      "stage": "dfs_B15",
+      "seconds": 3.3580620288848877,
+      "log_sha256": "a3400628506fa2aacd076c5da27fd6535f265149106e0cfd3eb08cd732723da4"
+    },
+    {
+      "stage": "bfs_B15",
+      "seconds": 4.780463933944702,
+      "log_sha256": "610f33fe36e4f44d5e5390c23a5dc75750743a6129a60182fd4b4309da2c806f"
+    },
+    {
+      "stage": "dfs_B16",
+      "seconds": 1.669849157333374,
+      "log_sha256": "e5d4c79dc4eef5f847f8840937dadd99a1d38a71893160df0f38170358c751ea"
+    },
+    {
+      "stage": "bfs_B16",
+      "seconds": 5.321540117263794,
+      "log_sha256": "f4abd219ea7aa0812784f125907bc8582c68e4d0272fb87ae0300e2e19690bf4"
+    },
+    {
+      "stage": "dfs_B17",
+      "seconds": 0.5969498157501221,
+      "log_sha256": "0f01524973efa3b86f843d4889b409415c1363d728f55eeb6f57db1073e375cd"
+    },
+    {
+      "stage": "bfs_B17",
+      "seconds": 5.0812342166900635,
+      "log_sha256": "78038a9e99336ad3dc4c9d834ca4919be4682e7f8d56588867b5fffe987de7dc"
+    },
+    {
+      "stage": "dfs_B18",
+      "seconds": 0.16437697410583496,
+      "log_sha256": "f02aabae352c7132fb8597a5f525c56c920a296426d479357c8805a32c27a1c6"
+    },
+    {
+      "stage": "bfs_B18",
+      "seconds": 3.276063919067383,
+      "log_sha256": "312e33c337444d109bf7d580bf86893a4cbc62bf5eceac5dce4ac1dd644ba1ef"
+    },
+    {
+      "stage": "verify_peeling19",
+      "seconds": 15.393319129943848,
+      "log_sha256": "8426d0f521566fcac427422bf1b47683f5b47dab171396cad2a77e94e3e4345a"
+    },
+    {
+      "stage": "verify_forest19",
+      "seconds": 21.44707989692688,
+      "log_sha256": "19c500504ad56f599a2fe7e8e00b36c69543f6a7619dc5f06f34c34c00757ea6"
+    },
+    {
+      "stage": "verify_recursion_tests19",
+      "seconds": 6.036447048187256,
+      "log_sha256": "4dd9cf2fbe579573e500863e907e091ace7246e14f066600490ebf454a3ebff0"
+    },
+    {
+      "stage": "test_fail_closed19",
+      "seconds": 0.3403952121734619,
+      "log_sha256": "f2cf1f1a58c62a35989ec83df2f74ec02ebeb860b4b0347a066918b8f4dafa82"
+    }
+  ],
+  "seconds": 95.66645979881287,
+  "trust_boundary": "Written geometric/topological and exhaustive finite-recursion proofs in PROOF_zh.md; Python integer/Fraction arithmetic and a standard C++17 compiler/runtime. No optimizer, floating eigenvalue, algebraic-root claim, or old success report is trusted. Not Lean/Coq and not external peer review."
+}

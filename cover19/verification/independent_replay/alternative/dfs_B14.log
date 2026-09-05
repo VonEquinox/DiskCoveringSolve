@@ -1,0 +1,5 @@
+B 14 calls 1000000 prunes 2105627 full 24015 distinct 4282 sec 1.15384
+B 14 calls 2000000 prunes 4056851 full 48802 distinct 4298 sec 2.2068
+B 14 calls 3000000 prunes 4892495 full 85331 distinct 4391 sec 2.88319
+B 14 calls 4000000 prunes 6232189 full 118353 distinct 4391 sec 3.66703
+COMPLETE N 19 B 14 calls 4235601 prunes 6905743 full 122346 distinct 4391 sec 3.93245
