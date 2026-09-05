@@ -1,0 +1,30 @@
+COVER20 ORIGINAL INPUT MANIFEST PASSED (51 logical files; 3 verified parts)
+verify_root20.py VERIFIED
+verify_upper20.py VERIFIED
+anchor_isolation20.py VERIFIED
+verify_interfaces20.py VERIFIED
+dfs_B12 exhaustive recursion completed
+dfs_B15 exhaustive recursion completed
+dfs_B17 exhaustive recursion completed
+dfs_B16 exhaustive recursion completed
+dfs_B19 exhaustive recursion completed
+dfs_B14 exhaustive recursion completed
+dfs_B18 exhaustive recursion completed
+dfs_B13 exhaustive recursion completed
+bfs_B15 exhaustive recursion completed
+bfs_B12 exhaustive recursion completed
+bfs_B16 exhaustive recursion completed
+bfs_B14 exhaustive recursion completed
+bfs_B17 exhaustive recursion completed
+bfs_B18 exhaustive recursion completed
+bfs_B19 exhaustive recursion completed
+bfs_B13 exhaustive recursion completed
+verify_peeling20.py VERIFIED
+verify_recursion_tests20.py VERIFIED
+verify_forest20.py VERIFIED
+test_fail_closed20.py VERIFIED
+R20 COMPLETE CERTIFICATE CHAIN VERIFIED
+562168 + 1 = 562169 surviving orbits after exhaustive partial cuts; unresolved leaves = 0
+COVER20 INDEPENDENT EQUATIONS AND ZIP PROOF LINKAGE PASSED
+COVER20 ORIGINAL INPUT MANIFEST PASSED (51 logical files; 3 verified parts)
+COVER20 EXACT MASTER REPLAY AND INPUT RECONSTRUCTION PASSED

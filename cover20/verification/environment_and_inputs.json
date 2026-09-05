@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "original_payloads_unchanged": 51,
+  "accepting_input_count": 37,
+  "zip_sha256": "2a3f92c971ddaa53da83188bfc1de5497bd3edda9e8e1cf7cd7fa5cb25301a1a",
+  "zip_bytes": 203343043,
+  "standalone_proof_sha256": "3f432e4db981f2cda55c23f234f71e9a36ff0cb25ce909b840b4214e077f78e6",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "python_executable": "/opt/homebrew/bin/python3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "full_master_seconds": 448.58829283714294,
+  "full_master_exit_code": 0,
+  "completed_utc": "2026-09-05T08:37:11.458529+00:00",
+  "github_modified": false,
+  "optional_discovery_replayed": false
+}

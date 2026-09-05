@@ -96,3 +96,15 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y g++
       - run: make cover19-integrity cover19-runner-tests
       - run: make cover19-${{ matrix.variant }}-full PYTHON_BIN="$(command -v python)"
+
+  cover20-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y g++
+      - run: make cover20-integrity cover20-runner-tests
+      - run: python -S -B cover20/run_verification.py --workers 2

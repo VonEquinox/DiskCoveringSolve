@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "original_zip_payloads_byte_compared": 51,
+  "original_logical_files": 51,
+  "physical_original_files": 50,
+  "lossless_parts": 3,
+  "restored_forest_bytes": 197440381,
+  "direct_full_replay_seconds": 448.58829283714294,
+  "repository_full_replay_seconds": 537.2940030097961,
+  "repository_completed_utc": "2026-09-05T08:56:12.547838+00:00",
+  "same_accepting_inputs_and_exact_results": true,
+  "wrapper_regressions_passed": 17,
+  "assertion_disabled_wrapper_rejected": [
+    "-O",
+    "-OO"
+  ],
+  "large_git_blobs_above_100_MiB": 0,
+  "manuscripts_or_bytecode_added": false
+}

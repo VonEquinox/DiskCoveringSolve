@@ -1,0 +1,22 @@
+{
+  "proof_bundle/enumeration/noncandidate20_trees.jsonl.gz": {
+    "bytes": 197440381,
+    "parts": [
+      {
+        "bytes": 67108864,
+        "path": "proof_parts/noncandidate20_trees.jsonl.gz.part000",
+        "sha256": "154a4b305e64a99877094e3bd8d479e5d5d6a18d5fd51f09cdfd7bea2b4a1140"
+      },
+      {
+        "bytes": 67108864,
+        "path": "proof_parts/noncandidate20_trees.jsonl.gz.part001",
+        "sha256": "92334ad452f13f7efaea1591fc3068790a685f705814061787b1c200f4a2bbaf"
+      },
+      {
+        "bytes": 63222653,
+        "path": "proof_parts/noncandidate20_trees.jsonl.gz.part002",
+        "sha256": "f7ef33cbe51f053edc81869b47df34524ea56aa9ae6aee890ccd1d57214c6dcd"
+      }
+    ]
+  }
+}

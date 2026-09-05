@@ -1,0 +1,7 @@
+B 16 calls 1000000 prunes 2877662 full 18534 distinct 4725 sec 4.98283
+B 16 calls 2000000 prunes 5870778 full 35475 distinct 4743 sec 9.61994
+B 16 calls 3000000 prunes 8871596 full 51901 distinct 4743 sec 14.2161
+B 16 calls 4000000 prunes 11576832 full 71869 distinct 4743 sec 18.141
+B 16 calls 5000000 prunes 13560104 full 98520 distinct 4753 sec 21.3696
+B 16 calls 6000000 prunes 15337427 full 129454 distinct 4753 sec 24.4391
+COMPLETE N 20 B 16 calls 6808652 prunes 16998977 full 150976 distinct 4753 sec 26.928

@@ -1,0 +1,100 @@
+{
+  "verified": true,
+  "N": 20,
+  "candidate_key": [
+    13,
+    217384
+  ],
+  "candidate_tree": {
+    "nodes": 6171,
+    "counts": {
+      "SPLIT": 3085,
+      "DUAL": 2984,
+      "LOCAL": 102,
+      "EMPTY": 0
+    },
+    "maxdepth": 41,
+    "minimum_force_margin": "3519672683736879863018743/9999473674636111074300000000000000",
+    "minimum_local_margin": "615776004654745609880203252620716977932755526957101060371012698644063254995499711176832809080666309271211447898646190772489386580073219494292743/62500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "scales": {
+      "1000000": 2735,
+      "100000000": 248,
+      "10000000000": 1
+    },
+    "certificate_sha256": "2ae2ccaa5b937811f6c7e88756665ae0c5c0ff313144e658da363273baaf0f54"
+  },
+  "noncandidate_forest": {
+    "cases": 562168,
+    "nodes": 657498,
+    "counts": {
+      "SPLIT": 47665,
+      "DUAL": 609833,
+      "LOCAL": 0,
+      "EMPTY": 0
+    },
+    "maxdepth": 6,
+    "minimum_force_margin": "2974636381508139183678628961/99975311957455471296100000000000000",
+    "scales": {
+      "1000000": 609783,
+      "100000000": 50
+    },
+    "by_B": {
+      "12": {
+        "cases": 154931,
+        "nodes": 154931,
+        "counts": {
+          "SPLIT": 0,
+          "DUAL": 154931,
+          "LOCAL": 0,
+          "EMPTY": 0
+        }
+      },
+      "13": {
+        "cases": 224320,
+        "nodes": 240410,
+        "counts": {
+          "SPLIT": 8045,
+          "DUAL": 232365,
+          "LOCAL": 0,
+          "EMPTY": 0
+        }
+      },
+      "14": {
+        "cases": 138451,
+        "nodes": 190299,
+        "counts": {
+          "SPLIT": 25924,
+          "DUAL": 164375,
+          "LOCAL": 0,
+          "EMPTY": 0
+        }
+      },
+      "15": {
+        "cases": 39713,
+        "nodes": 65397,
+        "counts": {
+          "SPLIT": 12842,
+          "DUAL": 52555,
+          "LOCAL": 0,
+          "EMPTY": 0
+        }
+      },
+      "16": {
+        "cases": 4753,
+        "nodes": 6461,
+        "counts": {
+          "SPLIT": 854,
+          "DUAL": 5607,
+          "LOCAL": 0,
+          "EMPTY": 0
+        }
+      }
+    },
+    "certificate_sha256": "f73cf3cfdc5cfe64cae3261cace649a3f65736996c7e01cdf12cc881e02f30be"
+  },
+  "surviving_orbits": 562169,
+  "unresolved_leaves": 0,
+  "root_sha256": "9052d59645e7e888d64c8666c184d77d7e294c1e0b9a4b8914965b542c3e9ab9",
+  "local_certificate_sha256": "61d03f9c3e38bfa773aa44fc1375388e6e043c3871265de937aeade057a01dc8",
+  "seconds": 167.53689813613892
+}

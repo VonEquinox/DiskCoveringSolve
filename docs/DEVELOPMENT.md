@@ -1,8 +1,8 @@
 # Development workflow
 
-This repository contains separate verifier chains for eleven through nineteen
+This repository contains separate verifier chains for eleven through twenty
 disks. Keep their certificates and generated reports isolated: `cover11/`,
-`cover12/`, `cover13/`, `cover14/`, `cover15/`, `cover16/`, `cover17/`, `cover18/`, and `cover19/` are separate proof directories. Cover15, Cover18, and Cover19 contain
+`cover12/`, `cover13/`, `cover14/`, `cover15/`, `cover16/`, `cover17/`, `cover18/`, `cover19/`, and `cover20/` are separate proof directories. Cover15, Cover18, and Cover19 contain
 primary and alternative packages with their own labels, local constants and
 enumeration formats.
 
@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 
 ## Before changing certificates
 
-1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, `cover16/INPUT_MANIFEST.json`, `cover17/INPUT_MANIFEST.json`, `cover18/INPUT_MANIFEST.json`, or `cover19/INPUT_MANIFEST.json`).
+1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, `cover16/INPUT_MANIFEST.json`, `cover17/INPUT_MANIFEST.json`, `cover18/INPUT_MANIFEST.json`, `cover19/INPUT_MANIFEST.json`, or `cover20/INPUT_MANIFEST.json` together with `cover20/STORAGE_MANIFEST.json`).
 2. Run quick mode and record the baseline output.
 3. Identify whether the change is a verifier-only change, a certificate-format
    change, or a mathematical-certificate change.
@@ -104,6 +104,17 @@ and `cover19-runner-tests` for wrapper regressions. A new `--report-dir` passed
 to `cover19/run_verification.py` retains freshly regenerated reports. Keep all
 89 original files unchanged; never confuse original supplied reports with
 new replay evidence. Discovery scripts are optional, not acceptance inputs.
+
+For Cover20 changes, run `make cover20-full` with Python 3.10+ and a C++17
+compiler. Use the repository runner, not a direct invocation inside the
+stored `proof_bundle/`: one original forest file exceeds GitHub's single-file
+limit and is represented by three lossless parts. The runner verifies and
+reconstructs it in a disposable directory, checks all 51 original file hashes,
+and invokes the unchanged master. `--workers 1` through `--workers 16` controls
+task parallelism only; the default is 4. Use a new `--report-dir` to retain
+fresh output. Run `make cover20-runner-tests` for reconstruction, corruption,
+path-safety, report-completeness and export regressions. Never omit a part or
+replace the ZIP proof with the mismatched external Markdown document.
 
 ```bash
 make integrity

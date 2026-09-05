@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "independent_residual_components": 198,
+  "independent_jacobian_entries": 39204,
+  "inside_proof_active_faces_match": true,
+  "inside_proof_full_faces_match": true,
+  "inside_display_centers_checked": 20,
+  "actual_root_sha256": "9052d59645e7e888d64c8666c184d77d7e294c1e0b9a4b8914965b542c3e9ab9",
+  "bundle_proof_sha256": "ec4225ed1673e442f6b5d0557ea8a1d346c1aba684e5a34d05a636fe85f27139",
+  "scope": "Additional equation/document linkage, not a substitute for full replay or external review."
+}
