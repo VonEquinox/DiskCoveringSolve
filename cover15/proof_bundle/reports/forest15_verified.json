@@ -1,0 +1,76 @@
+{
+  "verified": true,
+  "candidate": {
+    "verified": true,
+    "nodes": 983,
+    "counts": {
+      "SPLIT": 491,
+      "DUAL": 459,
+      "LOCAL": 33
+    },
+    "minimum_force_margin": "979570076800830095684061293767470269373609/3906249764255864713065944619160608355468750000000",
+    "minimum_local_margin": "8123128858015146284003324830136486412193364497333216112917292546580078455773599163471072461471189077518861694622703653968500227105244981195360097/62500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "maxdepth": 34,
+    "certificate_sha256": "0ff43bc0aae1b50e4e14d340a3b55447418231d2da0514cefd6f780b61913251"
+  },
+  "noncandidate": {
+    "cases": 43013,
+    "nodes": 58905,
+    "counts": {
+      "DUAL": 50959,
+      "SPLIT": 7946
+    },
+    "minimum_force_margin": "252543553416510509842916244477094270357863/3906250458332920396280590081925135832031250000000",
+    "minimum_force_margin_float": 6.465114208889952e-08,
+    "maxdepth": 13,
+    "families": {
+      "10": {
+        "cases": 12332,
+        "nodes": 12332,
+        "counts": {
+          "DUAL": 12332
+        },
+        "certificate_sha256": "251ae2a5e5ad1b3742f3ec09dd6e89df6da7c8b710b549bd502bbd4d2e8ac9a9"
+      },
+      "11": {
+        "cases": 16617,
+        "nodes": 17519,
+        "counts": {
+          "DUAL": 17068,
+          "SPLIT": 451
+        },
+        "certificate_sha256": "57308268e19f20768a2297758e8a6950d32d5617b31c4a80989aa6c868520d2d"
+      },
+      "12": {
+        "cases": 10210,
+        "nodes": 17886,
+        "counts": {
+          "DUAL": 14048,
+          "SPLIT": 3838
+        },
+        "certificate_sha256": "e181ede9755dd114c92920ad20a5ad75e9bc08c317feda724f4ede6d678fee42"
+      },
+      "13": {
+        "cases": 3334,
+        "nodes": 9306,
+        "counts": {
+          "SPLIT": 2986,
+          "DUAL": 6320
+        },
+        "certificate_sha256": "8942a3093d704bf18fe9d79355cf0961340e396871c4117b21bf85a1800fe8b8"
+      },
+      "14": {
+        "cases": 520,
+        "nodes": 1862,
+        "counts": {
+          "SPLIT": 671,
+          "DUAL": 1191
+        },
+        "certificate_sha256": "c52659a8a1dedb2ccf5ae9b5a4b03714dda8e8559ca2cc0612bf7f3ccd8be947"
+      }
+    }
+  },
+  "root_sha256": "36cbde7c21a005eb10ab60af5a975ca41e6b43af6f6c974943b4f0a03cac8a57",
+  "local_certificate_sha256": "6c83000d850c2f6401bc731afbab21bedc67476783e498cf8613cd2fbbed0639",
+  "seconds": 58.29864573478699
+}

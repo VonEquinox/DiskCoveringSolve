@@ -1,9 +1,10 @@
 # Development workflow
 
-This repository contains separate verifier chains for the eleven-disk,
-twelve-disk, thirteen-disk, and fourteen-disk results. Keep their certificates
-and generated reports isolated: `cover11/`, `cover12/`, `cover13/`, and
-`cover14/` are independent proof directories.
+This repository contains separate verifier chains for eleven through fifteen
+disks. Keep their certificates and generated reports isolated: `cover11/`,
+`cover12/`, `cover13/`, `cover14/`, and `cover15/` are separate proof directories. Cover15 contains
+primary and alternative packages with their own labels, local constants and
+enumeration formats.
 
 ## Environment
 
@@ -16,7 +17,7 @@ python -m pip install -r requirements.txt
 
 ## Before changing certificates
 
-1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, or `cover14/proof_bundle/SHA256SUMS`).
+1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, or `cover15/INPUT_MANIFEST.json`).
 2. Run quick mode and record the baseline output.
 3. Identify whether the change is a verifier-only change, a certificate-format
    change, or a mathematical-certificate change.
@@ -55,6 +56,13 @@ also run `make cover14-alternative-full`. This uses a temporary working copy so
 the alternative archive's 64-file manifest, including submitted reports,
 remains valid after replay. The final marker is
 `COVER14 ALTERNATIVE MASTER REPLAY AND ROOT LINKAGE PASSED`.
+
+For Cover15 changes, run `make cover15-full`. Both archived packages are copied
+to temporary directories, their full censuses are regenerated, and their root
+correspondence is checked. To work on one implementation, use
+`make cover15-primary-full` or `make cover15-alternative-full`. Check archive
+integrity with `make cover15-integrity`; the source-derived
+`cover15/INPUT_MANIFEST.json` also covers original submitted reports.
 
 ```bash
 make integrity

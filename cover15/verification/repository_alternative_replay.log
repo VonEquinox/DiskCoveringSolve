@@ -1,0 +1,89 @@
+COVER15 ARCHIVE MANIFEST PASSED (146 files)
+PASSED verify_root15.py
+PASSED verify_upper15.py
+PASSED anchor_isolation15.py
+PASSED regenerated enumeration and independent BFS audit 11 4 orbits 3327956
+PASSED regenerated enumeration and independent BFS audit 12 3 orbits 1520440
+PASSED regenerated enumeration and independent BFS audit 13 2 orbits 572594
+PASSED regenerated enumeration and independent BFS audit 14 1 orbits 159519
+PASSED regenerated enumeration and independent BFS audit 10 5 orbits 6370375
+PASSED verify_partition15.py
+PASSED verify_forest15.py
+PASSED test_fail_closed15.py
+R15 COMPLETE CERTIFICATE CHAIN VERIFIED
+{
+  "verified": true,
+  "theorem": "r_15 = sqrt(t_star), R_15 = 1/sqrt(t_star)",
+  "decimal_intervals": {
+    "r_lower": "0.318142930859262836359491181649935005186663866157651845538266",
+    "r_upper": "0.318142930859262836359491181649935005186663866157651845538267",
+    "R_lower": "3.143241301320540312069843754742374999194168089922332896458380",
+    "R_upper": "3.143241301320540312069843754742374999194168089922332896458381"
+  },
+  "enumeration_total": 11950884,
+  "metric_excluded": 11907870,
+  "noncandidate_cases": 43013,
+  "unresolved_leaves": 0,
+  "seconds": 204.26022028923035
+}
+COVER15 ALTERNATIVE EXACT MASTER REPLAY PASSED
+{
+  "verified": true,
+  "center_map_primary_to_alternative": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    0,
+    1,
+    2,
+    3,
+    4,
+    13,
+    14,
+    11,
+    12
+  ],
+  "anchor_map_primary_to_alternative": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "witness_map_primary_to_alternative": [
+    4,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    0,
+    1,
+    2,
+    12,
+    11
+  ],
+  "maximum_transport_deviation": "26777115074368290801879241601473979139389746425239428075073160275868349140877243811596982393213568511/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "primary_uniqueness_radius": "1/1000000000000000000000000000000000000000000000000000000000000",
+  "primary_root_sha256": "36cbde7c21a005eb10ab60af5a975ca41e6b43af6f6c974943b4f0a03cac8a57",
+  "alternative_root_sha256": "ac072af3c405a91f6e1a91b380047d2a3f8cf08d9e192779bca9ed4d49cc5093",
+  "connected_upper_vertices": [
+    26,
+    26
+  ],
+  "both_root_certificates_replayed": true,
+  "conclusion": "Both isolated roots have the same t coordinate after graph relabeling and rotation."
+}
+COVER15 ARCHIVE MANIFEST PASSED (146 files)
+COVER15 REQUESTED REPLAYS AND ROOT LINKAGE PASSED

@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "verified": true,
+  "global_optimality_certificate_chain_closed": true,
+  "statement": "r_15 = sqrt(t_star), where t_star is the t-coordinate of the unique root of core/system15.py in core/root15.json",
+  "root_dimension": 148,
+  "decimal_intervals": {
+    "r_lower": "0.318142930859262836359491181649935005186663866157651845538266",
+    "r_upper": "0.318142930859262836359491181649935005186663866157651845538267",
+    "R_lower": "3.143241301320540312069843754742374999194168089922332896458380",
+    "R_upper": "3.143241301320540312069843754742374999194168089922332896458381"
+  },
+  "enumeration_total": 11950884,
+  "metric_excluded": 11907870,
+  "noncandidate_cases": 43013,
+  "candidate_cases": 1,
+  "unresolved_leaves": 0,
+  "candidate_tree": {
+    "verified": true,
+    "nodes": 983,
+    "counts": {
+      "SPLIT": 491,
+      "DUAL": 459,
+      "LOCAL": 33
+    },
+    "minimum_force_margin": "979570076800830095684061293767470269373609/3906249764255864713065944619160608355468750000000",
+    "minimum_local_margin": "8123128858015146284003324830136486412193364497333216112917292546580078455773599163471072461471189077518861694622703653968500227105244981195360097/62500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "maxdepth": 34,
+    "certificate_sha256": "0ff43bc0aae1b50e4e14d340a3b55447418231d2da0514cefd6f780b61913251"
+  },
+  "noncandidate_forest": {
+    "cases": 43013,
+    "nodes": 58905,
+    "counts": {
+      "DUAL": 50959,
+      "SPLIT": 7946
+    },
+    "minimum_force_margin": "252543553416510509842916244477094270357863/3906250458332920396280590081925135832031250000000",
+    "minimum_force_margin_float": 6.465114208889952e-08,
+    "maxdepth": 13,
+    "families": {
+      "10": {
+        "cases": 12332,
+        "nodes": 12332,
+        "counts": {
+          "DUAL": 12332
+        },
+        "certificate_sha256": "251ae2a5e5ad1b3742f3ec09dd6e89df6da7c8b710b549bd502bbd4d2e8ac9a9"
+      },
+      "11": {
+        "cases": 16617,
+        "nodes": 17519,
+        "counts": {
+          "DUAL": 17068,
+          "SPLIT": 451
+        },
+        "certificate_sha256": "57308268e19f20768a2297758e8a6950d32d5617b31c4a80989aa6c868520d2d"
+      },
+      "12": {
+        "cases": 10210,
+        "nodes": 17886,
+        "counts": {
+          "DUAL": 14048,
+          "SPLIT": 3838
+        },
+        "certificate_sha256": "e181ede9755dd114c92920ad20a5ad75e9bc08c317feda724f4ede6d678fee42"
+      },
+      "13": {
+        "cases": 3334,
+        "nodes": 9306,
+        "counts": {
+          "SPLIT": 2986,
+          "DUAL": 6320
+        },
+        "certificate_sha256": "8942a3093d704bf18fe9d79355cf0961340e396871c4117b21bf85a1800fe8b8"
+      },
+      "14": {
+        "cases": 520,
+        "nodes": 1862,
+        "counts": {
+          "SPLIT": 671,
+          "DUAL": 1191
+        },
+        "certificate_sha256": "c52659a8a1dedb2ccf5ae9b5a4b03714dda8e8559ca2cc0612bf7f3ccd8be947"
+      }
+    }
+  },
+  "upper_cover": {
+    "vertices": 26,
+    "edges": 64,
+    "faces": 39,
+    "boundary_caps": 11,
+    "exact_equality_center_faces": 13
+  },
+  "anchor_isolation": {
+    "gamma": 300,
+    "lambda": "9/5000",
+    "nu_upper": "1/80",
+    "anchor_Frobenius_radius": "13/100",
+    "isolation_margin": "69/320000"
+  },
+  "enumeration_audits": {
+    "10": {
+      "verified": true,
+      "B": 10,
+      "I": 5,
+      "representatives": 6370375,
+      "orbit_mass": 15274459200,
+      "group_size": 2400,
+      "minimum_stabilizer": 1,
+      "maximum_stabilizer": 4,
+      "additional_full_group_checks": 28,
+      "seconds": 31.3851
+    },
+    "11": {
+      "verified": true,
+      "B": 11,
+      "I": 4,
+      "representatives": 3327956,
+      "orbit_mass": 1755921024,
+      "group_size": 528,
+      "minimum_stabilizer": 1,
+      "maximum_stabilizer": 2,
+      "additional_full_group_checks": 16,
+      "seconds": 12.8847
+    },
+    "12": {
+      "verified": true,
+      "B": 12,
+      "I": 3,
+      "representatives": 1520440,
+      "orbit_mass": 218683920,
+      "group_size": 144,
+      "minimum_stabilizer": 1,
+      "maximum_stabilizer": 6,
+      "additional_full_group_checks": 9,
+      "seconds": 4.77512
+    },
+    "13": {
+      "verified": true,
+      "B": 13,
+      "I": 2,
+      "representatives": 572594,
+      "orbit_mass": 29745716,
+      "group_size": 52,
+      "minimum_stabilizer": 1,
+      "maximum_stabilizer": 2,
+      "additional_full_group_checks": 5,
+      "seconds": 2.0642
+    },
+    "14": {
+      "verified": true,
+      "B": 14,
+      "I": 1,
+      "representatives": 159519,
+      "orbit_mass": 4457400,
+      "group_size": 28,
+      "minimum_stabilizer": 1,
+      "maximum_stabilizer": 28,
+      "additional_full_group_checks": 3,
+      "seconds": 0.813769
+    }
+  },
+  "rejection_tests": {
+    "verified": true,
+    "tests_passed": 17,
+    "tests": [
+      "unknown unresolved leaf",
+      "whole domain falsely marked local",
+      "duplicate branch child",
+      "cyclic branch edge",
+      "unreachable appended node",
+      "one integer force unit changed",
+      "negative halfplane multiplier",
+      "missing rod force",
+      "missing residual topology",
+      "candidate duplicated in residual forest",
+      "incorrect candidate graph permutation",
+      "singular alleged PD congruence",
+      "algebraic root midpoint displaced",
+      "duplicate valid enumeration orbit",
+      "negative Farkas weight",
+      "disabled assertions in master",
+      "disabled assertions in force checker"
+    ],
+    "seconds": 2.6726467609405518
+  },
+  "proof_input_sha256": {
+    "PROOF_zh.md": "4807219fb66a535286f6865cf6973a820746499a07b10f79be9b4852c974554b",
+    "README.md": "28fed19b925447b741d8963d7a85745e13eedf01159a17bcb14aa9f9b4b30642",
+    "core/anchor_angles15.json": "73bb8e82726a56ff9663bf94141d2dfba6794231968f6ccf8b0177ea291c95b0",
+    "core/anchor_isolation15.py": "69390de12d0d45f1ccd7b9076a5c05798858401aea7c76713474e2ec687212ea",
+    "core/anchor_isolation_certificate.json": "6c83000d850c2f6401bc731afbab21bedc67476783e498cf8613cd2fbbed0639",
+    "core/candidate15_tree.json.gz": "0ff43bc0aae1b50e4e14d340a3b55447418231d2da0514cefd6f780b61913251",
+    "core/candidate_global15.py": "4d1607b11f60d12d882d15ae4a0d9ab471ab4758ba24167d2a11663e156f417a",
+    "core/exact_arcs.py": "879179a2cb7e23800b5c875b55c8e97b3e963e368915197bab938c7e5fda1f79",
+    "core/exact_force15.py": "5a50fbd215444bed633caf61876d064c71d88b337664011c53780ec2baffe6c7",
+    "core/interval15.py": "cc5c551d4b1d3bd3fd00ebf4d7ff3daf2d8cb53ff4ac1cb1c56109526850456e",
+    "core/root15.json": "36cbde7c21a005eb10ab60af5a975ca41e6b43af6f6c974943b4f0a03cac8a57",
+    "core/system15.py": "c98c528c2b66d5e25148944ac45545a3dda155b3cfcdd748d59adbe6059f8d49",
+    "core/test_fail_closed15.py": "75724a6b031f66bc2de2fdccd4abd35fb15bd3576709328957bedbad0fabaf95",
+    "core/verify_forest15.py": "ad2815c7938d19b89d8a1a7d1cf11ce67f1d85bba16641704942cad0c6b37f3d",
+    "core/verify_partition15.py": "c43a5fe93a6877d578421980c4253694ca63cd58832ed638e97100995f9d2858",
+    "core/verify_root15.py": "f838d0e48305166dca13507aa513f440f9c2abe09917551eb3c57d38571cf76f",
+    "core/verify_upper15.py": "9d5dd57abafc4cd606883318b915efe8ce9ce1424d850bd5e066e49a682e4fdd",
+    "enumeration/audit15.cpp": "be67fba1d3a8c7f9c6ed2d1263f72891d263c57fa69dd1f2a5b311d48a726435",
+    "enumeration/candidate15_map.json": "a35816597474c8e34d63a4add5d911196d1e87e1e46066815789bc385a5038b0",
+    "enumeration/enumerate15.cpp": "4ba15e38e70d09d4a97ec8806a405451dd053779ba75e2129f0550d6d689fecf",
+    "enumeration/metric15_certificate.json": "5d0e0849f451d68324f0498d4234780ade4251bbd97e8f587161bf25bea7226e",
+    "enumeration/metric15_residuals.json": "44eb3a1e9f000ef1d83cbbc09f9302b728c797967b2c455b15f7c0a639901413",
+    "enumeration/metric_audit15.cpp": "2ee1fc895ec2902e072ef7df85e7c3233d11f7d186d455fc209cbfad80e13c48",
+    "enumeration/noncandidate15_B10.jsonl.gz": "251ae2a5e5ad1b3742f3ec09dd6e89df6da7c8b710b549bd502bbd4d2e8ac9a9",
+    "enumeration/noncandidate15_B11.jsonl.gz": "57308268e19f20768a2297758e8a6950d32d5617b31c4a80989aa6c868520d2d",
+    "enumeration/noncandidate15_B12.jsonl.gz": "e181ede9755dd114c92920ad20a5ad75e9bc08c317feda724f4ede6d678fee42",
+    "enumeration/noncandidate15_B13.jsonl.gz": "8942a3093d704bf18fe9d79355cf0961340e396871c4117b21bf85a1800fe8b8",
+    "enumeration/noncandidate15_B14.jsonl.gz": "c52659a8a1dedb2ccf5ae9b5a4b03714dda8e8559ca2cc0612bf7f3ccd8be947",
+    "verify_all.py": "abaf7a82d8743b1177e4bd4ec97c211c9517b0de98a63a7e9abeb22b97de3caf"
+  },
+  "completed_utc": "2026-09-05T03:21:34.697799+00:00",
+  "elapsed_seconds": 575.2525079250336,
+  "external_peer_review_completed": false,
+  "proof_assistant_formalization": false
+}

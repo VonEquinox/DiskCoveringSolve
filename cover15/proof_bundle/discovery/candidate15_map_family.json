@@ -1,0 +1,25 @@
+{
+  "B": 11,
+  "I": 4,
+  "family_residual_index": 14363,
+  "enum_idx": 2290217,
+  "center_map": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    0,
+    1,
+    11,
+    12,
+    14,
+    13
+  ],
+  "reflection": false,
+  "shift": 2
+}

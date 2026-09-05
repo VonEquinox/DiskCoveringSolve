@@ -1,0 +1,27 @@
+PASSED verify_root15.py
+PASSED verify_upper15.py
+PASSED anchor_isolation15.py
+PASSED regenerated enumeration and independent BFS audit 11 4 orbits 3327956
+PASSED regenerated enumeration and independent BFS audit 12 3 orbits 1520440
+PASSED regenerated enumeration and independent BFS audit 13 2 orbits 572594
+PASSED regenerated enumeration and independent BFS audit 14 1 orbits 159519
+PASSED regenerated enumeration and independent BFS audit 10 5 orbits 6370375
+PASSED verify_partition15.py
+PASSED verify_forest15.py
+PASSED test_fail_closed15.py
+R15 COMPLETE CERTIFICATE CHAIN VERIFIED
+{
+  "verified": true,
+  "theorem": "r_15 = sqrt(t_star), R_15 = 1/sqrt(t_star)",
+  "decimal_intervals": {
+    "r_lower": "0.318142930859262836359491181649935005186663866157651845538266",
+    "r_upper": "0.318142930859262836359491181649935005186663866157651845538267",
+    "R_lower": "3.143241301320540312069843754742374999194168089922332896458380",
+    "R_upper": "3.143241301320540312069843754742374999194168089922332896458381"
+  },
+  "enumeration_total": 11950884,
+  "metric_excluded": 11907870,
+  "noncandidate_cases": 43013,
+  "unresolved_leaves": 0,
+  "seconds": 108.94384098052979
+}

@@ -2,7 +2,7 @@
 
 Computer-assisted research and exact verification for covering the unit disk
 with congruent disks. The repository currently contains reproducible proof
-claims for eleven, twelve, thirteen, and fourteen disks.
+claims for eleven through fifteen disks.
 
 ## Claimed results
 
@@ -21,6 +21,7 @@ the included certificate packages claim:
 | 12 | \(r_{12}=0.36110296374450864411308770201706518084853056\ldots\) |
 | 13 | \(r_{13}=0.34664545692738964346786973819387878953718745\ldots\) |
 | 14 | \(r_{14}=0.33173203427623412255781554880240953827094275\ldots\) |
+| 15 | \(r_{15}=0.31814293085926283635949118164993500518666386\ldots\) |
 
 Each exact value is defined by the isolated algebraic root in its rational
 Krawczyk certificate, not by the displayed decimal expansion.
@@ -31,9 +32,10 @@ Krawczyk certificate, not by the displayed decimal expansion.
 - `cover12/` — twelve-disk proof bundle, documentation, verification records, and runner;
 - `cover13/` — thirteen-disk proof bundle, documentation, verification records, and runner;
 - `cover14/` — fourteen-disk proof bundle, documentation, verification records, and runner;
+- `cover15/` — fifteen-disk primary and alternative bundles, Chinese proofs, and exact replay records;
 - `docs/DEVELOPMENT.md` — shared development and verification workflow;
 - `requirements.txt` — shared Python dependencies;
-- `Makefile` — unified cover11 through cover14 commands.
+- `Makefile` — unified cover11 through cover15 commands.
 
 Manuscript PDF/LaTeX files are intentionally excluded. This repository is for
 proof development, exact certificates, and reproducible verification.
@@ -134,6 +136,24 @@ identifies its candidate with the primary package. Run
 `make cover14-alternative-full`; see `cover14/docs/ALTERNATIVE_AUDIT.md` for the
 comparison and shared dependencies.
 
+## Fifteen-disk verification
+
+Cover15 includes two related certificate chains for the same algebraic
+candidate. Each regenerates and independently audits all 11,950,884 topology
+orbits, verifies the 148-variable root and upper cover, and checks all 43,013
+noncandidate cases and the entire candidate domain. A separate exact root-box
+transport binds their different coordinate labels.
+
+```bash
+make cover15-full PYTHON_BIN="$(command -v python3)"
+```
+
+The final marker is `COVER15 REQUESTED REPLAYS AND ROOT LINKAGE PASSED`.
+Individual chains are available through `cover15-primary-full` and
+`cover15-alternative-full`. Allow several GB of disk and memory and several
+minutes for regeneration. See `cover15/docs/AUDIT_STATUS.md` for provenance,
+the comparison, replay results and review limits.
+
 ## Integrity
 
 ```bash
@@ -145,8 +165,12 @@ files, and fixed audit documents. Regenerated reports and timing-dependent logs
 are deliberately excluded so repeated verification does not invalidate the
 manifest.
 
+Cover15 preserves both original archives' reports and checks all archived
+files. Its replay runs in disposable copies so regenerated reports and census
+files do not change those archived hashes.
+
 ## Status
 
-All four included verifier chains pass locally. These are reproducible
+The included results are reproducible
 computer-assisted proof claims and should still receive independent external
 mathematical and software review.

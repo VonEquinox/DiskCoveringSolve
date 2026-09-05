@@ -1,0 +1,24 @@
+{
+  "verified": true,
+  "tests_passed": 17,
+  "tests": [
+    "unknown unresolved leaf",
+    "whole domain falsely marked local",
+    "duplicate branch child",
+    "cyclic branch edge",
+    "unreachable appended node",
+    "one integer force unit changed",
+    "negative halfplane multiplier",
+    "missing rod force",
+    "missing residual topology",
+    "candidate duplicated in residual forest",
+    "incorrect candidate graph permutation",
+    "singular alleged PD congruence",
+    "algebraic root midpoint displaced",
+    "duplicate valid enumeration orbit",
+    "negative Farkas weight",
+    "disabled assertions in master",
+    "disabled assertions in force checker"
+  ],
+  "seconds": 3.555727958679199
+}

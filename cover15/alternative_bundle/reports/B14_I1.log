@@ -1,0 +1,18 @@
+processed 0 states 12 /~ 172375 sec 7.941e-06
+processed 10000 states 27429 /~ 172375 sec 0.0745512
+processed 20000 states 49342 /~ 172375 sec 0.148975
+processed 30000 states 69036 /~ 172375 sec 0.223948
+processed 40000 states 85007 /~ 172375 sec 0.300514
+processed 50000 states 99060 /~ 172375 sec 0.377041
+processed 60000 states 111386 /~ 172375 sec 0.453066
+processed 70000 states 122055 /~ 172375 sec 0.531071
+processed 80000 states 130810 /~ 172375 sec 0.627247
+processed 90000 states 137801 /~ 172375 sec 0.717077
+processed 100000 states 144865 /~ 172375 sec 0.798236
+processed 110000 states 149908 /~ 172375 sec 0.878721
+processed 120000 states 153768 /~ 172375 sec 0.961173
+processed 130000 states 156628 /~ 172375 sec 1.04446
+processed 140000 states 158516 /~ 172375 sec 1.13201
+processed 150000 states 159259 /~ 172375 sec 1.21454
+COMPLETE 14 1 orbits 159519 mass 4457400 seconds 1.60648
+AUDITED B=14 I=1 orbits=159519 mass=4457400 direct=140853 farkas=18146 residual=520 seconds=0.66594

@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "tests": {
+    "one_integer_force_unit_corrupted": "rejected",
+    "unresolved_leaf": "rejected",
+    "unreachable_extra_node": "rejected",
+    "duplicate_split_child": "rejected",
+    "local_leaf_in_noncandidate_case": "rejected",
+    "corrupted_algebraic_root": "rejected",
+    "duplicate_orbit_representative": "rejected",
+    "invalid_triangle_mask": "rejected",
+    "missing_noncandidate_cases": "rejected",
+    "assertions_disabled": "rejected"
+  },
+  "seconds": 2.7420008182525635
+}

@@ -1,0 +1,30 @@
+RUN compile_enumerate15
+PASS compile_enumerate15
+RUN compile_audit15
+PASS compile_audit15
+RUN compile_metric_audit15
+PASS compile_metric_audit15
+RUN audit_B10
+RUN audit_B11
+RUN audit_B12
+RUN audit_B13
+PASS audit_B13
+RUN audit_B14
+PASS audit_B14
+PASS audit_B12
+PASS audit_B11
+PASS audit_B10
+RUN verify_root15
+PASS verify_root15
+RUN verify_upper15
+PASS verify_upper15
+RUN anchor_isolation15
+PASS anchor_isolation15
+RUN verify_partition15
+PASS verify_partition15
+RUN verify_forest15
+PASS verify_forest15
+RUN test_fail_closed15
+PASS test_fail_closed15
+R15 COMPLETE CERTIFICATE CHAIN VERIFIED
+11907870 + 43013 + 1 = 11950884; unresolved leaves = 0

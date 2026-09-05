@@ -1,0 +1,6 @@
+PARTITION FAMILY VERIFIED B10_I5 {'total': 6370375, 'direct': 6358043, 'farkas': 0, 'residual': 12332}
+PARTITION FAMILY VERIFIED B11_I4 {'total': 3327956, 'direct': 3254878, 'farkas': 56460, 'residual': 16618}
+PARTITION FAMILY VERIFIED B12_I3 {'total': 1520440, 'direct': 1443842, 'farkas': 66388, 'residual': 10210}
+PARTITION FAMILY VERIFIED B13_I2 {'total': 572594, 'direct': 532098, 'farkas': 37162, 'residual': 3334}
+PARTITION FAMILY VERIFIED B14_I1 {'total': 159519, 'direct': 140853, 'farkas': 18146, 'residual': 520}
+ALL PARTITION VERIFIED 11950884 residual 43014 seconds 2.020617723464966

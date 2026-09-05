@@ -1,0 +1,58 @@
+{
+  "verified": true,
+  "center_map_primary_to_alternative": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    0,
+    1,
+    2,
+    3,
+    4,
+    13,
+    14,
+    11,
+    12
+  ],
+  "anchor_map_primary_to_alternative": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "witness_map_primary_to_alternative": [
+    4,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    0,
+    1,
+    2,
+    12,
+    11
+  ],
+  "maximum_transport_deviation": "26777115074368290801879241601473979139389746425239428075073160275868349140877243811596982393213568511/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "primary_uniqueness_radius": "1/1000000000000000000000000000000000000000000000000000000000000",
+  "primary_root_sha256": "36cbde7c21a005eb10ab60af5a975ca41e6b43af6f6c974943b4f0a03cac8a57",
+  "alternative_root_sha256": "ac072af3c405a91f6e1a91b380047d2a3f8cf08d9e192779bca9ed4d49cc5093",
+  "connected_upper_vertices": [
+    26,
+    26
+  ],
+  "both_root_certificates_replayed": true,
+  "conclusion": "Both isolated roots have the same t coordinate after graph relabeling and rotation."
+}
