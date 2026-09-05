@@ -21,9 +21,9 @@ class RunnerTests(unittest.TestCase):
         self.bundle = self.root / "proof_bundle"
         for folder in ["proof_bundle/core", "proof_bundle/reports", "docs"]:
             (self.root / folder).mkdir(parents=True)
-        for rel in ["PROOF_zh.md", "reports/MASTER_VERIFIED.json", "core/fixture_verified.json"]:
+        for rel in ["PROOF_zh.md", "reports/MASTER_VERIFIED.json", "reports/legacy.log", "core/fixture_verified.json"]:
             (self.bundle / rel).write_text("fixture")
-        for i in range(43):
+        for i in range(42):
             (self.bundle / f"input{i}").write_text(str(i))
         (self.root / "docs/r17_proof_zh.md").write_text("fixture")
         manifest = {p.relative_to(self.root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
@@ -61,7 +61,7 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(command[-3:], ["-S", "-B", "verify_all.py"])
         self.assertTrue(check)
         self.work = Path(cwd)
-        self.assertFalse((self.work / "reports/MASTER_VERIFIED.json").exists())
+        self.assertEqual(list((self.work / "reports").iterdir()), [])
         self.assertFalse(list((self.work / "core").glob("*_verified.json")))
         result = {"verified": True, "unresolved_leaves": 0, "kkt_dimension": 157,
                   "surviving_topology_orbits": 1344,
@@ -76,6 +76,7 @@ class RunnerTests(unittest.TestCase):
         self.assertFalse(self.work.exists())
         self.assertTrue((output / "MASTER_VERIFIED.json").exists())
         self.assertTrue((output / "core").is_dir())
+        self.assertFalse((output / "legacy.log").exists())
         runner.verify_manifest()
 
     def test_skipped_accepting_stage(self):

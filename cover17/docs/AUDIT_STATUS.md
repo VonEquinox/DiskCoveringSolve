@@ -41,6 +41,11 @@ and `repository_replay/`. The exported repository replay includes all freshly
 generated core stage summaries. Original submitted reports remain separate
 inside `proof_bundle/`.
 
+The repository runner clears the temporary copy's entire reports directory
+and core success summaries before execution. A copied, unmodified archive
+`FULL_REPLAY.log` was removed from the fresh export; it was not used as replay
+evidence. `repository_full_replay.log` is the actual captured repository run.
+
 ## What the enumeration count means
 
 This is not the Cover16-style unpruned orbit census. The new exhaustive

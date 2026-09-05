@@ -205,6 +205,6 @@ COVER17 ARCHIVE MANIFEST PASSED (46 files)
 "/opt/homebrew/bin/python3" -S -B cover17/test_run_verification.py
 ........
 ----------------------------------------------------------------------
-Ran 8 tests in 0.073s
+Ran 8 tests in 0.074s
 
 OK

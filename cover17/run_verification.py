@@ -39,7 +39,8 @@ def replay(report_dir=None):
         work = Path(td) / "bundle"
         shutil.copytree(ROOT / "proof_bundle", work, ignore=shutil.ignore_patterns("__pycache__"))
         master = work / "reports/MASTER_VERIFIED.json"
-        master.unlink(missing_ok=True)
+        shutil.rmtree(work / "reports")
+        (work / "reports").mkdir()
         for old in (work / "core").glob("*_verified.json"):
             old.unlink()
         subprocess.run([sys.executable, "-S", "-B", "verify_all.py"], cwd=work, check=True)
