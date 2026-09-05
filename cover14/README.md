@@ -1,4 +1,4 @@
-# Exact verification bundle for the 14-disk covering theorem
+# Covering the Unit Disk with 14 Equal Disks
 
 The claimed optimum is the algebraic number
 

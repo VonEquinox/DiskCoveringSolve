@@ -1,4 +1,4 @@
-# Exact verification bundles for fifteen disks
+# Covering the Unit Disk with 15 Equal Disks
 
 The included computer-assisted proof claims
 

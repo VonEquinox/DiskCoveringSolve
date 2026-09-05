@@ -1,4 +1,4 @@
-# Eleven-disk covering proof
+# Covering the Unit Disk with 11 Equal Disks
 
 This directory contains the computer-assisted proof claim for covering the
 unit disk with eleven congruent disks.

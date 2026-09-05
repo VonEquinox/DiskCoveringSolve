@@ -1,4 +1,4 @@
-# Exact verification bundle for the 12-disk covering theorem
+# Covering the Unit Disk with 12 Equal Disks
 
 The claimed value is
 

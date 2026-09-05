@@ -1,23 +1,18 @@
-# Disk Covering Problem Research
+# Disk Covering Problem: Computer-Assisted Proofs for n = 11–15
 
-Computer-assisted research and exact verification for covering the unit disk
-with congruent disks. The repository currently contains reproducible proof
-claims for eleven through fifteen disks.
+Covering the unit disk with n equal disks, for n = 11, 12, 13, 14, and 15:
+global optimality proof claims, exact certificates, and reproducible
+verification code. The disk covering problem (also spelled disc covering
+problem) asks for the smallest common radius that covers the entire unit disk.
 
-## Model provenance
+These packages address global optimality, not just numerical local-search
+results. The claims remain subject to independent external mathematical and
+software review; they do not settle the problem for every n.
 
-As reported by the repository maintainer, the proof packages were produced
-through the following model sessions (model names are recorded as supplied):
-
-| Problems | Model / interface | Reported thinking time |
-|---|---|---|
-| Cover11, Cover12 | GPT 5.6 Pro, web interface | Extended thinking sessions; exact durations not recorded here |
-| Cover13, Cover14, Cover15 | GPT 6 astra Pro | No more than 50 minutes per problem |
-
-These are maintainer-reported model thinking times, not verifier runtimes or
-total project durations. Model provenance is not evidence of correctness;
-the mathematical arguments and reproducible certificate checks are the basis
-for assessing the proof claims.
+Browse the proof packages and verification instructions:
+[11 disks](cover11/README.md), [12 disks](cover12/README.md),
+[13 disks](cover13/README.md), [14 disks](cover14/README.md),
+[15 disks](cover15/README.md).
 
 ## Claimed results
 
@@ -189,3 +184,18 @@ files do not change those archived hashes.
 The included results are reproducible
 computer-assisted proof claims and should still receive independent external
 mathematical and software review.
+
+## Model provenance
+
+As reported by the repository maintainer, the proof packages were produced
+through the following model sessions (model names are recorded as supplied):
+
+| Problems | Model / interface | Reported thinking time |
+|---|---|---|
+| Cover11, Cover12 | GPT 5.6 Pro, web interface | Extended thinking sessions; exact durations not recorded here |
+| Cover13, Cover14, Cover15 | GPT 6 astra Pro | No more than 50 minutes per problem |
+
+These are maintainer-reported model thinking times, not verifier runtimes or
+total project durations. Model provenance is not evidence of correctness;
+the mathematical arguments and reproducible certificate checks are the basis
+for assessing the proof claims.
