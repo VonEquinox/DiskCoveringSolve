@@ -1,0 +1,23 @@
+PASSED verify_interfaces17.py
+PASSED verify_root17.py
+PASSED verify_upper17.py
+PASSED anchor_isolation17.py
+PASSED verify_enumeration17.py
+PASSED verify_forest17.py
+PASSED test_fail_closed17.py
+R17 COMPLETE CERTIFICATE CHAIN VERIFIED
+{
+  "verified": true,
+  "theorem": "r_17 = sqrt(t_star), R_17 = 1/sqrt(t_star)",
+  "decimal_intervals": {
+    "r_lower": "0.298531589256428059869843774423980703734387603913740470124900",
+    "r_upper": "0.298531589256428059869843774423980703734387603913740470124901",
+    "R_lower": "3.349729261451910954711870735939487358490452205739415262671246",
+    "R_upper": "3.349729261451910954711870735939487358490452205739415262671247"
+  },
+  "surviving_topology_orbits": 1344,
+  "primary_partial_states": 516674,
+  "independent_partial_states": 1816376,
+  "unresolved_leaves": 0,
+  "seconds": 22.478832960128784
+}

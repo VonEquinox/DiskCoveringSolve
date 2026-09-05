@@ -51,3 +51,16 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y g++ libboost-dev
       - run: make cover16-integrity cover16-runner-tests
       - run: make cover16-full PYTHON_BIN="$(command -v python)"
+
+  cover17-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y g++ clang
+      - run: make cover17-integrity cover17-runner-tests
+      - run: make cover17-full PYTHON_BIN="$(command -v python)"
+      - run: python -S -B cover17/test_peeling_counts.py --sanitize

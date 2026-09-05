@@ -1,8 +1,8 @@
 # Development workflow
 
-This repository contains separate verifier chains for eleven through sixteen
+This repository contains separate verifier chains for eleven through seventeen
 disks. Keep their certificates and generated reports isolated: `cover11/`,
-`cover12/`, `cover13/`, `cover14/`, `cover15/`, and `cover16/` are separate proof directories. Cover15 contains
+`cover12/`, `cover13/`, `cover14/`, `cover15/`, `cover16/`, and `cover17/` are separate proof directories. Cover15 contains
 primary and alternative packages with their own labels, local constants and
 enumeration formats.
 
@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 
 ## Before changing certificates
 
-1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, or `cover16/INPUT_MANIFEST.json`).
+1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, `cover16/INPUT_MANIFEST.json`, or `cover17/INPUT_MANIFEST.json`).
 2. Run quick mode and record the baseline output.
 3. Identify whether the change is a verifier-only change, a certificate-format
    change, or a mathematical-certificate change.
@@ -72,6 +72,17 @@ limits concurrent memory use. To retain fresh reports, use
 with a directory that does not yet exist. The original 90-file archive stays
 unchanged. Run `make cover16-integrity cover16-runner-tests` for input hashes
 and lightweight runner tests; these are not a substitute for full replay.
+
+For Cover17 changes, run `make cover17-full` with Python 3.10+ and a C++17
+compiler. No Boost dependency is required for this chain. Both peeling
+implementations are recompiled and all six surviving sets regenerated on
+every run. The 1,344 output orbits are survivors of safe partial-state
+pruning, not an unpruned census total. Check the written peeling/pruning
+induction when modifying this algorithm; agreement of two counts is not a
+completeness argument. Run `make cover17-runner-tests cover17-extra-tests`
+for runner regressions and additional unpruned counts with 4-6 interior
+vertices. To check the latter with memory/undefined-behavior instrumentation,
+run `python3 -S -B cover17/test_peeling_counts.py --sanitize`.
 
 ```bash
 make integrity

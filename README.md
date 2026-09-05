@@ -1,6 +1,6 @@
 # DiskCoveringSolve
 
-Covering the unit disk with n equal disks, for n = 11, 12, 13, 14, 15, and 16:
+Covering the unit disk with n equal disks, for n = 11, 12, 13, 14, 15, 16, and 17:
 global optimality proof claims, exact certificates, and reproducible
 verification code. The disk covering problem (also spelled disc covering
 problem) asks for the smallest common radius that covers the entire unit disk.
@@ -12,7 +12,8 @@ software review; they do not settle the problem for every n.
 Browse the proof packages and verification instructions:
 [11 disks](cover11/README.md), [12 disks](cover12/README.md),
 [13 disks](cover13/README.md), [14 disks](cover14/README.md),
-[15 disks](cover15/README.md), [16 disks](cover16/README.md).
+[15 disks](cover15/README.md), [16 disks](cover16/README.md),
+[17 disks](cover17/README.md).
 
 ## Claimed results
 
@@ -33,6 +34,7 @@ the included certificate packages claim:
 | 14 | \(r_{14}=0.33173203427623412255781554880240953827094275\ldots\) |
 | 15 | \(r_{15}=0.31814293085926283635949118164993500518666386\ldots\) |
 | 16 | \(r_{16}=0.30821980189861784887010326922181483200610642\ldots\) |
+| 17 | \(r_{17}=0.29853158925642805986984377442398070373438760\ldots\) |
 
 Each exact value is defined by the isolated algebraic root in its rational
 Krawczyk certificate, not by the displayed decimal expansion.
@@ -45,9 +47,10 @@ Krawczyk certificate, not by the displayed decimal expansion.
 - `cover14/` — fourteen-disk proof bundle, documentation, verification records, and runner;
 - `cover15/` — fifteen-disk primary and alternative bundles, Chinese proofs, and exact replay records;
 - `cover16/` — sixteen-disk proof, exact certificates, census source, and full replay records;
+- `cover17/` — seventeen-disk proof, exhaustive peeling sources, exact certificates, and full replay records;
 - `docs/DEVELOPMENT.md` — shared development and verification workflow;
 - `requirements.txt` — shared Python dependencies;
-- `Makefile` — unified cover11 through cover16 commands.
+- `Makefile` — unified cover11 through cover17 commands.
 
 Manuscript PDF/LaTeX files are intentionally excluded. This repository is for
 proof development, exact certificates, and reproducible verification.
@@ -184,6 +187,24 @@ The final marker is `COVER16 EXACT MASTER REPLAY PASSED`.
 See [Cover16](cover16/README.md) and its [audit record](cover16/docs/AUDIT_STATUS.md)
 for the proof, resource requirements and fresh replay evidence.
 
+## Seventeen-disk verification
+
+Cover17 uses exhaustive root-face peeling with necessary-condition pruning
+on partial triangulations. Two implementations regenerate and compare the
+complete surviving sets for all six families. There are 1,344 surviving
+orbits, not 1,344 total unpruned triangulations. All 1,343 noncandidate types
+and the entire candidate angle domain are then checked exactly.
+
+```bash
+make cover17-full PYTHON_BIN="$(command -v python3)"
+```
+
+The final marker is `COVER17 EXACT MASTER REPLAY PASSED`. This chain needs
+Python 3.10+ and a C++17 compiler, but no Boost or third-party Python packages.
+See [Cover17](cover17/README.md) and the [audit record](cover17/docs/AUDIT_STATUS.md)
+for the 157-variable root, 44-triangle upper cover, pruning-completeness
+argument and fresh replay results.
+
 ## Integrity
 
 ```bash
@@ -202,6 +223,10 @@ files do not change those archived hashes.
 Cover16 likewise preserves all 90 archived files, including submitted reports.
 Its complete census replay runs in a disposable copy, and fresh audit evidence
 is stored separately from the original archive payload.
+
+Cover17 preserves all 46 archived files, including supplied stage reports.
+Its runner removes stale reports only in a disposable copy before executing
+every accepting stage. Fresh evidence is stored separately in `verification/`.
 
 ## Status
 
