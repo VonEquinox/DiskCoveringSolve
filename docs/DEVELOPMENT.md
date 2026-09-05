@@ -1,8 +1,8 @@
 # Development workflow
 
-This repository contains separate verifier chains for eleven through seventeen
+This repository contains separate verifier chains for eleven through eighteen
 disks. Keep their certificates and generated reports isolated: `cover11/`,
-`cover12/`, `cover13/`, `cover14/`, `cover15/`, `cover16/`, and `cover17/` are separate proof directories. Cover15 contains
+`cover12/`, `cover13/`, `cover14/`, `cover15/`, `cover16/`, `cover17/`, and `cover18/` are separate proof directories. Cover15 and Cover18 contain
 primary and alternative packages with their own labels, local constants and
 enumeration formats.
 
@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 
 ## Before changing certificates
 
-1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, `cover16/INPUT_MANIFEST.json`, or `cover17/INPUT_MANIFEST.json`).
+1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, `cover16/INPUT_MANIFEST.json`, `cover17/INPUT_MANIFEST.json`, or `cover18/INPUT_MANIFEST.json`).
 2. Run quick mode and record the baseline output.
 3. Identify whether the change is a verifier-only change, a certificate-format
    change, or a mathematical-certificate change.
@@ -83,6 +83,15 @@ completeness argument. Run `make cover17-runner-tests cover17-extra-tests`
 for runner regressions and additional unpruned counts with 4-6 interior
 vertices. To check the latter with memory/undefined-behavior instrumentation,
 run `python3 -S -B cover17/test_peeling_counts.py --sanitize`.
+
+For Cover18 changes, run `make cover18-full` with Python 3.10+ and a C++17
+compiler. It replays both original packages in disposable copies, then proves
+exact root correspondence and compares all 16,220 surviving orbit classes.
+Use `cover18-primary-full` or `cover18-alternative-full` to replay one chain;
+both commands still check cross-bundle linkage. Run `make cover18-runner-tests`
+for the wrapper regressions. To retain new reports, pass a nonexistent output
+directory to `cover18/run_verification.py --report-dir /tmp/cover18-new-reports`.
+Do not mix the two packages' labels, angle constants, matrices or trees.
 
 ```bash
 make integrity

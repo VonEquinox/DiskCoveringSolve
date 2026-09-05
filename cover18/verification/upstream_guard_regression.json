@@ -1,0 +1,7 @@
+{
+  "variant": "alternative",
+  "exit_code": 1,
+  "synthetic_old_report_survives": true,
+  "stderr": "Traceback (most recent call last):\n  File \"/var/folders/_t/h6vv268j65s166v4flh5yzdc0000gn/T/cover18_guard_review_18c454hl/verify_all.py\", line 12, in <module>\n    raise RuntimeError('Run without -O/-OO/PYTHONOPTIMIZE')\nRuntimeError: Run without -O/-OO/PYTHONOPTIMIZE\n",
+  "mitigation": "Repository runner discards all reports in a disposable copy and checks actual subprocess completion and every stage."
+}

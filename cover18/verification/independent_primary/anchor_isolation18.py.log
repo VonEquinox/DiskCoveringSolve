@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "theorem": "Any realization of the 72-rod candidate graph with all rods <= r_star, unit anchors, fixed q0=(1,0), and ||Q-Q_star||_F <=7/60, is the candidate itself.",
+  "gamma": 400,
+  "lambda": "69/50000",
+  "nu_upper": "7/625",
+  "anchor_Frobenius_radius": "7/60",
+  "matrix_perturbation_bound": "500130000000040000000000001/5000000000000000000000000000000000000",
+  "matrix_buffer": "1/100000000",
+  "isolation_margin": "793/56250000",
+  "congruence_diagdom_margin_normalized": "624999999993687737216955574365603739355570097555335066038130143541438659860708991/625000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "root_sha256": "446d47409d67bd6d6d2af39813b6c4b974f29d896ea8b25f7ec15bf78dd13c34",
+  "certificate_sha256": "58f17f5c4e04c0959d5f4c6de0edd5ec3a3963adc8bafd110adc6a255ef9f4ca",
+  "seconds": 0.0657799243927002
+}

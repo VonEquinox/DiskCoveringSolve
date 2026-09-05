@@ -1,0 +1,89 @@
+COVER18 ARCHIVE MANIFEST PASSED (107 files)
+PASSED verify_interfaces18.py
+PASSED verify_root18.py
+PASSED verify_upper18.py
+PASSED anchor_isolation18.py
+PASSED verify_enumeration18.py
+PASSED verify_forest18.py
+PASSED test_fail_closed18.py
+R18 COMPLETE CERTIFICATE CHAIN VERIFIED
+{
+  "verified": true,
+  "theorem": "r_18 = sqrt(t_star), R_18 = 1/sqrt(t_star)",
+  "decimal_intervals": {
+    "r_lower": "0.290167717640566729113154525601061718306280885754041798808094",
+    "r_upper": "0.290167717640566729113154525601061718306280885754041798808095",
+    "R_lower": "3.446282750304803656149542229383100893609518078229676155236019",
+    "R_upper": "3.446282750304803656149542229383100893609518078229676155236020"
+  },
+  "surviving_topology_orbits": 16220,
+  "primary_partial_states": 3180122,
+  "independent_partial_states": 10018169,
+  "unresolved_leaves": 0,
+  "seconds": 49.0410692691803
+}
+COVER18 ARCHIVE MANIFEST PASSED (107 files)
+COVER18 PRIMARY EXACT MASTER REPLAY PASSED
+=== verify_interfaces18
+PASSED verify_interfaces18
+=== verify_root18
+PASSED verify_root18
+=== verify_upper18
+PASSED verify_upper18
+=== anchor_isolation18
+PASSED anchor_isolation18
+=== compile_dfs
+PASSED compile_dfs
+=== compile_bfs
+PASSED compile_bfs
+=== dfs_B11
+PASSED dfs_B11
+=== bfs_B11
+PASSED bfs_B11
+=== dfs_B12
+PASSED dfs_B12
+=== bfs_B12
+PASSED bfs_B12
+=== dfs_B13
+PASSED dfs_B13
+=== bfs_B13
+PASSED bfs_B13
+=== dfs_B14
+PASSED dfs_B14
+=== bfs_B14
+PASSED bfs_B14
+=== dfs_B15
+PASSED dfs_B15
+=== bfs_B15
+PASSED bfs_B15
+=== dfs_B16
+PASSED dfs_B16
+=== bfs_B16
+PASSED bfs_B16
+=== dfs_B17
+PASSED dfs_B17
+=== bfs_B17
+PASSED bfs_B17
+=== verify_peeling18
+PASSED verify_peeling18
+=== verify_forest18
+PASSED verify_forest18
+=== verify_recursion_tests18
+PASSED verify_recursion_tests18
+=== test_fail_closed18
+PASSED test_fail_closed18
+R18 COMPLETE CERTIFICATE CHAIN VERIFIED
+16219 + 1 = 16220 surviving orbits after exhaustive partial cuts; unresolved leaves = 0
+All accepting input hashes unchanged during fresh replay.
+COVER18 ARCHIVE MANIFEST PASSED (107 files)
+COVER18 ALTERNATIVE EXACT MASTER REPLAY PASSED
+COVER18 EXACT ROOT TRANSPORT PASSED
+COVER18 CROSS-BUNDLE ORBITS B=11: 397 PASSED
+COVER18 CROSS-BUNDLE ORBITS B=12: 6971 PASSED
+COVER18 CROSS-BUNDLE ORBITS B=13: 7191 PASSED
+COVER18 CROSS-BUNDLE ORBITS B=14: 1645 PASSED
+COVER18 CROSS-BUNDLE ORBITS B=15: 16 PASSED
+COVER18 CROSS-BUNDLE ORBITS B=16: 0 PASSED
+COVER18 CROSS-BUNDLE ORBITS B=17: 0 PASSED
+COVER18 ARCHIVE MANIFEST PASSED (107 files)
+COVER18 REQUESTED REPLAYS AND EXACT LINKAGE PASSED

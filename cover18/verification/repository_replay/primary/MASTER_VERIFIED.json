@@ -1,0 +1,243 @@
+{
+  "verified": true,
+  "theorem": "r_18 = sqrt(t_star), R_18 = 1/sqrt(t_star)",
+  "global_optimality_certificate_chain_closed": true,
+  "kkt_dimension": 174,
+  "decimal_intervals": {
+    "r_lower": "0.290167717640566729113154525601061718306280885754041798808094",
+    "r_upper": "0.290167717640566729113154525601061718306280885754041798808095",
+    "R_lower": "3.446282750304803656149542229383100893609518078229676155236019",
+    "R_upper": "3.446282750304803656149542229383100893609518078229676155236020"
+  },
+  "root_sha256": "446d47409d67bd6d6d2af39813b6c4b974f29d896ea8b25f7ec15bf78dd13c34",
+  "covering_upper_verified": true,
+  "upper_cover": {
+    "vertices": 30,
+    "edges": 75,
+    "faces": 46,
+    "boundary_caps": 12,
+    "exact_equality_center_faces": 16
+  },
+  "enumeration_method": "exhaustive rooted peeling with safe necessary-condition pruning; independent queue/root/label/BFS/Floyd replay",
+  "surviving_topology_orbits": 16220,
+  "primary_partial_states": 3180122,
+  "independent_partial_states": 10018169,
+  "families": [
+    {
+      "B": 11,
+      "I": 7,
+      "surviving_orbits": 397,
+      "primary_states": 194340,
+      "independent_states": 78759,
+      "rooted_survivors": 8470,
+      "manifest_sha256": "9aa6b89d6aea4260a6be83e34c2f31d3dad0feff1dba18d6cd6050790405cc0e"
+    },
+    {
+      "B": 12,
+      "I": 6,
+      "surviving_orbits": 6971,
+      "primary_states": 1340225,
+      "independent_states": 1412193,
+      "rooted_survivors": 165816,
+      "manifest_sha256": "266de2e94b0d5e269e25906a7b1d5dab82c7d6c97223423b53545814b724d47c"
+    },
+    {
+      "B": 13,
+      "I": 5,
+      "surviving_orbits": 7191,
+      "primary_states": 1185638,
+      "independent_states": 2517621,
+      "rooted_survivors": 186121,
+      "manifest_sha256": "526d23dd69e611d7d1227bac5562d92dc7c7bedfbd32b2d2bfd0db59db51191a"
+    },
+    {
+      "B": 14,
+      "I": 4,
+      "surviving_orbits": 1645,
+      "primary_states": 322749,
+      "independent_states": 2349422,
+      "rooted_survivors": 44926,
+      "manifest_sha256": "a92f1aeae18891b7c2a00eeaf8b8dc7f0fea478d88b0d547ec35d8e8ea330a5c"
+    },
+    {
+      "B": 15,
+      "I": 3,
+      "surviving_orbits": 16,
+      "primary_states": 73395,
+      "independent_states": 2004372,
+      "rooted_survivors": 320,
+      "manifest_sha256": "fd2e019521c8e4cf0a694317db08d03af759c35c0e6877d37e6be08a14002871"
+    },
+    {
+      "B": 16,
+      "I": 2,
+      "surviving_orbits": 0,
+      "primary_states": 43842,
+      "independent_states": 1255845,
+      "rooted_survivors": 0,
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "B": 17,
+      "I": 1,
+      "surviving_orbits": 0,
+      "primary_states": 19933,
+      "independent_states": 399957,
+      "rooted_survivors": 0,
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "candidate_tree": {
+    "verified": true,
+    "nodes": 1219,
+    "counts": {
+      "SPLIT": 609,
+      "DUAL": 548,
+      "LOCAL": 62
+    },
+    "minimum_force_margin": "103956845455994565245557503239986741213491/4999999860602480346715488819360456050000000000000",
+    "minimum_local_margin": "78399576784597517873679643810626959710583632662250442026750143389171479980869208128130118289724534011907751316617119715582004973319111984313790827/4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "maxdepth": 32,
+    "certificate_sha256": "b0b5add76b82c2682e8447d7721860524fcaafe158de1181fc71ffa1472a3c2b"
+  },
+  "noncandidate_forest": {
+    "cases": 16219,
+    "nodes": 23531,
+    "counts": {
+      "DUAL": 19875,
+      "SPLIT": 3656
+    },
+    "minimum_force_margin": "842578671042872651242675997671608343093999/5555542440056607062839098975108703450000000000000",
+    "minimum_force_margin_float": 1.516645188357678e-07,
+    "maxdepth": 20,
+    "certificate_sha256": "925e901e6716a16a925f8f01cd24f1e3351fcb8714d5b1abe4265f36a3761696"
+  },
+  "unresolved_leaves": 0,
+  "anchor_isolation": {
+    "verified": true,
+    "theorem": "Any realization of the 72-rod candidate graph with all rods <= r_star, unit anchors, fixed q0=(1,0), and ||Q-Q_star||_F <=7/60, is the candidate itself.",
+    "gamma": 400,
+    "lambda": "69/50000",
+    "nu_upper": "7/625",
+    "anchor_Frobenius_radius": "7/60",
+    "matrix_perturbation_bound": "500130000000040000000000001/5000000000000000000000000000000000000",
+    "matrix_buffer": "1/100000000",
+    "isolation_margin": "793/56250000",
+    "congruence_diagdom_margin_normalized": "624999999993687737216955574365603739355570097555335066038130143541438659860708991/625000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "root_sha256": "446d47409d67bd6d6d2af39813b6c4b974f29d896ea8b25f7ec15bf78dd13c34",
+    "certificate_sha256": "58f17f5c4e04c0959d5f4c6de0edd5ec3a3963adc8bafd110adc6a255ef9f4ca",
+    "seconds": 0.06323790550231934
+  },
+  "small_unpruned_count_tests": 26,
+  "negative_tests": {
+    "verified": true,
+    "tests_passed": 32,
+    "tests": [
+      "one integer rod-force unit changed",
+      "negative arc-halfplane multiplier",
+      "missing rod force",
+      "boolean disguised as an integer multiplier",
+      "one integer support unit changed",
+      "floating-point integer certificate field",
+      "zero total force gives no strict separation",
+      "unresolved leaf",
+      "nonempty box falsely marked EMPTY",
+      "LOCAL leaf in a noncandidate tree",
+      "whole candidate root box falsely marked LOCAL",
+      "unreachable appended node",
+      "duplicate split children",
+      "cyclic split edge",
+      "split at the boundary instead of the interior",
+      "incorrect candidate graph isomorphism",
+      "missing candidate residual record",
+      "algebraic-root midpoint displaced",
+      "singular alleged positive-definite congruence",
+      "unverified six-rod angle cap",
+      "unlinked inflated local radius",
+      "missing all noncandidate records despite correct header",
+      "duplicate noncandidate record",
+      "duplicate valid surviving orbit",
+      "omitted surviving orbit",
+      "invalid triangle mask",
+      "trailing nonnumeric manifest bytes",
+      "overflowed integer manifest token",
+      "missing enumeration manifest",
+      "interrupted peeling cannot leave stale success",
+      "disabled assertions in the master",
+      "disabled assertions in the force checker"
+    ],
+    "seconds": 5.977322816848755
+  },
+  "input_sha256": {
+    "PROOF_zh.md": "b57e1c7c475d6756fc452f4610675320701e4f5eae4dfc926cc1f08e834b8789",
+    "README.md": "4d897d25a6dcb401fe5a994a1b8621c4881c5f81f10c5677188300b388c94cf3",
+    "core/anchor_angles18.json": "9d2fdaa6d3531de816901403ed09bab8fa102ab141932eb808a47d4a7fbdacf8",
+    "core/anchor_isolation18.py": "3817086cc017b2e17b7b89d9f58f1543934c73b88c5edba7579a3b50df720286",
+    "core/anchor_isolation_certificate.json": "58f17f5c4e04c0959d5f4c6de0edd5ec3a3963adc8bafd110adc6a255ef9f4ca",
+    "core/candidate18_tree.json.gz": "b0b5add76b82c2682e8447d7721860524fcaafe158de1181fc71ffa1472a3c2b",
+    "core/candidate_global18.py": "a41be0303d5e04e93bbe040f87d9fcceebc96574caf9635e1122c8391d7d171a",
+    "core/exact_arcs.py": "879179a2cb7e23800b5c875b55c8e97b3e963e368915197bab938c7e5fda1f79",
+    "core/exact_force18.py": "15b84c1ad3c17d0afae50961c4ea8f1817a3ceda50d19084115aa3daa596ba98",
+    "core/interval18.py": "bb895094fc5c4dd163be38b2611b6baff4a230b3efb3fcb6bac9fa2cf79835d6",
+    "core/root18.json": "446d47409d67bd6d6d2af39813b6c4b974f29d896ea8b25f7ec15bf78dd13c34",
+    "core/system18.py": "c54640f4ba910dd8dd5b3f039c1a7791a65e9125f91b386e2fca8356ba5fb391",
+    "core/test_fail_closed18.py": "29a8c8e4158423ca4281363ebe3d86696687fa37718621ddebe9ecd3afd2c608",
+    "core/verify_enumeration18.py": "5c21f35fc2b5820f95839dc0652f720e1ca034bd69993e0591a022aa5a6f5b01",
+    "core/verify_forest18.py": "3a179a836d240eddfad6fc4f3a448b56bf077f438b2f8c01f76e55fb45bdc48a",
+    "core/verify_interfaces18.py": "02faff96ee5de64e9b322c9e74fde68fb3e592a7456b1e10b814edf91e747301",
+    "core/verify_root18.py": "b3ee39547bceec386e310eb521ba865c7a00472642bf26e32621bcf108c9cf2c",
+    "core/verify_upper18.py": "10e3325a52d6672fe263198d3188865a7aa3b125d1aa5dff8adc645c54b95d43",
+    "enumeration/B11_I7.txt": "9aa6b89d6aea4260a6be83e34c2f31d3dad0feff1dba18d6cd6050790405cc0e",
+    "enumeration/B12_I6.txt": "266de2e94b0d5e269e25906a7b1d5dab82c7d6c97223423b53545814b724d47c",
+    "enumeration/B13_I5.txt": "526d23dd69e611d7d1227bac5562d92dc7c7bedfbd32b2d2bfd0db59db51191a",
+    "enumeration/B14_I4.txt": "a92f1aeae18891b7c2a00eeaf8b8dc7f0fea478d88b0d547ec35d8e8ea330a5c",
+    "enumeration/B15_I3.txt": "fd2e019521c8e4cf0a694317db08d03af759c35c0e6877d37e6be08a14002871",
+    "enumeration/B16_I2.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "enumeration/B17_I1.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "enumeration/candidate18_map.json": "562d8b40ed8b5fdff64b31429b0f148330982047fdc8055c623d4dd642b56020",
+    "enumeration/metric18_residuals.json": "d227d4449e07157a9aa67ad001ead0587d97d1bfe06330ff403abf7d2c4c9f57",
+    "enumeration/noncandidate18_trees.jsonl.gz": "925e901e6716a16a925f8f01cd24f1e3351fcb8714d5b1abe4265f36a3761696",
+    "enumeration/peel_audit.cpp": "20a93b7e1b7d79ed371a03777026654f93e5bfee2668230cd9d57bc8020bbd00",
+    "enumeration/peel_enum.cpp": "e21259372175c52be7631f58f313ab4bd995d1ff92ac3cd4e73c0b6efcdd5c4b",
+    "verify_all.py": "6631c421bb645f3ed9c1d6246e8cc10b788f055594e4e7f3e5ef6487d061dbc5"
+  },
+  "steps": [
+    {
+      "step": "verify_interfaces18.py",
+      "seconds": 0.07127499580383301,
+      "log_sha256": "47e95a0447f07ae6abfd5b47fae67ca1cd8680d7f8914aa9d157b93a08bdd39e"
+    },
+    {
+      "step": "verify_root18.py",
+      "seconds": 1.0243549346923828,
+      "log_sha256": "52ac109c1db6cd2bc20a3fde4f7346fb9818d6b225927a24bb3c47cf415af05a"
+    },
+    {
+      "step": "verify_upper18.py",
+      "seconds": 0.043725013732910156,
+      "log_sha256": "fdb8cd018b7f490620807b83cd19feb2bc08c71f03c2bced6cb75de989d7801e"
+    },
+    {
+      "step": "anchor_isolation18.py",
+      "seconds": 0.0890810489654541,
+      "log_sha256": "1b7e771d3a9ca7056ef084b11512e662402bbea44d395e49d9a31a19b8484904"
+    },
+    {
+      "step": "verify_enumeration18.py",
+      "seconds": 29.359774112701416,
+      "log_sha256": "a0b8ac3195f73798ace71339f88de9275557d95919e1e15608ce41ceac171cca"
+    },
+    {
+      "step": "verify_forest18.py",
+      "seconds": 12.392445802688599,
+      "log_sha256": "171ea77534a0b97c430705d7d417e32e612f4d88dc2754cf6ada33f6426dc5d9"
+    },
+    {
+      "step": "test_fail_closed18.py",
+      "seconds": 6.029626846313477,
+      "log_sha256": "ffca3eb41e4675bb1054336cd717597a088997491b196670b2412a48d929bc06"
+    }
+  ],
+  "seconds": 49.0410692691803,
+  "trust_boundary": "Written convex-geometric, planar-topological, and exhaustive-peeling proofs; Python integer/Fraction arithmetic and a C++17 compiler. Every input certificate is replayed. No floating-point optimizer is an accepting dependency. Not Lean/Coq formalization, third-party review, or independent peer review."
+}

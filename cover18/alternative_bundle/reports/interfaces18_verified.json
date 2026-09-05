@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "centers": 18,
+  "anchors": 12,
+  "active_faces": 16,
+  "all_center_faces": 22,
+  "active_rods": 72,
+  "geometric_dimension": 90,
+  "constraint_count": 83,
+  "kkt_dimension": 174,
+  "full_auxiliary_nodes": 52,
+  "full_auxiliary_rods": 90,
+  "root_sha256": "b77a77336488a0f85981df24ddfb897a048113e4cce55453f0175b99c1274911"
+}

@@ -1,0 +1,241 @@
+{
+  "verified": true,
+  "tests": [
+    {
+      "N": 5,
+      "B": 3,
+      "I": 2,
+      "labelled": 6,
+      "rooted": 3,
+      "orbits": 1
+    },
+    {
+      "N": 5,
+      "B": 4,
+      "I": 1,
+      "labelled": 5,
+      "rooted": 5,
+      "orbits": 2
+    },
+    {
+      "N": 5,
+      "B": 5,
+      "I": 0,
+      "labelled": 5,
+      "rooted": 5,
+      "orbits": 1
+    },
+    {
+      "N": 6,
+      "B": 3,
+      "I": 3,
+      "labelled": 78,
+      "rooted": 13,
+      "orbits": 4
+    },
+    {
+      "N": 6,
+      "B": 4,
+      "I": 2,
+      "labelled": 40,
+      "rooted": 20,
+      "orbits": 5
+    },
+    {
+      "N": 6,
+      "B": 5,
+      "I": 1,
+      "labelled": 21,
+      "rooted": 21,
+      "orbits": 4
+    },
+    {
+      "N": 6,
+      "B": 6,
+      "I": 0,
+      "labelled": 14,
+      "rooted": 14,
+      "orbits": 3
+    },
+    {
+      "N": 7,
+      "B": 3,
+      "I": 4,
+      "labelled": 1632,
+      "rooted": 68,
+      "orbits": 16
+    },
+    {
+      "N": 7,
+      "B": 4,
+      "I": 3,
+      "labelled": 600,
+      "rooted": 100,
+      "orbits": 18
+    },
+    {
+      "N": 7,
+      "B": 5,
+      "I": 2,
+      "labelled": 210,
+      "rooted": 105,
+      "orbits": 14
+    },
+    {
+      "N": 7,
+      "B": 6,
+      "I": 1,
+      "labelled": 84,
+      "rooted": 84,
+      "orbits": 11
+    },
+    {
+      "N": 7,
+      "B": 7,
+      "I": 0,
+      "labelled": 42,
+      "rooted": 42,
+      "orbits": 4
+    },
+    {
+      "N": 8,
+      "B": 4,
+      "I": 4,
+      "labelled": 13680,
+      "rooted": 570,
+      "orbits": 88
+    },
+    {
+      "N": 8,
+      "B": 5,
+      "I": 3,
+      "labelled": 3570,
+      "rooted": 595,
+      "orbits": 69
+    },
+    {
+      "N": 8,
+      "B": 6,
+      "I": 2,
+      "labelled": 1008,
+      "rooted": 504,
+      "orbits": 53
+    },
+    {
+      "N": 8,
+      "B": 7,
+      "I": 1,
+      "labelled": 330,
+      "rooted": 330,
+      "orbits": 28
+    },
+    {
+      "N": 8,
+      "B": 8,
+      "I": 0,
+      "labelled": 132,
+      "rooted": 132,
+      "orbits": 12
+    },
+    {
+      "N": 9,
+      "B": 5,
+      "I": 4,
+      "labelled": 88200,
+      "rooted": 3675,
+      "orbits": 396
+    },
+    {
+      "N": 9,
+      "B": 6,
+      "I": 3,
+      "labelled": 19152,
+      "rooted": 3192,
+      "orbits": 295
+    },
+    {
+      "N": 9,
+      "B": 7,
+      "I": 2,
+      "labelled": 4620,
+      "rooted": 2310,
+      "orbits": 178
+    },
+    {
+      "N": 9,
+      "B": 8,
+      "I": 1,
+      "labelled": 1287,
+      "rooted": 1287,
+      "orbits": 91
+    },
+    {
+      "N": 9,
+      "B": 9,
+      "I": 0,
+      "labelled": 429,
+      "rooted": 429,
+      "orbits": 27
+    },
+    {
+      "N": 10,
+      "B": 6,
+      "I": 4,
+      "labelled": 510048,
+      "rooted": 21252,
+      "orbits": 1867
+    },
+    {
+      "N": 10,
+      "B": 7,
+      "I": 3,
+      "labelled": 97020,
+      "rooted": 16170,
+      "orbits": 1196
+    },
+    {
+      "N": 10,
+      "B": 8,
+      "I": 2,
+      "labelled": 20592,
+      "rooted": 10296,
+      "orbits": 685
+    },
+    {
+      "N": 10,
+      "B": 9,
+      "I": 1,
+      "labelled": 5005,
+      "rooted": 5005,
+      "orbits": 291
+    },
+    {
+      "N": 10,
+      "B": 10,
+      "I": 0,
+      "labelled": 1430,
+      "rooted": 1430,
+      "orbits": 82
+    },
+    {
+      "N": 11,
+      "B": 8,
+      "I": 3,
+      "labelled": 473616,
+      "rooted": 78936,
+      "orbits": 5051
+    },
+    {
+      "N": 12,
+      "B": 9,
+      "I": 3,
+      "labelled": 2252250,
+      "rooted": 375375,
+      "orbits": 21018
+    }
+  ],
+  "cases": 29,
+  "pruning_disabled": true,
+  "role": "Additional finite checks; n=18 completeness is the root-face induction plus freshly executed exhaustive searches.",
+  "seconds": 10.300806045532227
+}

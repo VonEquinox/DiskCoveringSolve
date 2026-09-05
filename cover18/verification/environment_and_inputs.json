@@ -1,0 +1,12 @@
+{
+  "review_date": "2026-09-05",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "input_sha256": {
+    "r18_verified_proof.zip": "e35283e2d9fe3f87d5340269de94dd832c33b87f3ed7c6b0e99afbaa918de729",
+    "r18_verified_proof(1).zip": "cc212ac381af41273ecfff94baf22e65e3de80afdac87384516f86fd567d5957",
+    "r18_proof_zh.md": "b57e1c7c475d6756fc452f4610675320701e4f5eae4dfc926cc1f08e834b8789"
+  }
+}

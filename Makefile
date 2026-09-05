@@ -5,12 +5,13 @@ PYTHON_BIN ?= python3
 .PHONY: cover15-integrity cover15-full cover15-primary-full cover15-alternative-full
 .PHONY: cover16-integrity cover16-full cover16-runner-tests
 .PHONY: cover17-integrity cover17-full cover17-runner-tests cover17-extra-tests
+.PHONY: cover18-integrity cover18-full cover18-primary-full cover18-alternative-full cover18-runner-tests cover18-linkage
 
-integrity: cover11-integrity cover12-integrity cover13-integrity cover14-integrity cover14-alternative-integrity cover15-integrity cover16-integrity cover17-integrity
+integrity: cover11-integrity cover12-integrity cover13-integrity cover14-integrity cover14-alternative-integrity cover15-integrity cover16-integrity cover17-integrity cover18-integrity
 
 quick: cover11-quick
 
-full: cover11-full cover12-full cover13-full cover14-full cover14-alternative-full cover15-full cover16-full cover17-full
+full: cover11-full cover12-full cover13-full cover14-full cover14-alternative-full cover15-full cover16-full cover17-full cover18-full
 
 cover11-integrity:
 	cd cover11/proof_bundle && sha256sum -c SHA256SUMS
@@ -77,3 +78,21 @@ cover17-runner-tests:
 
 cover17-extra-tests:
 	"$(PYTHON_BIN)" -S -B cover17/test_peeling_counts.py
+
+cover18-integrity:
+	"$(PYTHON_BIN)" -S -B cover18/run_verification.py --integrity-only
+
+cover18-full:
+	"$(PYTHON_BIN)" -S -B cover18/run_verification.py --variant both
+
+cover18-primary-full:
+	"$(PYTHON_BIN)" -S -B cover18/run_verification.py --variant primary
+
+cover18-alternative-full:
+	"$(PYTHON_BIN)" -S -B cover18/run_verification.py --variant alternative
+
+cover18-runner-tests:
+	"$(PYTHON_BIN)" -S -B cover18/test_run_verification.py
+
+cover18-linkage:
+	"$(PYTHON_BIN)" -S -B cover18/verify_bundle_linkage.py

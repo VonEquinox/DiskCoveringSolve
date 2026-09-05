@@ -1,6 +1,6 @@
 # DiskCoveringSolve
 
-Covering the unit disk with n equal disks, for n = 11, 12, 13, 14, 15, 16, and 17:
+Covering the unit disk with n equal disks, for n = 11, 12, 13, 14, 15, 16, 17, and 18:
 global optimality proof claims, exact certificates, and reproducible
 verification code. The disk covering problem (also spelled disc covering
 problem) asks for the smallest common radius that covers the entire unit disk.
@@ -13,7 +13,7 @@ Browse the proof packages and verification instructions:
 [11 disks](cover11/README.md), [12 disks](cover12/README.md),
 [13 disks](cover13/README.md), [14 disks](cover14/README.md),
 [15 disks](cover15/README.md), [16 disks](cover16/README.md),
-[17 disks](cover17/README.md).
+[17 disks](cover17/README.md), [18 disks](cover18/README.md).
 
 ## Claimed results
 
@@ -35,6 +35,7 @@ the included certificate packages claim:
 | 15 | \(r_{15}=0.31814293085926283635949118164993500518666386\ldots\) |
 | 16 | \(r_{16}=0.30821980189861784887010326922181483200610642\ldots\) |
 | 17 | \(r_{17}=0.29853158925642805986984377442398070373438760\ldots\) |
+| 18 | \(r_{18}=0.29016771764056672911315452560106171830628088\ldots\) |
 
 Each exact value is defined by the isolated algebraic root in its rational
 Krawczyk certificate, not by the displayed decimal expansion.
@@ -48,9 +49,10 @@ Krawczyk certificate, not by the displayed decimal expansion.
 - `cover15/` — fifteen-disk primary and alternative bundles, Chinese proofs, and exact replay records;
 - `cover16/` — sixteen-disk proof, exact certificates, census source, and full replay records;
 - `cover17/` — seventeen-disk proof, exhaustive peeling sources, exact certificates, and full replay records;
+- `cover18/` - eighteen-disk primary and alternative proofs, exact root linkage, discovery sources, and full replay records;
 - `docs/DEVELOPMENT.md` — shared development and verification workflow;
 - `requirements.txt` — shared Python dependencies;
-- `Makefile` — unified cover11 through cover17 commands.
+- `Makefile` — unified cover11 through cover18 commands.
 
 Manuscript PDF/LaTeX files are intentionally excluded. This repository is for
 proof development, exact certificates, and reproducible verification.
@@ -205,6 +207,25 @@ See [Cover17](cover17/README.md) and the [audit record](cover17/docs/AUDIT_STATU
 for the 157-variable root, 44-triangle upper cover, pruning-completeness
 argument and fresh replay results.
 
+## Eighteen-disk verification
+
+Cover18 includes two related certificate chains. Each checks the 174-variable
+root, the 46-triangle upper cover, exhaustive peeling over seven families,
+all 16,219 noncandidate types and the full candidate angle domain. The 16,220
+surviving orbits are not the total unpruned topology count. An additional
+exact root transport and full survivor-set comparison link the two archives.
+
+```bash
+make cover18-full PYTHON_BIN="$(command -v python3)"
+```
+
+Python 3.10+ and a C++17 compiler suffice; no third-party Python dependency or
+Boost is needed. The final marker is
+`COVER18 REQUESTED REPLAYS AND EXACT LINKAGE PASSED`.
+The alternative package also includes optional numerical discovery sources,
+which are not used for acceptance. See [Cover18](cover18/README.md) and its
+[audit record](cover18/docs/AUDIT_STATUS.md) for both proofs and actual results.
+
 ## Integrity
 
 ```bash
@@ -227,6 +248,10 @@ is stored separately from the original archive payload.
 Cover17 preserves all 46 archived files, including supplied stage reports.
 Its runner removes stale reports only in a disposable copy before executing
 every accepting stage. Fresh evidence is stored separately in `verification/`.
+
+Cover18 preserves all 107 original files across its two archives. Its runner
+removes old reports only in disposable copies, checks every requested stage,
+and stores new evidence separately from the submitted payloads.
 
 ## Status
 
