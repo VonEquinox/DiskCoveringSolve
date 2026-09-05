@@ -1,4 +1,4 @@
-# Disk Covering Problem: Computer-Assisted Proofs for n = 11–16
+# DiskCoveringSolve
 
 Covering the unit disk with n equal disks, for n = 11, 12, 13, 14, 15, and 16:
 global optimality proof claims, exact certificates, and reproducible
