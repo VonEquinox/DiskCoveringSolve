@@ -21,3 +21,4 @@ jobs:
       - run: make cover11-quick PYTHON_BIN="$(command -v python)"
       - run: make cover12-full PYTHON_BIN="$(command -v python)"
       - run: make cover13-full PYTHON_BIN="$(command -v python)"
+      - run: make cover14-full PYTHON_BIN="$(command -v python)"

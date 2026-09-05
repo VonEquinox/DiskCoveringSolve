@@ -1,0 +1,29 @@
+PASSED verify_root14.py
+PASSED verify_upper14.py
+PASSED anchor_isolation14.py
+PASSED independent orbit audit 13 1
+PASSED independent orbit audit 12 2
+PASSED independent orbit audit 11 3
+PASSED independent orbit audit 10 4
+PASSED verify_partition14.py
+PASSED verify_forest14.py
+PASSED test_fail_closed14.py
+R14 COMPLETE CERTIFICATE CHAIN VERIFIED
+{
+  "verified": true,
+  "theorem": "r_14 = sqrt(t_star), R_14 = 1/sqrt(t_star)",
+  "decimal_intervals": {
+    "r_lower": "0.331732034276234122557815548802409538270942754829017478062828",
+    "r_upper": "0.331732034276234122557815548802409538270942754829017478062829",
+    "R_lower": "3.014481257988179142001870494819761487186097134743704272300777",
+    "R_upper": "3.014481257988179142001870494819761487186097134743704272300778"
+  },
+  "enumeration_total": 1313024,
+  "metric_excluded": 1305792,
+  "noncandidate_cases": 7231,
+  "unresolved_leaves": 0,
+  "seconds": 32.453492879867554
+}
+real 32.52
+user 36.32
+sys 0.89

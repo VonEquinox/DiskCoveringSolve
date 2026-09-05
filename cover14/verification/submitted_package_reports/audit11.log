@@ -1,0 +1,47 @@
+checked 10000
+checked 20000
+checked 30000
+checked 40000
+checked 50000
+checked 60000
+checked 70000
+checked 80000
+checked 90000
+checked 100000
+checked 110000
+checked 120000
+checked 130000
+checked 140000
+checked 150000
+checked 160000
+checked 170000
+checked 180000
+checked 190000
+checked 200000
+checked 210000
+checked 220000
+checked 230000
+checked 240000
+checked 250000
+checked 260000
+checked 270000
+checked 280000
+checked 290000
+checked 300000
+checked 310000
+checked 320000
+checked 330000
+checked 340000
+checked 350000
+checked 360000
+{
+  "verified": true,
+  "B": 11,
+  "I": 3,
+  "representatives": 365922,
+  "group_size": 132,
+  "orbit_mass": "48221316",
+  "brown_total": "48221316",
+  "min_stabilizer": 1,
+  "max_stabilizer": 2
+}

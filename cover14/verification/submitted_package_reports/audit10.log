@@ -1,0 +1,86 @@
+checked 10000
+checked 20000
+checked 30000
+checked 40000
+checked 50000
+checked 60000
+checked 70000
+checked 80000
+checked 90000
+checked 100000
+checked 110000
+checked 120000
+checked 130000
+checked 140000
+checked 150000
+checked 160000
+checked 170000
+checked 180000
+checked 190000
+checked 200000
+checked 210000
+checked 220000
+checked 230000
+checked 240000
+checked 250000
+checked 260000
+checked 270000
+checked 280000
+checked 290000
+checked 300000
+checked 310000
+checked 320000
+checked 330000
+checked 340000
+checked 350000
+checked 360000
+checked 370000
+checked 380000
+checked 390000
+checked 400000
+checked 410000
+checked 420000
+checked 430000
+checked 440000
+checked 450000
+checked 460000
+checked 470000
+checked 480000
+checked 490000
+checked 500000
+checked 510000
+checked 520000
+checked 530000
+checked 540000
+checked 550000
+checked 560000
+checked 570000
+checked 580000
+checked 590000
+checked 600000
+checked 610000
+checked 620000
+checked 630000
+checked 640000
+checked 650000
+checked 660000
+checked 670000
+checked 680000
+checked 690000
+checked 700000
+checked 710000
+checked 720000
+checked 730000
+checked 740000
+checked 750000
+{
+  "verified": true,
+  "B": 10,
+  "I": 4,
+  "representatives": 755468,
+  "group_size": 480,
+  "orbit_mass": "361732800",
+  "brown_total": "361732800",
+  "min_stabilizer": 1,
+  "max_stabilizer": 4
+}

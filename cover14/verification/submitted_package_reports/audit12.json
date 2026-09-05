@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "B": 12,
+  "I": 2,
+  "representatives": 147520,
+  "group_size": 48,
+  "orbit_mass": "7054320",
+  "brown_total": "7054320",
+  "min_stabilizer": 1,
+  "max_stabilizer": 4
+}

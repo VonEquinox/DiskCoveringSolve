@@ -1,0 +1,145 @@
+{
+  "verified": true,
+  "theorem": "r_14 = sqrt(t_star), R_14 = 1/sqrt(t_star)",
+  "global_optimality_certificate_chain_closed": true,
+  "decimal_intervals": {
+    "r_lower": "0.331732034276234122557815548802409538270942754829017478062828",
+    "r_upper": "0.331732034276234122557815548802409538270942754829017478062829",
+    "R_lower": "3.014481257988179142001870494819761487186097134743704272300777",
+    "R_upper": "3.014481257988179142001870494819761487186097134743704272300778"
+  },
+  "kkt_dimension": 116,
+  "root_sha256": "0fd0387b77aa48c6e43a7dd894c1dc694ad9eaa7337b29980926b24fbed8c937",
+  "covering_upper_verified": true,
+  "enumeration_total": 1313024,
+  "metric_excluded": 1305792,
+  "noncandidate_cases": 7231,
+  "candidate_cases": 1,
+  "candidate_tree": {
+    "verified": true,
+    "nodes": 913,
+    "counts": {
+      "SPLIT": 456,
+      "DUAL": 419,
+      "LOCAL": 38
+    },
+    "minimum_force_margin": "105236338111086134273273325443751599484625448771/1000000076527040862333759604537316823000000000000000000",
+    "minimum_local_margin": "1088883038755167190928532716256768151623253168564408305390165473836877735439430596177636148327724043997354150763147910851589570879268769614882979143/2250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "maxdepth": 21,
+    "certificate_sha256": "7fc0eae6531fdd172be9ade7d36dd8cf4c3bdbb177a86f7fb081eeae63107f51"
+  },
+  "noncandidate_forest": {
+    "cases": 7231,
+    "nodes": 16075,
+    "counts": {
+      "DUAL": 11653,
+      "SPLIT": 4422
+    },
+    "minimum_force_margin": "2620607084702855980793209652049624518225521379477/1000000057358160959291897272085456801000000000000000000",
+    "minimum_force_margin_float": 2.6206069343896617e-06,
+    "maxdepth": 12,
+    "certificate_sha256": "77b943a3922196086c2d287033580815993b22b7dcde8bdfccb342e447888d9e"
+  },
+  "unresolved_leaves": 0,
+  "anchor_isolation_radius": "1/6",
+  "independent_labelled_counts": {
+    "B10_I4": 361732800,
+    "B11_I3": 48221316,
+    "B12_I2": 7054320,
+    "B13_I1": 1144066
+  },
+  "negative_tests": {
+    "verified": true,
+    "tests": {
+      "one_integer_force_unit_corrupted": "rejected",
+      "unresolved_leaf": "rejected",
+      "unreachable_extra_node": "rejected",
+      "duplicate_split_child": "rejected",
+      "corrupted_algebraic_root": "rejected",
+      "duplicate_orbit_representative": "rejected",
+      "assertions_disabled": "rejected"
+    },
+    "seconds": 0.7832660675048828
+  },
+  "input_sha256": {
+    "core/system14.py": "86947285a044e9e865f31a79fa69a38831dee41353929570635317b9149d9d6f",
+    "core/root14.json": "0fd0387b77aa48c6e43a7dd894c1dc694ad9eaa7337b29980926b24fbed8c937",
+    "core/verify_root14.py": "42cd890b8a1faceabd6db723ddd1b46b6145de9695bd94da04a34ba189e86751",
+    "core/symmetry14.py": "825375e430097d421c23bbe2cd8564dc7184554131aa7e3e66f9826439cd5516",
+    "core/verify_upper14.py": "8c0eb8d150af0de83ac9f949a819a7293990365a91623ca762de33fe0d408762",
+    "core/anchor_angles14.json": "945021a83aa7012250bd4a1ce88f7d69c9367527dc6391d4a8bf38b49f12c2b7",
+    "core/anchor_isolation14.py": "8f64667700482fbf90f5691b8acced45e4f258c00ee4ab0b46546a1c24690751",
+    "core/anchor_isolation_certificate.json": "21606090fe49bd3b0aea431687aeec1953f3fcfab73a5bc3ca9ecc4793f04aee",
+    "core/exact_arcs.py": "879179a2cb7e23800b5c875b55c8e97b3e963e368915197bab938c7e5fda1f79",
+    "core/exact_force14.py": "32a51bbf2f7a5140f52f38023a46870200c878c14c2963c8da5339dbbe830cc8",
+    "core/candidate_global14.py": "0011d76e00e5ce16d1710a45c903a017e76842c94891af7276e7e5b6bf023e3c",
+    "core/candidate14_tree.json.gz": "7fc0eae6531fdd172be9ade7d36dd8cf4c3bdbb177a86f7fb081eeae63107f51",
+    "core/verify_forest14.py": "1ba3eb04ccd7212ae33054d8d8783db293cc650c763196f5cd0a0a566ca47168",
+    "core/verify_partition14.py": "a4738c26ce2a36d4dc76ee3f21b7c96ed36e6e0d9247b0a9655f9ff47553af53",
+    "core/test_fail_closed14.py": "78b6f59de8b2af381253933841c8ec829af33ee35a6ba48d4be8361b91c81c76",
+    "enumeration/audit14.cpp": "201945ecfaa0f7789ad20b49a2d9f86ea5831c0f566ecf73c4f9e43f56db5ef9",
+    "enumeration/metric14_certificate.json": "ba2a68cafa2e1c0c737732217067d6152d432882b6ef6860c75a921cae0a58a7",
+    "enumeration/metric14_residuals.json": "ae97fa67e0b991e705d5ba61fbebb99a6b5a6ff747c75c828cde51c08e247304",
+    "enumeration/candidate14_map.json": "565602538c568f749513a563758c5831f22c7621bdb4c75b8900a560302d1843",
+    "enumeration/noncandidate14_trees.json.gz": "77b943a3922196086c2d287033580815993b22b7dcde8bdfccb342e447888d9e",
+    "enumeration/B10_I4.txt.gz": "463aaeb521755bd02b3ab3016b40fd2f0b31a6c393b5e06a80a495f04774677e",
+    "enumeration/B11_I3.txt.gz": "cb2a99b0da3af94e2bffe790bcea9352dbed4b33a21189a3728e8766abb572db",
+    "enumeration/B12_I2.txt.gz": "43e0bc14603ccbd4f864beb8b41e3e0c2683cdf28ec65f0c1e59257fd04e2b6e",
+    "enumeration/B13_I1.txt.gz": "29c11df5f2baad49081df5ff725544aff21584f0c2e8deea0467e5e3f71c56e6",
+    "verify_all.py": "e68671f52b1637932ac6d38b2450f566093f6f145d087155d41d2321ca2948dd"
+  },
+  "steps": [
+    {
+      "step": "verify_root14.py",
+      "seconds": 0.41372179985046387,
+      "log_sha256": "df98cc20331ca3d3f2069905c139b2eee6c6efcfb9929710b542fc00a286c6d9"
+    },
+    {
+      "step": "verify_upper14.py",
+      "seconds": 0.0397486686706543,
+      "log_sha256": "a734c1ff8482cfd16c3e36788293085c3dd5ea6d5c1746608b4cbb5e874a8737"
+    },
+    {
+      "step": "anchor_isolation14.py",
+      "seconds": 0.044133901596069336,
+      "log_sha256": "ff1fe07e9af30ab704342978d08c24a9e039a02f11ba857d0c9bcea242d9a60b"
+    },
+    {
+      "step": "orbit_audit_10",
+      "seconds": 13.361315965652466,
+      "log_sha256": "07afd6a0a17b3953f9962c94cb97e5372b0868b92a05dd36123825d6a5f49e63"
+    },
+    {
+      "step": "orbit_audit_11",
+      "seconds": 4.4037439823150635,
+      "log_sha256": "72a178cdab395d368b89116e2b3bf19b97c08823189ad4e93be87083f331ff16"
+    },
+    {
+      "step": "orbit_audit_12",
+      "seconds": 1.6125569343566895,
+      "log_sha256": "f40c74b84540dce15e8abfb5d2179b494463ac4a37f7a261921c149e0b11ce7f"
+    },
+    {
+      "step": "orbit_audit_13",
+      "seconds": 0.7216613292694092,
+      "log_sha256": "ff8ef2d26739bae6e0c25babcc8bfbd831561773b85428f129ed287683d9cebf"
+    },
+    {
+      "step": "verify_partition14.py",
+      "seconds": 10.366108179092407,
+      "log_sha256": "8673e86e6f039cf92d2b92d2e9a554e62d1f6098589c009e6000224ba5b9a4e5"
+    },
+    {
+      "step": "verify_forest14.py",
+      "seconds": 5.981410980224609,
+      "log_sha256": "a6a75020e29830b15ced7f2e34e57bf5eb049d5fe61102d01dc68f1847201250"
+    },
+    {
+      "step": "test_fail_closed14.py",
+      "seconds": 0.8557121753692627,
+      "log_sha256": "70f5120aecdb5c8b4cc019a694e471708001991f51e84850364f49d802afe905"
+    }
+  ],
+  "seconds": 32.453492879867554,
+  "trust_boundary": "The written geometric/topological reductions in PROOF_zh.md, standard-library integer/Fraction arithmetic, C++17 compiler and Boost integers. No numerical optimizer is trusted. This is not a Lean/Coq formalization or a claim of external peer review."
+}

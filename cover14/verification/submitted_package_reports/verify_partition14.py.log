@@ -1,0 +1,5 @@
+METRIC VERIFIED B10_I4 {'direct': 754536, 'farkas': 0, 'residual': 932} seconds 13.556008100509644
+METRIC VERIFIED B11_I3 {'direct': 360645, 'farkas': 1272, 'residual': 4005} seconds 21.161668062210083
+METRIC VERIFIED B12_I2 {'direct': 142821, 'farkas': 2768, 'residual': 1931} seconds 24.15705633163452
+METRIC VERIFIED B13_I1 {'direct': 42489, 'farkas': 1261, 'residual': 364} seconds 25.21080446243286
+PARTITION VERIFIED 1313024 residual 7232

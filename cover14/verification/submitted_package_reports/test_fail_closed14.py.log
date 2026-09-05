@@ -1,0 +1,1 @@
+NEGATIVE TESTS PASSED {'one_integer_force_unit_corrupted': 'rejected', 'unresolved_leaf': 'rejected', 'unreachable_extra_node': 'rejected', 'duplicate_split_child': 'rejected', 'corrupted_algebraic_root': 'rejected', 'duplicate_orbit_representative': 'rejected', 'assertions_disabled': 'rejected'}

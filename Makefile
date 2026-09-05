@@ -1,12 +1,12 @@
 PYTHON_BIN ?= python3
 
-.PHONY: integrity quick full cover11-integrity cover11-quick cover11-full cover12-integrity cover12-full cover13-integrity cover13-full
+.PHONY: integrity quick full cover11-integrity cover11-quick cover11-full cover12-integrity cover12-full cover13-integrity cover13-full cover14-integrity cover14-full
 
-integrity: cover11-integrity cover12-integrity cover13-integrity
+integrity: cover11-integrity cover12-integrity cover13-integrity cover14-integrity
 
 quick: cover11-quick
 
-full: cover11-full cover12-full cover13-full
+full: cover11-full cover12-full cover13-full cover14-full
 
 cover11-integrity:
 	cd cover11/proof_bundle && sha256sum -c SHA256SUMS
@@ -28,3 +28,9 @@ cover13-integrity:
 
 cover13-full:
 	PYTHON_BIN="$(PYTHON_BIN)" ./cover13/run_verification.sh
+
+cover14-integrity:
+	PYTHON_BIN="$(PYTHON_BIN)" ./cover14/verify_manifest.py
+
+cover14-full:
+	PYTHON_BIN="$(PYTHON_BIN)" ./cover14/run_verification.sh
