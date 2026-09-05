@@ -16,6 +16,13 @@ Browse the proof packages and verification instructions:
 [17 disks](cover17/README.md), [18 disks](cover18/README.md),
 [19 disks](cover19/README.md), [20 disks](cover20/README.md).
 
+The repository also contains a [Chinese proof of a single-exponential exact
+algorithm for arbitrary disk counts](theory/single_exponential_exact_algorithm_zh.md).
+This is a theoretical algorithm and bit-complexity result, not an implemented
+end-to-end solver or a table of computed optimal radii for every n. It is
+independent of the fixed-n certificate packages and remains open to external
+mathematical review.
+
 ## Claimed results
 
 For
@@ -59,6 +66,7 @@ and two nested rational contraction boxes.
 - `cover18/` - eighteen-disk primary and alternative proofs, exact root linkage, discovery sources, and full replay records;
 - `cover19/` - nineteen-disk primary and alternative proofs, exact geometry and stress linkage, discovery sources, and full replay records;
 - `cover20/` - twenty-disk ZIP proof, exact certificates with lossless large-file parts, discovery sources, and fresh replay records;
+- `theory/` - Markdown proofs of general algorithms, separate from fixed-n certificate replays;
 - `docs/DEVELOPMENT.md` — shared development and verification workflow;
 - `requirements.txt` — shared Python dependencies;
 - `Makefile` — unified cover11 through cover20 commands.
