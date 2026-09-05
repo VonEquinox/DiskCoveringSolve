@@ -3,12 +3,13 @@ PYTHON_BIN ?= python3
 .PHONY: integrity quick full cover11-integrity cover11-quick cover11-full cover12-integrity cover12-full cover13-integrity cover13-full cover14-integrity cover14-full
 .PHONY: cover14-alternative-integrity cover14-alternative-full
 .PHONY: cover15-integrity cover15-full cover15-primary-full cover15-alternative-full
+.PHONY: cover16-integrity cover16-full cover16-runner-tests
 
-integrity: cover11-integrity cover12-integrity cover13-integrity cover14-integrity cover14-alternative-integrity cover15-integrity
+integrity: cover11-integrity cover12-integrity cover13-integrity cover14-integrity cover14-alternative-integrity cover15-integrity cover16-integrity
 
 quick: cover11-quick
 
-full: cover11-full cover12-full cover13-full cover14-full cover14-alternative-full cover15-full
+full: cover11-full cover12-full cover13-full cover14-full cover14-alternative-full cover15-full cover16-full
 
 cover11-integrity:
 	cd cover11/proof_bundle && sha256sum -c SHA256SUMS
@@ -54,3 +55,12 @@ cover15-primary-full:
 
 cover15-alternative-full:
 	"$(PYTHON_BIN)" -S -B cover15/run_verification.py --variant alternative
+
+cover16-integrity:
+	"$(PYTHON_BIN)" -S -B cover16/run_verification.py --integrity-only
+
+cover16-full:
+	"$(PYTHON_BIN)" -S -B cover16/run_verification.py
+
+cover16-runner-tests:
+	"$(PYTHON_BIN)" -S -B cover16/test_run_verification.py

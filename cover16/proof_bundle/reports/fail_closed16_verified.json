@@ -1,0 +1,27 @@
+{
+  "verified": true,
+  "tests_passed": 20,
+  "tests": {
+    "one_integer_force_unit_corrupted": "rejected",
+    "negative_halfplane_multiplier": "rejected",
+    "missing_rod_force": "rejected",
+    "unresolved_leaf": "rejected",
+    "unreachable_extra_node": "rejected",
+    "duplicate_split_child": "rejected",
+    "cyclic_split_edge": "rejected",
+    "split_outside_parent": "rejected",
+    "local_leaf_in_noncandidate_case": "rejected",
+    "whole_candidate_domain_falsely_local": "rejected",
+    "negative_Farkas_weight": "rejected",
+    "zero_Farkas_cover": "rejected",
+    "corrupted_algebraic_root": "rejected",
+    "singular_PD_congruence": "rejected",
+    "duplicate_orbit_representative": "rejected",
+    "invalid_triangle_mask": "rejected",
+    "missing_noncandidate_cases": "rejected",
+    "incorrect_candidate_graph_permutation": "rejected",
+    "assertions_disabled_in_master": "rejected",
+    "assertions_disabled_in_force_checker": "rejected"
+  },
+  "seconds": 19.03577947616577
+}

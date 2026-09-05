@@ -1,8 +1,8 @@
 # Development workflow
 
-This repository contains separate verifier chains for eleven through fifteen
+This repository contains separate verifier chains for eleven through sixteen
 disks. Keep their certificates and generated reports isolated: `cover11/`,
-`cover12/`, `cover13/`, `cover14/`, and `cover15/` are separate proof directories. Cover15 contains
+`cover12/`, `cover13/`, `cover14/`, `cover15/`, and `cover16/` are separate proof directories. Cover15 contains
 primary and alternative packages with their own labels, local constants and
 enumeration formats.
 
@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 
 ## Before changing certificates
 
-1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, or `cover15/INPUT_MANIFEST.json`).
+1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, `cover13/proof_bundle/MANIFEST_SHA256.json`, `cover14/proof_bundle/SHA256SUMS`, `cover15/INPUT_MANIFEST.json`, or `cover16/INPUT_MANIFEST.json`).
 2. Run quick mode and record the baseline output.
 3. Identify whether the change is a verifier-only change, a certificate-format
    change, or a mathematical-certificate change.
@@ -63,6 +63,15 @@ correspondence is checked. To work on one implementation, use
 `make cover15-primary-full` or `make cover15-alternative-full`. Check archive
 integrity with `make cover15-integrity`; the source-derived
 `cover15/INPUT_MANIFEST.json` also covers original submitted reports.
+
+For Cover16 changes, run `make cover16-full` with Python 3.10+. It regenerates
+all five census families in a disposable directory; no cached-enumeration
+option is exposed by the repository runner. The default one-worker setting
+limits concurrent memory use. To retain fresh reports, use
+`python3 -S -B cover16/run_verification.py --report-dir /tmp/cover16-new-reports`
+with a directory that does not yet exist. The original 90-file archive stays
+unchanged. Run `make cover16-integrity cover16-runner-tests` for input hashes
+and lightweight runner tests; these are not a substitute for full replay.
 
 ```bash
 make integrity

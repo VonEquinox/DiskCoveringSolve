@@ -1,0 +1,74 @@
+{
+  "description": "Untrusted discovery outputs generated from an empty r16 work directory in this conversation. Completeness is accepted only by the separate BFS/orbit-mass audit.",
+  "generator_sha256": "4bafd22a9b5169885022f4d23e9180617538db4539192aca42c5e080708f151b",
+  "families": [
+    {
+      "verified": true,
+      "B": 11,
+      "I": 5,
+      "N": 16,
+      "F": 19,
+      "orbits": 29372227,
+      "orbit_mass": 77519922480,
+      "expected": 77519922480,
+      "group_size": 2640,
+      "attempts": 483170323,
+      "seconds": 1139.31
+    },
+    {
+      "verified": true,
+      "B": 12,
+      "I": 4,
+      "N": 16,
+      "F": 18,
+      "orbits": 14581757,
+      "orbit_mass": 8394640800,
+      "expected": 8394640800,
+      "group_size": 576,
+      "attempts": 225519563,
+      "seconds": 540.936
+    },
+    {
+      "verified": true,
+      "B": 13,
+      "I": 3,
+      "N": 16,
+      "F": 17,
+      "orbits": 6294651,
+      "orbit_mass": 981608628,
+      "expected": 981608628,
+      "group_size": 156,
+      "attempts": 91909605,
+      "seconds": 219.778
+    },
+    {
+      "verified": true,
+      "B": 14,
+      "I": 2,
+      "N": 16,
+      "F": 16,
+      "orbits": 2230735,
+      "orbit_mass": 124807200,
+      "expected": 124807200,
+      "group_size": 56,
+      "attempts": 30963935,
+      "seconds": 70.0638
+    },
+    {
+      "verified": true,
+      "B": 15,
+      "I": 1,
+      "N": 16,
+      "F": 15,
+      "orbits": 579835,
+      "orbit_mass": 17383860,
+      "expected": 17383860,
+      "group_size": 30,
+      "attempts": 7731543,
+      "seconds": 19.9225
+    }
+  ],
+  "total_orbits": 53059205,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41"
+}
