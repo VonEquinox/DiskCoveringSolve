@@ -1,0 +1,211 @@
+root VERIFIED
+symmetry VERIFIED
+upper VERIFIED
+anchor_isolation VERIFIED
+metric_partition VERIFIED
+orbit_audit_B10_I4 VERIFIED
+orbit_audit_B11_I3 VERIFIED
+orbit_audit_B12_I2 VERIFIED
+orbit_audit_B13_I1 VERIFIED
+all_noncandidates VERIFIED
+candidate_domain VERIFIED
+negative_tests VERIFIED
+{
+  "verified": true,
+  "theorem": "r_14 = sqrt(t_star), defined by the isolated 116-variable KKT system and rational box in root_certificate.json",
+  "r_strict_interval": [
+    "0.331732034276234122557815548802409538270942754829017478062828",
+    "0.331732034276234122557815548802409538270942754829017478062829"
+  ],
+  "R_strict_interval": [
+    "3.014481257988179142001870494819761487186097134743704272300777",
+    "3.014481257988179142001870494819761487186097134743704272300778"
+  ],
+  "stages": {
+    "root": {
+      "verified": true,
+      "seconds": 0.4240431785583496,
+      "report": "root_verified.json"
+    },
+    "symmetry": {
+      "verified": true,
+      "seconds": 0.04875802993774414,
+      "report": "symmetry_verified.json"
+    },
+    "upper": {
+      "verified": true,
+      "seconds": 0.04995083808898926,
+      "report": "upper_verified.json"
+    },
+    "anchor_isolation": {
+      "verified": true,
+      "seconds": 0.05947279930114746,
+      "report": "anchor_isolation_verified.json"
+    },
+    "metric_partition": {
+      "verified": true,
+      "seconds": 9.901664972305298,
+      "report": "partition_verified.json"
+    },
+    "orbit_audit_B10_I4": {
+      "verified": true,
+      "seconds": 12.591279983520508,
+      "report": "enumeration/audit_B10_I4.json"
+    },
+    "orbit_audit_B11_I3": {
+      "verified": true,
+      "seconds": 3.797502040863037,
+      "report": "enumeration/audit_B11_I3.json"
+    },
+    "orbit_audit_B12_I2": {
+      "verified": true,
+      "seconds": 1.1169378757476807,
+      "report": "enumeration/audit_B12_I2.json"
+    },
+    "orbit_audit_B13_I1": {
+      "verified": true,
+      "seconds": 0.29930591583251953,
+      "report": "enumeration/audit_B13_I1.json"
+    },
+    "all_noncandidates": {
+      "verified": true,
+      "seconds": 4.609143972396851,
+      "report": "noncandidate_verified.json"
+    },
+    "candidate_domain": {
+      "verified": true,
+      "seconds": 0.21072816848754883,
+      "report": "candidate_verified.json"
+    },
+    "negative_tests": {
+      "verified": true,
+      "seconds": 0.5887100696563721,
+      "report": "negative_tests_verified.json"
+    }
+  },
+  "enumeration": {
+    "B10_I4": {
+      "verified": true,
+      "B": 10,
+      "I": 4,
+      "representatives": 755468,
+      "group_size": 480,
+      "orbit_mass": "361732800",
+      "brown_total": "361732800",
+      "min_stabilizer": 1,
+      "max_stabilizer": 4
+    },
+    "B11_I3": {
+      "verified": true,
+      "B": 11,
+      "I": 3,
+      "representatives": 365922,
+      "group_size": 132,
+      "orbit_mass": "48221316",
+      "brown_total": "48221316",
+      "min_stabilizer": 1,
+      "max_stabilizer": 2
+    },
+    "B12_I2": {
+      "verified": true,
+      "B": 12,
+      "I": 2,
+      "representatives": 147520,
+      "group_size": 48,
+      "orbit_mass": "7054320",
+      "brown_total": "7054320",
+      "min_stabilizer": 1,
+      "max_stabilizer": 4
+    },
+    "B13_I1": {
+      "verified": true,
+      "B": 13,
+      "I": 1,
+      "representatives": 44114,
+      "group_size": 26,
+      "orbit_mass": "1144066",
+      "brown_total": "1144066",
+      "min_stabilizer": 1,
+      "max_stabilizer": 26
+    }
+  },
+  "partition": {
+    "all_orbits": 1313024,
+    "metric_excluded": 1305792,
+    "noncandidate_cases": 7231,
+    "candidate_cases": 1,
+    "unresolved_cases": 0
+  },
+  "noncandidate_trees": {
+    "nodes": 11621,
+    "counts": {
+      "DUAL": 9426,
+      "SPLIT": 2195
+    },
+    "min_radius_margin": "166166660523302721525070820620652678460928897/8293802283859397903887868068809250637500000000000"
+  },
+  "candidate_tree": {
+    "nodes": 599,
+    "counts": {
+      "SPLIT": 299,
+      "DUAL": 266,
+      "LOCAL": 34
+    },
+    "max_local_anchor_distance_squared": "3816610709813218948926404904940870414588770893136028915233548372324115161581414888588232139565186478231810867099213810070004261107990684489527784366475171228792601548297000394869/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "local_theorem": {
+    "gamma": 100,
+    "lambda": "7/5000",
+    "nu": "147/10000",
+    "anchor_radius": "7/40",
+    "isolation_margin": "61159/800000000"
+  },
+  "upper_structure": {
+    "center_faces": 16,
+    "positive_stress_faces": 8,
+    "extra_tight_faces": 6,
+    "strict_slack_faces": 2,
+    "omitted_degenerate_radial_faces": 2
+  },
+  "negative_tests": [
+    "one-unit force corruption",
+    "negative halfplane multiplier",
+    "empty noncandidate partition",
+    "one missing residual case",
+    "unresolved candidate root",
+    "unreachable extra leaf",
+    "duplicate split children",
+    "disabled Python assertions"
+  ],
+  "input_sha256": {
+    "anchor_isolation.py": "88559cb377d11d372bb9387491f0009b923d69ac79e0c6ba1b05eb0a61002a82",
+    "anchor_isolation_certificate.json": "5f93cdc1d5b821537e6794498c964ebe7c4441c3314a15f8ea73587bc29114c2",
+    "angle_domains.py": "cc40481b5d9ed17662f20638297b78727a2f335a5a58dd6e551a7aefe2951e95",
+    "audit.cpp": "affc1d1ed0de8f9df3ebde8f10c24a81fa59c6fbe7f717392973e44f9583ae01",
+    "candidate_certificate.json.gz": "18c3bb51837ec45dc8fba21270897f9fc886fe70e98df9b2e9efd8641dc0276a",
+    "enumeration/B10_I4.txt.gz": "9ee84999dc97a81ad6984c43b392fed53302f538511ed09acb780f647ad5a517",
+    "enumeration/B11_I3.txt.gz": "554d6cddd42121b8c1dfee2952335fdbc1554f5cf5db8dc3513e6ff96e21df29",
+    "enumeration/B12_I2.txt.gz": "4c7ed3e308aa4a0e6c7d173806a3ec95960ebb1b2fc39654904723657307365e",
+    "enumeration/B13_I1.txt.gz": "e88a844c0263ceedaf77dd891afa6d29f0eaacc91bdb8bf4e8c78905ade1b126",
+    "enumeration/metric_partition_certificate.json": "8333e69c0f480d554d51521a3e1508dd9ea1b2d6d3f4f6bd15881362e825f050",
+    "enumeration/metric_residuals.json": "56ace1b0adc96be238ea4f996a4305e1b17bedce55f51d2564a7ebabe4be7bc8",
+    "exact_arcs.py": "879179a2cb7e23800b5c875b55c8e97b3e963e368915197bab938c7e5fda1f79",
+    "framework.py": "606b44a4d98cb952832550ce21bdca0c60593e2338eecd744d7926a40bb545d0",
+    "intervals.py": "cbfd8c2d43a43c02cc4e7abaaee916f894b0137e65485638bcbca854a76b40de",
+    "local_box.py": "5c6d7557309e993e655b6771bc6ac21cb559f0f8600e3da4ceda96ffbe4443ad",
+    "noncandidate_certificate.json.gz": "105a9b696a383b8cbd7ae2879ada7ad175bc6e1cf22072237a47313a96f00871",
+    "root_certificate.json": "969950a0c867d42a5a909683bfd400c1479387314ce740f77bd58f5a7187237d",
+    "test_fail_closed.py": "5ad36a4e7d7f0bf8b37a951efb75d0f811bf07d05ac3b6570d7bb84a8a327f58",
+    "verify_all.py": "83b0cac25f877a9257f54ad73df3789e622c85dc1d8f21b194ccfceba8cc791b",
+    "verify_force.py": "1b1c4982ed49414b039f522514ba6c40df52acc2b9cf3ab90d2990318f20b1a8",
+    "verify_partition.py": "23f86aad1155087ed30d8132e2641875f5517e87718d1359ebe6364ea16ccfc9",
+    "verify_root.py": "56f0d0095ce5427244ffdc083e1cd4f7471c775671f8586fa00356ac2fdc6b30",
+    "verify_symmetry.py": "e9e3c07dc606e497f6831bfa992e46ede727cac57534d98db340afbacdc53376",
+    "verify_upper.py": "489fab7f590ca93947568807461d93461402f9aa7c590018c9e0b052e30d0875"
+  },
+  "seconds": 34.899271965026855,
+  "scope": "Written geometric/combinatorial reductions plus exact executable finite certificates. Not third-party peer review or a Lean/Coq formalization."
+}
+real 34.97
+user 33.29
+sys 0.70

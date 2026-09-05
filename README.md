@@ -128,6 +128,12 @@ COVER14 EXACT MASTER REPLAY PASSED
 A fresh local replay on September 5, 2026 passed all stages and audited all
 1,313,024 topology orbits. See `cover14/docs/AUDIT_STATUS.md`.
 
+An alternative Cover14 certificate package also passes full replay, with smaller
+branch trees and a larger anchor-isolation domain. An exact root-box transport
+identifies its candidate with the primary package. Run
+`make cover14-alternative-full`; see `cover14/docs/ALTERNATIVE_AUDIT.md` for the
+comparison and shared dependencies.
+
 ## Integrity
 
 ```bash

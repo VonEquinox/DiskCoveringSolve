@@ -1,0 +1,59 @@
+B10_I4 {'orbits': 755468, 'direct': 754536, 'residual': 932, 'labeled_count_by_root_peeling': 361732800, 'source_txt_sha256': '63421bb5e47c0aa602b33b8a9220a1725f2c978cf8f52865bbe5472faa70bbe7'}
+B11_I3 {'orbits': 365922, 'direct': 360645, 'residual': 4005, 'farkas': 1272, 'labeled_count_by_root_peeling': 48221316, 'source_txt_sha256': '7929fa7fbb60cf3a1aa2780eba075b42d114a57e721923fb37f53a2e7c24c89c'}
+B12_I2 {'orbits': 147520, 'direct': 142821, 'residual': 1931, 'farkas': 2768, 'labeled_count_by_root_peeling': 7054320, 'source_txt_sha256': 'd8c834124764c67c8ad1676af8863ec5eefd593613e0da8993fb58bbd209f170'}
+B13_I1 {'orbits': 44114, 'direct': 42489, 'farkas': 1261, 'residual': 364, 'labeled_count_by_root_peeling': 1144066, 'source_txt_sha256': 'ec3f81d01b0dfc3acc7fdb0eb73e54ee83c193228b0d8c2272301812d02611f4'}
+{
+  "verified": true,
+  "families": {
+    "B10_I4": {
+      "orbits": 755468,
+      "direct": 754536,
+      "residual": 932,
+      "labeled_count_by_root_peeling": 361732800,
+      "source_txt_sha256": "63421bb5e47c0aa602b33b8a9220a1725f2c978cf8f52865bbe5472faa70bbe7"
+    },
+    "B11_I3": {
+      "orbits": 365922,
+      "direct": 360645,
+      "residual": 4005,
+      "farkas": 1272,
+      "labeled_count_by_root_peeling": 48221316,
+      "source_txt_sha256": "7929fa7fbb60cf3a1aa2780eba075b42d114a57e721923fb37f53a2e7c24c89c"
+    },
+    "B12_I2": {
+      "orbits": 147520,
+      "direct": 142821,
+      "residual": 1931,
+      "farkas": 2768,
+      "labeled_count_by_root_peeling": 7054320,
+      "source_txt_sha256": "d8c834124764c67c8ad1676af8863ec5eefd593613e0da8993fb58bbd209f170"
+    },
+    "B13_I1": {
+      "orbits": 44114,
+      "direct": 42489,
+      "farkas": 1261,
+      "residual": 364,
+      "labeled_count_by_root_peeling": 1144066,
+      "source_txt_sha256": "ec3f81d01b0dfc3acc7fdb0eb73e54ee83c193228b0d8c2272301812d02611f4"
+    }
+  },
+  "total_orbits": 1313024,
+  "metric_excluded": 1305792,
+  "residuals": 7232,
+  "candidate_residual_index": 685,
+  "candidate_enumeration_index": 480206,
+  "constants": {
+    "A": 10764,
+    "C": 23092,
+    "D": 100000,
+    "RU": "4146650428453/12500000000000"
+  },
+  "sin_margins": {
+    "boundary": "20800448879964652191695249223902757698340375578379817001/1000000000000000000000000000000000000000000000000000000000000",
+    "four_rod": "13051527926017635893330925618660283640179359271180112301/1000000000000000000000000000000000000000000000000000000000000",
+    "nine_boundary": "10288109049428733044099614682259580763083367512935011025909/1000000000000000000000000000000000000000000000000000000000000"
+  },
+  "min_Farkas_margin": "1907999999918833/25000000000000000",
+  "residual_sha256": "56ace1b0adc96be238ea4f996a4305e1b17bedce55f51d2564a7ebabe4be7bc8",
+  "seconds": 30.164772510528564
+}

@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "cases": 7231,
+  "nodes": 11621,
+  "counts": {
+    "DUAL": 9426,
+    "SPLIT": 2195
+  },
+  "maxdepth": 8,
+  "minimum_radius_margin": "166166660523302721525070820620652678460928897/8293802283859397903887868068809250637500000000000",
+  "minimum_radius_margin_float": 2.0035040001698657e-05,
+  "certificate_sha256": "105a9b696a383b8cbd7ae2879ada7ad175bc6e1cf22072237a47313a96f00871",
+  "residual_sha256": "56ace1b0adc96be238ea4f996a4305e1b17bedce55f51d2564a7ebabe4be7bc8",
+  "seconds": 17.549567937850952
+}

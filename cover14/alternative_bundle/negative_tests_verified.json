@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "tests_rejected": [
+    "one-unit force corruption",
+    "negative halfplane multiplier",
+    "empty noncandidate partition",
+    "one missing residual case",
+    "unresolved candidate root",
+    "unreachable extra leaf",
+    "duplicate split children",
+    "disabled Python assertions"
+  ],
+  "number": 8,
+  "seconds": 5.671699047088623
+}

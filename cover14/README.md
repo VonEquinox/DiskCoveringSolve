@@ -74,3 +74,18 @@ classes. The partition is
 
 This is a replayable computer-assisted proof claim. It is not a Lean/Coq
 formalization and has not yet undergone independent peer review.
+
+## Alternative certificates
+
+`alternative_bundle/` preserves the second submitted package, including its
+original 64-file manifest and reports. It has smaller branch trees, a certified
+anchor radius of `7/40`, and an upper complex with 34 positive triangles.
+`docs/ALTERNATIVE_AUDIT.md` explains the comparison and shared dependencies.
+
+```bash
+python3 -S -B run_alternative.py
+```
+
+This replays in a temporary copy and then runs `verify_bundle_linkage.py`, which
+identifies the two algebraic candidates by exact root-box transport. Its final
+marker is `COVER14 ALTERNATIVE MASTER REPLAY AND ROOT LINKAGE PASSED`.

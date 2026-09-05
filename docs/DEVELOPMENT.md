@@ -50,6 +50,12 @@ make cover14-full PYTHON_BIN="$(command -v python3)"
 The required final marker is `COVER14 EXACT MASTER REPLAY PASSED`. This replay
 also requires a C++17 compiler and Boost.Multiprecision headers.
 
+When changing the alternative Cover14 bundle or the cross-bundle root linkage,
+also run `make cover14-alternative-full`. This uses a temporary working copy so
+the alternative archive's 64-file manifest, including submitted reports,
+remains valid after replay. The final marker is
+`COVER14 ALTERNATIVE MASTER REPLAY AND ROOT LINKAGE PASSED`.
+
 ```bash
 make integrity
 make quick
