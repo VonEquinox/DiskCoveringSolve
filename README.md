@@ -2,7 +2,7 @@
 
 Computer-assisted research and exact verification for covering the unit disk
 with congruent disks. The repository currently contains reproducible proof
-claims for eleven and twelve disks.
+claims for eleven, twelve, and thirteen disks.
 
 ## Claimed results
 
@@ -19,6 +19,7 @@ the included certificate packages claim:
 |---|---|
 | 11 | \(r_{11}=0.37998385311983868972226160613609321430871895\ldots\) |
 | 12 | \(r_{12}=0.36110296374450864411308770201706518084853056\ldots\) |
+| 13 | \(r_{13}=0.34664545692738964346786973819387878953718745\ldots\) |
 
 Each exact value is defined by the isolated algebraic root in its rational
 Krawczyk certificate, not by the displayed decimal expansion.
@@ -27,9 +28,10 @@ Krawczyk certificate, not by the displayed decimal expansion.
 
 - `cover11/` — eleven-disk proof bundle, documentation, verification records, and runner;
 - `cover12/` — twelve-disk proof bundle, documentation, verification records, and runner;
+- `cover13/` — thirteen-disk proof bundle, documentation, verification records, and runner;
 - `docs/DEVELOPMENT.md` — shared development and verification workflow;
 - `requirements.txt` — shared Python dependencies;
-- `Makefile` — unified cover11 and cover12 commands.
+- `Makefile` — unified cover11, cover12, and cover13 commands.
 
 Manuscript PDF/LaTeX files are intentionally excluded. This repository is for
 proof development, exact certificates, and reproducible verification.
@@ -82,18 +84,39 @@ COVER12 EXACT MASTER REPLAY PASSED
 A fresh local replay on September 4, 2026 completed all eight cover12 modules
 with return code 0. See `cover12/docs/AUDIT_STATUS.md` for the checked scope.
 
+## Thirteen-disk verification
+
+The thirteen-disk master verifier checks the 119-variable root certificate,
+the exact upper construction, the candidate and noncandidate branch trees,
+the metric partition, cross-stage interfaces, fail-closed negative tests, and
+all four orbit-enumeration families.  It requires a C++17 compiler and
+Boost.Multiprecision headers in addition to Python.
+
+```bash
+make cover13-full PYTHON_BIN="$(command -v python3)"
+```
+
+Expected marker:
+
+```text
+COVER13 EXACT MASTER REPLAY PASSED
+```
+
+A fresh local replay on September 5, 2026 passed all stages and audited all
+308,198 topology orbits. See `cover13/docs/AUDIT_STATUS.md`.
+
 ## Integrity
 
 ```bash
 make integrity
 ```
 
-The cover12 manifest hashes immutable proof inputs, source files, and fixed
+The cover12 and cover13 manifests hash immutable proof inputs, source files, and fixed
 audit documents. Regenerated reports and timing-dependent logs are deliberately
 excluded so repeated verification does not invalidate the manifest.
 
 ## Status
 
-Both included verifier chains pass locally. These are reproducible
+All three included verifier chains pass locally. These are reproducible
 computer-assisted proof claims and should still receive independent external
 mathematical and software review.

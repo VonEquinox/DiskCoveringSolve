@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "scope": "single-10-boundary-3-interior-triangulation-only",
+  "nodes": 1831,
+  "leaves": {
+    "DUAL": 837,
+    "LOCAL": 79
+  },
+  "maxdepth": 27,
+  "minimum_dual_radius_margin": "670514612931816516593982096693122804560747681/21665343485572712180993124436420857250000000000000000",
+  "minimum_dual_radius_margin_float": 3.0948718324190086e-08,
+  "minimum_local_squared_radius_margin": "4902487859491057837781843663785933497748443139715793647/500000000000000000000000000000000000000000000000000000000000",
+  "minimum_local_squared_radius_margin_float": 9.804975718982116e-06,
+  "radius_upper": "86661364231847411/250000000000000000",
+  "certificate_sha256": "54dee4b47b3c307064c30cf2f93f5e9cc7a755b3f5fb7aeeb6ae859f7996e51a",
+  "seconds": 0.324094295501709,
+  "standalone_scope": "candidate topology only; the master verifier covers every other topology"
+}

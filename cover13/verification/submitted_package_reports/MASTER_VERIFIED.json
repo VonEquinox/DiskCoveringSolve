@@ -1,0 +1,154 @@
+{
+  "verified": true,
+  "finite_certificates_verified": true,
+  "enumerated_cases_complete": true,
+  "theorem": "r_13 = sqrt(t_star), with t_star defined by the enclosed 119-variable polynomial root certificate.",
+  "mathematical_reduction": "See PROOF_zh.md: irreducible-cover no-return lemma, dual triangulation, stellar padding, root-edge counting, and exact dual/local lemmas.",
+  "r_strict_interval": [
+    "0.346645456927389643467869738193878789537187452966783984053969",
+    "0.346645456927389643467869738193878789537187452966783984053970"
+  ],
+  "R_strict_interval": [
+    "2.884791881779849106913378116439433445895055565626693666781016",
+    "2.884791881779849106913378116439433445895055565626693666781017"
+  ],
+  "total_topology_orbits": 308198,
+  "metric_excluded": 306437,
+  "noncandidate_residuals_excluded": 1760,
+  "candidate_orbits": 1,
+  "candidate_tree_nodes": 1831,
+  "candidate_force_leaves": 837,
+  "candidate_local_leaves": 79,
+  "noncandidate_tree_nodes": 2908,
+  "noncandidate_force_leaves": 2334,
+  "candidate_minimum_radius_margin": "670514612931816516593982096693122804560747681/21665343485572712180993124436420857250000000000000000",
+  "noncandidate_minimum_radius_margin": "3238281811557444212040606780827110633672730923/135417722187594262774800194951301750000000000000000",
+  "orbit_audits": {
+    "B9_I4": {
+      "verified": true,
+      "B": 9,
+      "I": 4,
+      "representatives": 169918,
+      "group_size": 432,
+      "orbit_mass": "73153080",
+      "brown_total": "73153080",
+      "min_stabilizer": 1,
+      "max_stabilizer": 6
+    },
+    "B10_I3": {
+      "verified": true,
+      "B": 10,
+      "I": 3,
+      "representatives": 87980,
+      "group_size": 120,
+      "orbit_mass": "10501920",
+      "brown_total": "10501920",
+      "min_stabilizer": 1,
+      "max_stabilizer": 4
+    },
+    "B11_I2": {
+      "verified": true,
+      "B": 11,
+      "I": 2,
+      "representatives": 37950,
+      "group_size": 44,
+      "orbit_mass": "1662804",
+      "brown_total": "1662804",
+      "min_stabilizer": 1,
+      "max_stabilizer": 2
+    },
+    "B12_I1": {
+      "verified": true,
+      "B": 12,
+      "I": 1,
+      "representatives": 12350,
+      "group_size": 24,
+      "orbit_mass": "293930",
+      "brown_total": "293930",
+      "min_stabilizer": 1,
+      "max_stabilizer": 24
+    }
+  },
+  "checks": [
+    {
+      "check": "verify_interfaces",
+      "returncode": 0,
+      "seconds": 0.5706734657287598,
+      "log_sha256": "a29979f99151ec9c9ef4f4912e5e1e6589b8b62f22cd0a17e5265952d25dd312"
+    },
+    {
+      "check": "verify_root_repaired",
+      "returncode": 0,
+      "seconds": 2.2744579315185547,
+      "log_sha256": "d50816fdd8233b72638cde5c98317c7673f9851a8daf09e7625b6511e6b2df25"
+    },
+    {
+      "check": "verify_upper",
+      "returncode": 0,
+      "seconds": 0.566138744354248,
+      "log_sha256": "02a541cf66657476ae0b587cad2511fc1477b197a607ba05f3ea345726354684"
+    },
+    {
+      "check": "anchor_isolation",
+      "returncode": 0,
+      "seconds": 0.6065645217895508,
+      "log_sha256": "544e626431b3ec8eb550f1fee279915958e17594f46a58052203501b70e2fede"
+    },
+    {
+      "check": "candidate_global",
+      "returncode": 0,
+      "seconds": 0.8993604183197021,
+      "log_sha256": "5aecd6fc673d81c2304c1a147ca67a567a706a1277cb77f18e3ea207fcc14f58"
+    },
+    {
+      "check": "verify_partition",
+      "returncode": 0,
+      "seconds": 4.415015935897827,
+      "log_sha256": "478a258a5c527049b76ef2f725b59491a39973029f2cea7aa98549fc1c9c213b"
+    },
+    {
+      "check": "noncandidate_global",
+      "returncode": 0,
+      "seconds": 2.4901480674743652,
+      "log_sha256": "5d31d4b030129d1b4d87795d540cc6767d08970459d9ad3cc116a165d72e6644"
+    },
+    {
+      "check": "test_fail_closed",
+      "returncode": 0,
+      "seconds": 1.8897550106048584,
+      "log_sha256": "d7a20089f75c91bc50d6d4c0e160250635dfaa67c2085c8e3c8e2f888e47b44a"
+    },
+    {
+      "check": "compile_orbit_audit",
+      "returncode": 0,
+      "seconds": 4.443483829498291,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "check": "orbit_B9_I4",
+      "returncode": 0,
+      "seconds": 3.519183874130249,
+      "log_sha256": "6e05d1d69d3712301742ec11e0333d58b548caaa69ef5b687b41cb08cd9738c5"
+    },
+    {
+      "check": "orbit_B10_I3",
+      "returncode": 0,
+      "seconds": 1.1350116729736328,
+      "log_sha256": "be701efad21aff8fde5ca28e790a79387e158c272af98c551347b5afe1205f1f"
+    },
+    {
+      "check": "orbit_B11_I2",
+      "returncode": 0,
+      "seconds": 0.43430423736572266,
+      "log_sha256": "5d5486c730bf24a29d08b96846cc534f64de57b705d1a900aedb5d321a22cca7"
+    },
+    {
+      "check": "orbit_B12_I1",
+      "returncode": 0,
+      "seconds": 0.15302729606628418,
+      "log_sha256": "821eb010ff257c6164293d8886ec4e47526fbdf208eeda50c366cfea8e7fe519"
+    }
+  ],
+  "seconds": 21.72449278831482,
+  "status_note": "This is an exact-arithmetic computer-assisted proof with written geometric reductions, not a Lean/Coq formalization or a claim of peer review."
+}

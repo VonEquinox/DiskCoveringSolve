@@ -1,0 +1,27 @@
+checked 10000
+checked 20000
+checked 30000
+checked 40000
+checked 50000
+checked 60000
+checked 70000
+checked 80000
+checked 90000
+checked 100000
+checked 110000
+checked 120000
+checked 130000
+checked 140000
+checked 150000
+checked 160000
+{
+  "verified": true,
+  "B": 9,
+  "I": 4,
+  "representatives": 169918,
+  "group_size": 432,
+  "orbit_mass": "73153080",
+  "brown_total": "73153080",
+  "min_stabilizer": 1,
+  "max_stabilizer": 6
+}

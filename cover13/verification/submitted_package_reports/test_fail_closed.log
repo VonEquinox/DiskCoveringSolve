@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "tests": [
+    "one-unit force corruption rejected",
+    "empty noncandidate certificate set rejected",
+    "unresolved candidate leaf rejected",
+    "optimized-Python bypass rejected"
+  ]
+}

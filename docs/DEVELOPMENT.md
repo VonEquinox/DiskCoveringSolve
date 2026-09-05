@@ -1,8 +1,8 @@
 # Development workflow
 
-This repository contains separate verifier chains for the eleven-disk and
-twelve-disk results. Keep their certificates and generated reports isolated:
-`cover11/` and `cover12/` are independent proof directories.
+This repository contains separate verifier chains for the eleven-disk,
+twelve-disk, and thirteen-disk results. Keep their certificates and generated reports isolated:
+`cover11/`, `cover12/`, and `cover13/` are independent proof directories.
 
 ## Environment
 
@@ -15,7 +15,7 @@ python -m pip install -r requirements.txt
 
 ## Before changing certificates
 
-1. Verify `cover11/proof_bundle/SHA256SUMS` or `cover12/proof_bundle/SHA256SUMS`.
+1. Verify the applicable immutable input manifest (`cover11/proof_bundle/SHA256SUMS`, `cover12/proof_bundle/SHA256SUMS`, or `cover13/proof_bundle/MANIFEST_SHA256.json`).
 2. Run quick mode and record the baseline output.
 3. Identify whether the change is a verifier-only change, a certificate-format
    change, or a mathematical-certificate change.
@@ -30,6 +30,15 @@ make cover12-full PYTHON_BIN="$(command -v python)"
 ```
 
 The required final marker is `COVER12 EXACT MASTER REPLAY PASSED`.
+
+Run the cover13 master replay whenever any file below `cover13/` changes:
+
+```bash
+make cover13-full PYTHON_BIN="$(command -v python3)"
+```
+
+The required final marker is `COVER13 EXACT MASTER REPLAY PASSED`.  This replay
+also requires a C++17 compiler and Boost.Multiprecision headers.
 
 ```bash
 make integrity
@@ -51,7 +60,7 @@ make full
 - Separate proposal generation from proof verification.
 - State whether a printed decimal is certified, rounded, or diagnostic.
 - Keep quick and full success markers distinct.
-- Update the applicable `coverNN/proof_bundle/SHA256SUMS` only after all fixed files are final.
+- Update the applicable immutable manifest only after all fixed files are final.
 
 ## Adding a new verifier
 

@@ -1,0 +1,12 @@
+checked 10000
+{
+  "verified": true,
+  "B": 12,
+  "I": 1,
+  "representatives": 12350,
+  "group_size": 24,
+  "orbit_mass": "293930",
+  "brown_total": "293930",
+  "min_stabilizer": 1,
+  "max_stabilizer": 24
+}

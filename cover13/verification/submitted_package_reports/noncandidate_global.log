@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "cases": 1760,
+  "total_nodes": 2908,
+  "leaf_counts": {
+    "DUAL": 2334
+  },
+  "maxdepth": 6,
+  "minimum_radius_margin": "3238281811557444212040606780827110633672730923/135417722187594262774800194951301750000000000000000",
+  "minimum_radius_margin_float": 2.391327929051598e-05,
+  "certificate_sha256": "a5d41bbdb243427fedb27abd0e2f8de3857409ad56d6926a3ade3ffb0998ccff",
+  "seconds": 1.8816533088684082
+}
